@@ -70,22 +70,71 @@ const renderLinks = (t, links) =>
       ? h('a', { class: 'button', href: links[name], rel: 'noopener' }, t(`links.${name}`))
       : h('span', { class: 'button disabled', title: t('links.pending') }, t(`links.${name}`)));
 
-const renderLevels = (t) => LEVELS.map((level) => h('li', {}, t(`taxonomy.levels.${level}`)));
+// Text in site.json may be a plain string or { en, zh }.
+const pick = (ctx, value) => (value && typeof value === 'object' ? value[ctx.lang] ?? value.en : value);
 
-const renderTaxonomyNode = (ctx, node, depth = 0) => {
-  const label = h('span', { class: 'node-label' },
-    h('span', { class: 'level' }, ctx.t(`taxonomy.levels.${LEVELS[depth]}`)),
-    h('span', {}, ctx.name(node)),
-    sourceCodes(node.source));
-  const children = node.children ?? [];
-  if (!children.length) return h('div', { class: 'node leaf' }, label);
-  return h('details', { class: 'node' }, h('summary', {}, label),
-    children.map((child) => renderTaxonomyNode(ctx, child, depth + 1)));
+// Home: horizontally scrolling card rows ("carousels") with prev/next buttons.
+const COVERAGE_TABS = ['skills', 'tools', 'benchmark'];
+const PLACEHOLDER_CARDS = 3;
+const PLACEHOLDER_LOGOS = 6;
+
+const setupCarousel = (id) => {
+  const track = document.getElementById(`${id}-track`);
+  document.querySelectorAll(`[data-carousel="${id}"]`).forEach((button) => {
+    button.onclick = () => track.scrollBy({ left: Number(button.dataset.step) * track.clientWidth * 0.9, behavior: 'smooth' });
+  });
 };
 
-const renderTaxonomy = (ctx) => {
-  const nodes = ctx.taxonomy.nodes ?? [];
-  return nodes.length ? nodes.map((node) => renderTaxonomyNode(ctx, node)) : [empty(ctx.t('taxonomy.empty'))];
+const coverageCards = (ctx, tab) => {
+  const items = CATALOGS[tab].items(ctx.site) ?? [];
+  const page = tab === 'benchmark' ? 'benchmark.html' : `${tab}.html`;
+  const domains = (ctx.taxonomy.nodes ?? []).map((domain) => {
+    const inDomain = items.filter((item) => inCategory(item, domain.id));
+    const subfields = new Set(inDomain.map((item) => item.category?.[1]).filter(Boolean));
+    return { domain, count: inDomain.length, subfields: subfields.size };
+  }).sort((a, b) => b.count - a.count);
+  const covered = domains.filter((d) => d.count);
+  fill('coverage-summary', [ctx.t('coverage.summary')
+    .replace('{items}', items.length)
+    .replace('{domains}', covered.length)
+    .replace('{subfields}', covered.reduce((sum, d) => sum + d.subfields, 0))]);
+  return domains.map(({ domain, count, subfields }) => h('a', { class: `slide coverage-card${count ? '' : ' is-empty'}`, href: `${page}#c=${domain.id}` },
+    h('span', { class: 'slide-kicker' }, `PACS ${domain.source.PACS}`),
+    h('h3', {}, ctx.name(domain)),
+    h('div', { class: 'slide-figure' }, h('strong', {}, String(count)), h('span', {}, ctx.t(`coverage.unit.${tab}`))),
+    h('span', { class: 'slide-meta' }, ctx.t('coverage.subfields').replace('{n}', subfields))));
+};
+
+const renderCoverage = (ctx) => {
+  const tabs = COVERAGE_TABS.map((tab) => {
+    const button = h('button', { class: 'tab', type: 'button', role: 'tab', 'aria-selected': String(tab === ctx.coverageTab) }, ctx.t(`nav.${tab}`));
+    button.onclick = () => { ctx.coverageTab = tab; renderCoverage(ctx); };
+    return button;
+  });
+  fill('coverage-tabs', tabs);
+  fill('coverage-track', coverageCards(ctx, ctx.coverageTab));
+  document.getElementById('coverage-track').scrollLeft = 0;
+};
+
+const renderResults = (ctx) => {
+  const results = ctx.site.results ?? [];
+  fill('results-track', results.length
+    ? results.map((result) => h(result.link ? 'a' : 'article', { class: 'slide result-card', ...(result.link ? { href: result.link, rel: 'noopener' } : {}) },
+      h('span', { class: 'slide-kicker' }, pick(ctx, result.field) ?? ''),
+      h('h3', {}, pick(ctx, result.title)),
+      result.metric ? h('div', { class: 'slide-figure' }, h('strong', {}, pick(ctx, result.metric))) : null,
+      h('p', {}, pick(ctx, result.summary) ?? '')))
+    : Array.from({ length: PLACEHOLDER_CARDS }, () => h('article', { class: 'slide result-card placeholder' },
+      h('span', { class: 'slide-kicker' }, ctx.t('results.pending')),
+      h('h3', {}, ctx.t('results.placeholder')))));
+};
+
+const renderPartners = (ctx) => {
+  const partners = ctx.site.partners ?? [];
+  fill('partners-wall', partners.length
+    ? partners.map((partner) => h(partner.url ? 'a' : 'div', { class: 'logo', title: pick(ctx, partner.name), ...(partner.url ? { href: partner.url, rel: 'noopener' } : {}) },
+      partner.logo ? h('img', { src: partner.logo, alt: pick(ctx, partner.name), loading: 'lazy' }) : h('span', {}, pick(ctx, partner.name))))
+    : Array.from({ length: PLACEHOLDER_LOGOS }, () => h('div', { class: 'logo placeholder' }, h('span', {}, ctx.t('partners.placeholder')))));
 };
 
 const formatScore = (score) => (typeof score === 'number' ? score.toFixed(3) : '—');
@@ -124,8 +173,6 @@ const renderBenchmark = (t, benchmark = {}) => [
   stat(benchmark.categories, t('benchmark.categories')),
   ...REVIEWER_TITLES.map((title) => stat(benchmark.reviewers?.[title], t(`benchmark.reviewers.${title}`))),
 ];
-
-const renderCitation = (t, citation) => (citation ? [h('pre', {}, citation)] : [empty(t('cite.empty'))]);
 
 const fill = (id, nodes) => document.getElementById(id)?.replaceChildren(...nodes);
 
@@ -225,13 +272,15 @@ const render = (ctx) => {
   const { t, site } = ctx;
   document.querySelectorAll('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
   document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => { el.placeholder = t(el.dataset.i18nPlaceholder); });
+  document.querySelectorAll('[data-i18n-label]').forEach((el) => el.setAttribute('aria-label', t(el.dataset.i18nLabel)));
   document.title = page === 'home' ? t('meta.title') : `${t(`nav.${page}`)} · HP4PS`;
   fill('links', renderLinks(t, site.links));
-  fill('taxonomy-levels', renderLevels(t));
-  fill('taxonomy-tree', renderTaxonomy(ctx));
   fill('benchmark-stats', renderBenchmark(t, site.benchmark));
-  fill('harness-base', [site.harness?.basedOn ? `${t('harness.basedOn')} ${site.harness.basedOn}` : t('harness.pending')]);
-  fill('cite-body', renderCitation(t, site.citation));
+  if (page === 'home') {
+    renderCoverage(ctx);
+    renderResults(ctx);
+    renderPartners(ctx);
+  }
   if (CATALOGS[page]) renderCatalog(ctx, CATALOGS[page]);
 };
 
@@ -254,11 +303,12 @@ const main = async () => {
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
     toggle.textContent = lang === 'zh' ? 'EN' : '中文';
     toggle.onclick = () => { storage.set(LANG_KEY, lang === 'zh' ? 'en' : 'zh'); apply(lang === 'zh' ? 'en' : 'zh'); };
-    current = { t, name, site: site ?? {}, taxonomy: taxonomy ?? {}, index, expanded };
+    current = { t, name, lang, site: site ?? {}, taxonomy: taxonomy ?? {}, index, expanded, coverageTab: current?.coverageTab ?? 'skills' };
     render(current);
   };
 
   setupDrawer();
+  ['coverage', 'results'].forEach(setupCarousel);
   window.addEventListener('hashchange', () => current && render(current));
   apply(initialLang());
 };

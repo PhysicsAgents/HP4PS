@@ -20,34 +20,58 @@
 
   <main>
     <section class="hero">
-      <h1 data-i18n="hero.title"></h1>
-      <p class="lead" data-i18n="hero.subtitle"></p>
-      <div class="links" id="links"></div>
+      <div class="hero-title">
+        <p class="eyebrow">HP4PS</p>
+        <h1 data-i18n="hero.title"></h1>
+        <p class="lead" data-i18n="hero.subtitle"></p>
+        <div class="links" id="links"></div>
+      </div>
+      <div class="hero-intro">
+        <a class="card" href="skills.html"><h3 data-i18n="overview.skills.title"></h3><p data-i18n="overview.skills.body"></p></a>
+        <a class="card" href="tools.html"><h3 data-i18n="overview.tools.title"></h3><p data-i18n="overview.tools.body"></p></a>
+        <a class="card" href="benchmark.html"><h3 data-i18n="overview.benchmark.title"></h3><p data-i18n="overview.benchmark.body"></p></a>
+        <article class="card"><h3 data-i18n="overview.harness.title"></h3><p data-i18n="overview.harness.body"></p></article>
+      </div>
     </section>
 
-    <section class="overview">
-      <a class="card" href="skills.html"><h3 data-i18n="overview.skills.title"></h3><p data-i18n="overview.skills.body"></p></a>
-      <a class="card" href="tools.html"><h3 data-i18n="overview.tools.title"></h3><p data-i18n="overview.tools.body"></p></a>
-      <a class="card" href="benchmark.html"><h3 data-i18n="overview.benchmark.title"></h3><p data-i18n="overview.benchmark.body"></p></a>
-      <article class="card"><h3 data-i18n="overview.harness.title"></h3><p data-i18n="overview.harness.body"></p></article>
+    <section class="showcase" id="coverage">
+      <div class="showcase-head">
+        <div>
+          <h2 data-i18n="coverage.title"></h2>
+          <p data-i18n="coverage.body"></p>
+        </div>
+        <div class="showcase-controls">
+          <div class="tabs" id="coverage-tabs" role="tablist"></div>
+          <div class="arrows">
+            <button class="arrow prev" type="button" data-carousel="coverage" data-step="-1" data-i18n-label="carousel.prev"></button>
+            <button class="arrow next" type="button" data-carousel="coverage" data-step="1" data-i18n-label="carousel.next"></button>
+          </div>
+        </div>
+      </div>
+      <p class="showcase-summary" id="coverage-summary"></p>
+      <div class="track" id="coverage-track"></div>
     </section>
 
-    <section id="taxonomy">
-      <h2 data-i18n="taxonomy.title"></h2>
-      <p data-i18n="taxonomy.body"></p>
-      <ol class="levels" id="taxonomy-levels"></ol>
-      <div id="taxonomy-tree"></div>
+    <section class="showcase" id="results">
+      <div class="showcase-head">
+        <div>
+          <h2 data-i18n="results.title"></h2>
+          <p data-i18n="results.body"></p>
+        </div>
+        <div class="showcase-controls">
+          <div class="arrows">
+            <button class="arrow prev" type="button" data-carousel="results" data-step="-1" data-i18n-label="carousel.prev"></button>
+            <button class="arrow next" type="button" data-carousel="results" data-step="1" data-i18n-label="carousel.next"></button>
+          </div>
+        </div>
+      </div>
+      <div class="track" id="results-track"></div>
     </section>
 
-    <section id="harness">
-      <h2 data-i18n="harness.title"></h2>
-      <p data-i18n="harness.body"></p>
-      <p class="muted" id="harness-base"></p>
-    </section>
-
-    <section id="cite">
-      <h2 data-i18n="cite.title"></h2>
-      <div id="cite-body"></div>
+    <section id="partners">
+      <h2 data-i18n="partners.title"></h2>
+      <p data-i18n="partners.body"></p>
+      <div class="logo-wall" id="partners-wall"></div>
     </section>
   </main>
 

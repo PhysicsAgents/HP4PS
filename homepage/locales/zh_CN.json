@@ -37,16 +37,13 @@
     }
   },
   "taxonomy": {
-    "title": "分类体系",
-    "body": "每个工具、技能和样本都带有一个主类别（五级链条）和一组相关类别。前三级融合了 PACS 2010 与中国学科分类中的物理学部分，并保留每个条目的来源编码。",
     "levels": {
       "domain": "领域",
       "subfield": "子领域",
       "branch": "分支",
       "researchPath": "研究路径",
       "technicalPath": "技术路径"
-    },
-    "empty": "分类数据尚未发布。"
+    }
   },
   "tools": {
     "title": "工具",
@@ -83,16 +80,6 @@
     },
     "empty": "尚未发布任何样本。"
   },
-  "harness": {
-    "title": "官方 Harness",
-    "body": "所有公布的性能数据都使用官方 harness 测得。评测你自己的智能体时，可以不使用它。",
-    "basedOn": "基于 DeepSeek Harness",
-    "pending": "Harness 版本尚未发布。"
-  },
-  "cite": {
-    "title": "引用",
-    "empty": "引用信息尚未发布。"
-  },
   "footer": {
     "text": "代码、文档和数据都维护在 GitHub 仓库中。"
   },
@@ -102,5 +89,31 @@
     "all": "全部分类",
     "noMatch": "没有匹配的分类。",
     "emptyCategory": "这个分类下暂时没有内容。"
+  },
+  "coverage": {
+    "title": "覆盖范围",
+    "body": "技能、工具和基准测试样本在物理学各领域的覆盖情况，按 HP4PS 分类体系的领域统计。",
+    "summary": "共 {items} 项 · 覆盖 {domains} 个领域、{subfields} 个子领域",
+    "subfields": "覆盖 {n} 个子领域",
+    "unit": {
+      "skills": "项技能",
+      "tools": "项工具",
+      "benchmark": "个样本"
+    }
+  },
+  "results": {
+    "title": "应用成果",
+    "body": "借助 HP4PS 扩展取得的研究成果。",
+    "pending": "即将发布",
+    "placeholder": "应用成果将在这里展示。"
+  },
+  "partners": {
+    "title": "合作单位",
+    "body": "参与 HP4PS 的机构。",
+    "placeholder": "合作单位"
+  },
+  "carousel": {
+    "prev": "上一页",
+    "next": "下一页"
   }
 }

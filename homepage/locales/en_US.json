@@ -37,16 +37,13 @@
     }
   },
   "taxonomy": {
-    "title": "Taxonomy",
-    "body": "Each tool, skill and sample carries one primary category — a five-level chain — and a list of related categories. The first three levels merge PACS 2010 with the Chinese discipline classification of physics and keep the source code of each entry.",
     "levels": {
       "domain": "Domain",
       "subfield": "Subfield",
       "branch": "Branch",
       "researchPath": "Research path",
       "technicalPath": "Technical path"
-    },
-    "empty": "Taxonomy data is not published yet."
+    }
   },
   "tools": {
     "title": "Tools",
@@ -83,16 +80,6 @@
     },
     "empty": "No samples published yet."
   },
-  "harness": {
-    "title": "Official harness",
-    "body": "All reported performance numbers are measured with the official harness. Using it is optional when evaluating your own agent.",
-    "basedOn": "Based on DeepSeek harness",
-    "pending": "Harness version not published yet."
-  },
-  "cite": {
-    "title": "Cite",
-    "empty": "Citation not published yet."
-  },
   "footer": {
     "text": "Code, documentation and data are maintained in the GitHub repository."
   },
@@ -102,5 +89,31 @@
     "all": "All categories",
     "noMatch": "No matching category.",
     "emptyCategory": "Nothing in this category yet."
+  },
+  "coverage": {
+    "title": "Coverage",
+    "body": "How far the skills, tools and benchmark samples reach across physics, counted by domain of the HP4PS taxonomy.",
+    "summary": "{items} entries · {domains} domains · {subfields} subfields",
+    "subfields": "{n} subfields covered",
+    "unit": {
+      "skills": "skills",
+      "tools": "tools",
+      "benchmark": "samples"
+    }
+  },
+  "results": {
+    "title": "Applications",
+    "body": "Research outcomes reached with HP4PS extensions.",
+    "pending": "Coming soon",
+    "placeholder": "Application results will be listed here."
+  },
+  "partners": {
+    "title": "Partners",
+    "body": "Institutions taking part in HP4PS.",
+    "placeholder": "Partner"
+  },
+  "carousel": {
+    "prev": "Previous",
+    "next": "Next"
   }
 }

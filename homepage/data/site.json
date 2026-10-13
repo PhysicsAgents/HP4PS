@@ -5,9 +5,6 @@
     "arxiv": null,
     "containers": "https://github.com/orgs/PhysicsAgents/packages?repo_name=HP4PS"
   },
-  "harness": {
-    "basedOn": null
-  },
   "tools": [],
   "skills": [],
   "benchmark": {
@@ -19,6 +16,7 @@
       "professor": 0
     }
   },
-  "citation": null,
-  "samples": []
+  "samples": [],
+  "results": [],
+  "partners": []
 }
