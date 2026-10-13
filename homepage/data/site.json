@@ -2,6 +2,7 @@
   "links": {
     "github": "https://github.com/PhysicsAgents/HP4PS",
     "huggingface": "https://huggingface.co/HP4PS",
+    "arxiv": null,
     "containers": "https://github.com/orgs/PhysicsAgents/packages?repo_name=HP4PS"
   },
   "harness": {

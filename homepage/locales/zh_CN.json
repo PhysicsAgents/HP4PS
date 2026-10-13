@@ -14,6 +14,7 @@
   "links": {
     "github": "GitHub",
     "huggingface": "Hugging Face",
+    "arxiv": "arXiv",
     "containers": "容器镜像",
     "pending": "尚未发布"
   },

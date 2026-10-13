@@ -1,7 +1,7 @@
 const LOCALES = { en: 'en_US', zh: 'zh_CN' };
 const LANG_KEY = 'hp4ps.lang';
 const LEVELS = ['domain', 'subfield', 'branch', 'researchPath', 'technicalPath'];
-const LINKS = ['github', 'huggingface', 'containers'];
+const LINKS = ['github', 'huggingface', 'arxiv', 'containers'];
 const REVIEWER_TITLES = ['graduate', 'phd', 'professor'];
 
 // Which list each catalog page shows, and the columns after name and category.
