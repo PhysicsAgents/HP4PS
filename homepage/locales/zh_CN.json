@@ -14,7 +14,7 @@
   "links": {
     "github": "GitHub",
     "huggingface": "Hugging Face",
-    "dockerhub": "Docker Hub",
+    "containers": "容器镜像",
     "pending": "尚未发布"
   },
   "overview": {
@@ -70,7 +70,7 @@
   },
   "benchmark": {
     "title": "基准测试",
-    "body": "样本列表、审核人职称和评测结果以 CSV 形式托管在 Hugging Face；样本容器托管在 Docker Hub。",
+    "body": "样本列表、审核人职称和评测结果以 CSV 形式托管在 Hugging Face；样本容器托管在 GitHub 容器仓库（ghcr.io）。",
     "samples": "样本数",
     "categories": "覆盖类别",
     "reviewers": {

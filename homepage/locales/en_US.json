@@ -14,7 +14,7 @@
   "links": {
     "github": "GitHub",
     "huggingface": "Hugging Face",
-    "dockerhub": "Docker Hub",
+    "containers": "Containers",
     "pending": "Not published yet"
   },
   "overview": {
@@ -70,7 +70,7 @@
   },
   "benchmark": {
     "title": "Benchmark",
-    "body": "Sample list, reviewer titles and evaluation results are hosted on Hugging Face as CSV; sample containers are hosted on Docker Hub.",
+    "body": "Sample list, reviewer titles and evaluation results are hosted on Hugging Face as CSV; sample containers are hosted on the GitHub Container Registry (ghcr.io).",
     "samples": "Samples",
     "categories": "Categories covered",
     "reviewers": {
