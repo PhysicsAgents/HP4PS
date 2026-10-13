@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "HP4PS — 物理智能体扩展"
+  },
+  "nav": {
+    "taxonomy": "分类体系",
+    "tools": "工具",
+    "skills": "技能",
+    "benchmark": "基准测试",
+    "harness": "Harness",
+    "cite": "引用"
+  },
+  "hero": {
+    "title": "物理智能体的扩展",
+    "subtitle": "打包好的物理工具、智能体技能，以及一套研究级物理基准测试。每个扩展都报告它在自身领域基准子集上的表现。"
+  },
+  "links": {
+    "github": "GitHub",
+    "huggingface": "Hugging Face",
+    "dockerhub": "Docker Hub",
+    "pending": "尚未发布"
+  },
+  "overview": {
+    "tools": {
+      "title": "工具",
+      "body": "以 MCP 服务器形式提供的物理工具包，交付方式为附带部署程序的代码，或预构建的容器。"
+    },
+    "skills": {
+      "title": "技能",
+      "body": "保存在本仓库中的智能体技能，每个都标注所属领域，并在该领域的基准子集上测量表现。"
+    },
+    "benchmark": {
+      "title": "基准测试",
+      "body": "研究级物理任务，每个都打包为容器并经物理学者审核。一个统一的运行器按编号和参数驱动所有样本。"
+    },
+    "harness": {
+      "title": "官方 Harness",
+      "body": "基于当前 DeepSeek Harness 版本构建的评测 harness（智能体框架）。可选——任何 harness 都可以运行本基准测试。"
+    }
+  },
+  "taxonomy": {
+    "title": "分类体系",
+    "body": "每个工具、技能和样本都带有一个主类别（五级链条）和一组相关类别。前三级融合了 PACS 2010 与中国学科分类中的物理学部分，并保留每个条目的来源编码。",
+    "levels": {
+      "domain": "领域",
+      "subfield": "子领域",
+      "branch": "分支",
+      "researchPath": "研究路径",
+      "technicalPath": "技术路径"
+    },
+    "empty": "分类数据尚未发布。"
+  },
+  "tools": {
+    "title": "工具",
+    "body": "每个工具的主类别、交付方式和实测表现。",
+    "empty": "尚未发布任何工具。"
+  },
+  "skills": {
+    "title": "技能",
+    "body": "每个技能的主类别和实测表现。",
+    "empty": "尚未发布任何技能。"
+  },
+  "columns": {
+    "name": "名称",
+    "category": "主类别",
+    "delivery": "交付方式",
+    "bench": "领域子集",
+    "external": "外部基准"
+  },
+  "delivery": {
+    "code": "代码",
+    "container": "容器"
+  },
+  "benchmark": {
+    "title": "基准测试",
+    "body": "样本列表、审核人职称和评测结果以 CSV 形式托管在 Hugging Face；样本容器托管在 Docker Hub。",
+    "samples": "样本数",
+    "categories": "覆盖类别",
+    "reviewers": {
+      "graduate": "研究生审核人",
+      "phd": "博士审核人",
+      "professor": "教授审核人"
+    }
+  },
+  "harness": {
+    "title": "官方 Harness",
+    "body": "所有公布的性能数据都使用官方 harness 测得。评测你自己的智能体时，可以不使用它。",
+    "basedOn": "基于 DeepSeek Harness",
+    "pending": "Harness 版本尚未发布。"
+  },
+  "cite": {
+    "title": "引用",
+    "empty": "引用信息尚未发布。"
+  },
+  "footer": {
+    "text": "代码、文档和数据都维护在 GitHub 仓库中。"
+  }
+}

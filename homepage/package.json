@@ -2,10 +2,7 @@
   "name": "hp4ps-homepage",
   "private": true,
   "scripts": {
-    "i18n": "lobe-i18n",
+    "check": "python3 ../scripts/verify_i18n.py",
     "preview": "python3 -m http.server 8000"
-  },
-  "devDependencies": {
-    "@lobehub/i18n-cli": "^1.27.0"
   }
 }
