@@ -185,7 +185,7 @@ pre {
 .tree-filter:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
 
 .tree ul { list-style: none; margin: 0; padding: 0; }
-.tree .depth-1 { margin-left: 14px; padding-left: 6px; border-left: 1px solid var(--border); }
+.tree .tree-level .tree-level { margin-left: 14px; padding-left: 6px; border-left: 1px solid var(--border); }
 .tree-row { display: flex; align-items: flex-start; }
 
 .tree-toggle {

@@ -60,7 +60,7 @@ const ancestry = (index, id) => {
 };
 
 const codeLabels = (source = {}) =>
-  Object.entries(source).map(([standard, code]) => `${standard === 'GB' ? 'GB/T' : standard} ${code}`);
+  Object.entries(source).map(([standard, code]) => `${standard === 'GB' ? 'GB/T' : standard} ${[code].flat().join(', ')}`);
 
 const sourceCodes = (source) => codeLabels(source).map((label) => h('span', { class: 'code' }, label));
 
@@ -85,11 +85,7 @@ const renderTaxonomyNode = (ctx, node, depth = 0) => {
 
 const renderTaxonomy = (ctx) => {
   const nodes = ctx.taxonomy.nodes ?? [];
-  if (!nodes.length) return [empty(ctx.t('taxonomy.empty'))];
-  return [
-    ...(ctx.taxonomy.status === 'draft' ? [h('p', { class: 'notice' }, ctx.t('taxonomy.draft'))] : []),
-    ...nodes.map((node) => renderTaxonomyNode(ctx, node)),
-  ];
+  return nodes.length ? nodes.map((node) => renderTaxonomyNode(ctx, node)) : [empty(ctx.t('taxonomy.empty'))];
 };
 
 const formatScore = (score) => (typeof score === 'number' ? score.toFixed(3) : '—');
@@ -97,16 +93,19 @@ const formatScore = (score) => (typeof score === 'number' ? score.toFixed(3) : '
 const formatExternal = (external = []) =>
   external.length ? external.map(({ bench, score }) => `${bench}: ${formatScore(score)}`).join(' · ') : '—';
 
-const categoryText = (ctx, ids = []) => {
+// The deepest category links to its place in the sidebar; the full chain shows on hover.
+const categoryCell = (ctx, ids = []) => {
   const last = ids[ids.length - 1];
-  return last && ctx.index.has(last) ? ancestry(ctx.index, last).map(ctx.name).join(' › ') : '—';
+  if (!last || !ctx.index.has(last)) return '—';
+  const chain = ancestry(ctx.index, last);
+  return h('a', { href: categoryHref(last), title: chain.map(ctx.name).join(' › ') }, ctx.name(chain[chain.length - 1]));
 };
 
 const renderTable = (ctx, items, extraColumns) => {
   const columns = ['name', 'category', 'researchPath', 'technicalPath', ...extraColumns];
   const value = (item, column) => ({
     name: item.name,
-    category: categoryText(ctx, item.category),
+    category: categoryCell(ctx, item.category),
     researchPath: item.researchPath ?? '—',
     technicalPath: item.technicalPath ?? '—',
     delivery: (item.delivery ?? []).map((d) => ctx.t(`delivery.${d}`)).join(' + ') || '—',

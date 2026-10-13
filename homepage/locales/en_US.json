@@ -45,8 +45,7 @@
       "researchPath": "Research path",
       "technicalPath": "Technical path"
     },
-    "empty": "Taxonomy data is not published yet.",
-    "draft": "Draft for review. Levels 1 and 2 follow PACS 2010 and carry the matching GB/T 13745-2009 codes (140 Physics; 130 Mechanics, 160 Astronomy and 170 Earth science where physics has none). Level 3 is still to be filled."
+    "empty": "Taxonomy data is not published yet."
   },
   "tools": {
     "title": "Tools",

@@ -1,0 +1,794 @@
+code	level	parent	name
+00.	1		GENERAL
+01.	2	00.	Communication, education, history, and philosophy
+01.10.-m	3	01.	Announcements, news, and organizational activities
+01.20.+x	3	01.	Communication forms and techniques (written, oral, electronic, etc.)
+01.30.-y	3	01.	Physics literature and publications
+01.40.-d	3	01.	Education
+01.50.-i	3	01.	Educational aids
+01.52.+r	3	01.	National and international laboratory facilities
+01.55.+b	3	01.	General physics
+01.60.+q	3	01.	Biographies, tributes, personal notes, and obituaries
+01.65.+g	3	01.	History of science
+01.70.+w	3	01.	Philosophy of science
+01.75.+m	3	01.	Science and society
+01.78.+p	3	01.	Science and government (funding, politics, etc.)
+01.80.+b	3	01.	Physics of games and sports
+01.85.+f	3	01.	Careers in physics and science
+01.90.+g	3	01.	Other topics of general interest (restricted to new topics in section 01)
+02.	2	00.	Mathematical methods in physics
+02.10.-v	3	02.	Logic, set theory, and algebra
+02.20.-a	3	02.	Group theory
+02.30.-f	3	02.	Function theory, analysis
+02.40.-k	3	02.	Geometry, differential geometry, and topology
+02.50.-r	3	02.	Probability theory, stochastic processes, and statistics
+02.60.-x	3	02.	Numerical approximation and analysis
+02.70.-c	3	02.	Computational techniques; simulations
+02.90.+p	3	02.	Other topics in mathematical methods in physics (restricted to new topics in section 02)
+03.	2	00.	Quantum mechanics, field theories, and special relativity
+03.30.+p	3	03.	Special relativity
+03.50.-z	3	03.	Classical field theories
+03.65.-w	3	03.	Quantum mechanics
+03.67.-a	3	03.	Quantum information
+03.70.+k	3	03.	Theory of quantized fields
+03.75.-b	3	03.	Matter waves
+04.	2	00.	General relativity and gravitation
+04.20.-q	3	04.	Classical general relativity
+04.25.-g	3	04.	Approximation methods; equations of motion
+04.30.-w	3	04.	Gravitational waves
+04.40.-b	3	04.	Self-gravitating systems; continuous media and classical fields in curved spacetime
+04.50.-h	3	04.	Higher-dimensional gravity and other theories of gravity
+04.60.-m	3	04.	Quantum gravity
+04.62.+v	3	04.	Quantum fields in curved spacetime
+04.65.+e	3	04.	Supergravity
+04.70.-s	3	04.	Physics of black holes
+04.80.-y	3	04.	Experimental studies of gravity
+04.90.+e	3	04.	Other topics in general relativity and gravitation (restricted to new topics in section 04)
+05.	2	00.	Statistical physics, thermodynamics, and nonlinear dynamical systems
+05.10.-a	3	05.	Computational methods in statistical physics and nonlinear dynamics
+05.20.-y	3	05.	Classical statistical mechanics
+05.30.-d	3	05.	Quantum statistical mechanics
+05.40.-a	3	05.	Fluctuation phenomena, random processes, noise, and Brownian motion
+05.45.-a	3	05.	Nonlinear dynamics and chaos
+05.50.+q	3	05.	Lattice theory and statistics (Ising, Potts, etc.)
+05.60.-k	3	05.	Transport processes
+05.65.+b	3	05.	Self-organized systems
+05.70.-a	3	05.	Thermodynamics
+05.90.+m	3	05.	Other topics in statistical physics, thermodynamics, and nonlinear dynamical systems (restricted to new topics in section 05)
+06.	2	00.	Metrology, measurements, and laboratory procedures
+06.20.-f	3	06.	Metrology
+06.30.-k	3	06.	Measurements common to several branches of physics and astronomy
+06.60.-c	3	06.	Laboratory procedures
+06.90.+v	3	06.	Other topics in metrology, measurements, and laboratory procedures (restricted to new topics in section 06)
+07.	2	00.	Instruments, apparatus, and components common to several branches of physics and astronomy
+07.05.-t	3	07.	Computers in experimental physics
+07.07.-a	3	07.	General equipment
+07.10.-h	3	07.	Mechanical instruments and equipment
+07.20.-n	3	07.	Thermal instruments and apparatus
+07.30.-t	3	07.	Vacuum apparatus
+07.35.+k	3	07.	High-pressure apparatus; shock tubes; diamond anvil cells
+07.50.-e	3	07.	Electrical and electronic instruments and components
+07.55.-w	3	07.	Magnetic instruments and components
+07.57.-c	3	07.	Infrared, submillimeter wave, microwave and radiowave instruments and equipment
+07.60.-j	3	07.	Optical instruments and equipment
+07.64.+z	3	07.	Acoustic instruments and equipment
+07.68.+m	3	07.	Photography, photographic instruments; xerography
+07.75.+h	3	07.	Mass spectrometers
+07.77.-n	3	07.	Atomic, molecular, and charged-particle sources and detectors
+07.78.+s	3	07.	Electron, positron, and ion microscopes; electron diffractometers
+07.79.-v	3	07.	Scanning probe microscopes and components
+07.81.+a	3	07.	Electron and ion spectrometers
+07.85.-m	3	07.	X- and &#x3B3;-ray instruments
+07.87.+v	3	07.	Spaceborne and space research instruments, apparatus, and components (satellites, space vehicles, etc.)
+07.88.+y	3	07.	Instruments for environmental pollution measurements
+07.89.+b	3	07.	Environmental effects on instruments (e.g., radiation and pollution effects)
+07.90.+c	3	07.	Other topics in instruments, apparatus, and components common to several branches of physics and astronomy (restricted to new topics in section 07)
+10.	1		THE PHYSICS OF ELEMENTARY PARTICLES AND FIELDS
+11.	2	10.	General theory of fields and particles
+11.10.-z	3	11.	Field theory
+11.15.-q	3	11.	Gauge field theories
+11.25.-w	3	11.	Strings and branes
+11.27.+d	3	11.	Extended classical solutions; cosmic strings, domain walls, texture
+11.30.-j	3	11.	Symmetry and conservation laws
+11.40.-q	3	11.	Currents and their properties
+11.55.-m	3	11.	S-matrix theory; analytic structure of amplitudes
+11.80.-m	3	11.	Relativistic scattering theory
+11.90.+t	3	11.	Other topics in general theory of fields and particles (restricted to new topics in section 11)
+12.	2	10.	Specific theories and interaction models; particle systematics
+12.10.-g	3	12.	Unified field theories and models
+12.15.-y	3	12.	Electroweak interactions
+12.20.-m	3	12.	Quantum electrodynamics
+12.38.-t	3	12.	Quantum chromodynamics
+12.39.-x	3	12.	Phenomenological quark models
+12.40.-y	3	12.	Other models for strong interactions
+12.60.-i	3	12.	Models beyond the standard model
+12.90.+b	3	12.	Miscellaneous theoretical ideas and models (restricted to new topics in section 12)
+13.	2	10.	Specific reactions and phenomenology
+13.15.+g	3	13.	Neutrino interactions
+13.20.-v	3	13.	Leptonic, semileptonic, and radiative decays of mesons
+13.25.-k	3	13.	Hadronic decays of mesons
+13.30.-a	3	13.	Decays of baryons
+13.35.-r	3	13.	Decays of leptons
+13.38.-b	3	13.	Decays of intermediate bosons
+13.40.-f	3	13.	Electromagnetic processes and properties
+13.60.-r	3	13.	Photon and charged-lepton interactions with hadrons
+13.66.-a	3	13.	Lepton-lepton interactions
+13.75.-n	3	13.	Hadron-induced low- and intermediate-energy reactions and scattering (energy &#x2264; 10 GeV)
+13.85.-t	3	13.	Hadron-induced high- and super-high-energy interactions (energy &#x3E; 10 GeV)
+13.87.-a	3	13.	Jets in large-Q2 scattering
+13.88.+e	3	13.	Polarization in interactions and scattering
+13.90.+i	3	13.	Other topics in specific reactions and phenomenology of elementary particles (restricted to new topics in section 13)
+14.	2	10.	Properties of specific particles
+14.20.-c	3	14.	Baryons (including antiparticles)
+14.40.-n	3	14.	Mesons
+14.60.-z	3	14.	Leptons
+14.65.-q	3	14.	Quarks
+14.70.-e	3	14.	Gauge bosons
+14.80.-j	3	14.	Other particles (including hypothetical)
+20.	1		NUCLEAR PHYSICS
+21.	2	20.	Nuclear structure
+21.10.-k	3	21.	Properties of nuclei; nuclear energy levels
+21.30.-x	3	21.	Nuclear forces
+21.45.-v	3	21.	Few-body systems
+21.60.-n	3	21.	Nuclear structure models and methods
+21.65.-f	3	21.	Nuclear matter
+21.80.+a	3	21.	Hypernuclei
+21.85.+d	3	21.	Mesic nuclei
+21.90.+f	3	21.	Other topics in nuclear structure (restricted to new topics in section 21)
+23.	2	20.	Radioactive decay and in-beam spectroscopy
+23.20.-g	3	23.	Electromagnetic transitions
+23.35.+g	3	23.	Isomer decay
+23.40.-s	3	23.	&#x3B2; decay; double &#x3B2; decay; electron and muon capture
+23.50.+z	3	23.	Decay by proton emission
+23.60.+e	3	23.	&#x3B1; decay
+23.70.+j	3	23.	Heavy-particle decay
+23.90.+w	3	23.	Other topics in radioactive decay and in-beam spectroscopy (restricted to new topics in section 23)
+24.	2	20.	Nuclear reactions: general
+24.10.-i	3	24.	Nuclear reaction models and methods
+24.30.-v	3	24.	Resonance reactions
+24.50.+g	3	24.	Direct reactions
+24.60.-k	3	24.	Statistical theory and fluctuations
+24.70.+s	3	24.	Polarization phenomena in reactions
+24.75.+i	3	24.	General properties of fission
+24.80.+y	3	24.	Nuclear tests of fundamental interactions and symmetries
+24.85.+p	3	24.	Quarks, gluons, and QCD in nuclear reactions
+24.87.+y	3	24.	Surrogate reactions
+24.90.+d	3	24.	Other topics in nuclear reactions: general (restricted to new topics in section 24)
+25.	2	20.	Nuclear reactions: specific reactions
+25.10.+s	3	25.	Nuclear reactions involving few-nucleon systems
+25.20.-x	3	25.	Photonuclear reactions
+25.30.-c	3	25.	Lepton-induced reactions
+25.40.-h	3	25.	Nucleon-induced reactions
+25.43.+t	3	25.	Antiproton-induced reactions
+25.45.-z	3	25.	2H-induced reactions
+25.55.-e	3	25.	3H-, 3He-, and 4He-induced reactions
+25.60.-t	3	25.	Reactions induced by unstable nuclei
+25.70.-z	3	25.	Low and intermediate energy heavy-ion reactions
+25.75.-q	3	25.	Relativistic heavy-ion collisions
+25.80.-e	3	25.	Meson- and hyperon-induced reactions
+25.85.-w	3	25.	Fission reactions
+25.90.+k	3	25.	Other topics in nuclear reactions: specific reactions (restricted to new topics in section 25)
+26.	2	20.	Nuclear astrophysics
+26.20.-f	3	26.	Hydrostatic stellar nucleosynthesis
+26.30.-k	3	26.	Nucleosynthesis in novae, supernovae, and other explosive environments
+26.35.+c	3	26.	Big Bang nucleosynthesis
+26.40.+r	3	26.	Cosmic ray nucleosynthesis
+26.50.+x	3	26.	Nuclear physics aspects of novae, supernovae, and other explosive environments
+26.60.-c	3	26.	Nuclear matter aspects of neutron stars
+26.65.+t	3	26.	Solar neutrinos
+26.90.+n	3	26.	Other topics in nuclear astrophysics (restricted to new topics in section 26)
+27.	2	20.	Properties of specific nuclei listed by mass ranges
+27.10.+h	3	27.	A &#x2264; 5
+27.20.+n	3	27.	6 &#x2264; A &#x2264; 19
+27.30.+t	3	27.	20 &#x2264; A &#x2264; 38
+27.40.+z	3	27.	39 &#x2264; A &#x2264; 58
+27.50.+e	3	27.	59 &#x2264; A &#x2264; 89
+27.60.+j	3	27.	90 &#x2264; A &#x2264; 149
+27.70.+q	3	27.	150 &#x2264; A &#x2264; 189
+27.80.+w	3	27.	190 &#x2264; A &#x2264; 219
+27.90.+b	3	27.	A &#x2265; 220
+28.	2	20.	Nuclear engineering and nuclear power studies
+28.20.-v	3	28.	Neutron physics
+28.41.-i	3	28.	Fission reactors
+28.50.-k	3	28.	Fission reactor types
+28.52.-s	3	28.	Fusion reactors
+28.60.+s	3	28.	Isotope separation and enrichment
+28.65.+a	3	28.	Accelerator-driven transmutation of nuclear waste
+28.70.+y	3	28.	Nuclear explosions
+28.90.+i	3	28.	Other topics in nuclear engineering and nuclear power studies (restricted to new topics in section 28)
+29.	2	20.	Experimental methods and instrumentation for elementary-particle and nuclear physics
+29.20.-c	3	29.	Accelerators
+29.25.-t	3	29.	Particle sources and targets
+29.27.-a	3	29.	Beams in particle accelerators
+29.30.-h	3	29.	Spectrometers and spectroscopic techniques
+29.38.-c	3	29.	Radioactive beams
+29.40.-n	3	29.	Radiation detectors
+29.50.+v	3	29.	Computer interfaces
+29.85.-c	3	29.	Computer data analysis
+29.87.+g	3	29.	Nuclear data compilation
+29.90.+r	3	29.	Other topics in elementary-particle and nuclear physics experimental methods and instrumentation (restricted to new topics in section 29)
+30.	1		ATOMIC AND MOLECULAR PHYSICS
+31.	2	30.	Electronic structure of atoms and molecules: theory
+31.10.+z	3	31.	Theory of electronic structure, electronic transitions, and chemical binding
+31.15.-p	3	31.	Calculations and mathematical techniques in atomic and molecular physics
+31.30.-i	3	31.	Corrections to electronic structure
+31.50.-x	3	31.	Potential energy surfaces
+31.70.-f	3	31.	Effects of atomic and molecular interactions on electronic structure
+31.90.+s	3	31.	Other topics in the theory of the electronic structure of atoms and molecules (restricted to new topics in section 31)
+32.	2	30.	Atomic properties and interactions with photons
+32.10.-f	3	32.	Properties of atoms
+32.30.-r	3	32.	Atomic spectra
+32.50.+d	3	32.	Fluorescence, phosphorescence (including quenching)
+32.60.+i	3	32.	Zeeman and Stark effects
+32.70.-n	3	32.	Intensities and shapes of atomic spectral lines
+32.80.-t	3	32.	Photoionization and excitation
+32.90.+a	3	32.	Other topics in atomic properties and interactions of atoms with photons (restricted to new topics in section 32)
+33.	2	30.	Molecular properties and interactions with photons
+33.15.-e	3	33.	Properties of molecules
+33.20.-t	3	33.	Molecular spectra
+33.25.+k	3	33.	Nuclear resonance and relaxation
+33.35.+r	3	33.	Electron resonance and relaxation
+33.40.+f	3	33.	Multiple resonances (including double and higher-order resonance processes, such as double nuclear magnetic resonance, electron double resonance, and microwave optical double resonance)
+33.45.+x	3	33.	M&#xF6;ssbauer spectra
+33.50.-j	3	33.	Fluorescence and phosphorescence; radiationless transitions, quenching (intersystem crossing, internal conversion)
+33.55.+b	3	33.	Optical activity and dichroism
+33.57.+c	3	33.	Magneto-optical and electro-optical spectra and effects
+33.60.+q	3	33.	Photoelectron spectra
+33.70.-w	3	33.	Intensities and shapes of molecular spectral lines and bands
+33.80.-b	3	33.	Photon interactions with molecules
+33.90.+h	3	33.	Other topics in molecular properties and interactions with photons (restricted to new topics in section 33)
+34.	2	30.	Atomic and molecular collision processes and interactions
+34.10.+x	3	34.	General theories and models of atomic and molecular collisions and interactions (including statistical theories, transition state, stochastic and trajectory models, etc.)
+34.20.-b	3	34.	Interatomic and intermolecular potentials and forces, potential energy surfaces for collisions
+34.35.+a	3	34.	Interactions of atoms and molecules with surfaces
+34.50.-s	3	34.	Scattering of atoms and molecules
+34.70.+e	3	34.	Charge transfer
+34.80.-i	3	34.	Electron and positron scattering
+34.90.+q	3	34.	Other topics in atomic and molecular collision processes and interactions (restricted to new topics in section 34)
+36.	2	30.	Exotic atoms and molecules; macromolecules; clusters
+36.10.-k	3	36.	Exotic atoms and molecules (containing mesons, antiprotons and other unusual particles)
+36.20.-r	3	36.	Macromolecules and polymer molecules
+36.40.-c	3	36.	Atomic and molecular clusters
+36.90.+f	3	36.	Other topics in exotic atoms and molecules; macromolecules; clusters (restricted to new topics in section 36)
+37.	2	30.	Mechanical control of atoms, molecules, and ions
+37.10.-x	3	37.	Atom, molecule, and ion cooling methods
+37.20.+j	3	37.	Atomic and molecular beam sources and techniques
+37.25.+k	3	37.	Atom interferometry techniques
+37.30.+i	3	37.	Atoms, molecules, and ions in cavities
+37.90.+j	3	37.	Other topics in mechanical control of atoms, molecules, and ions (restricted to new topics in section 37)
+40.	1		ELECTROMAGNETISM, OPTICS, ACOUSTICS, HEAT TRANSFER, CLASSICAL MECHANICS, AND FLUID DYNAMICS
+41.	2	40.	Electromagnetism; electron and ion optics
+41.20.-q	3	41.	Applied classical electromagnetism
+41.50.+h	3	41.	X-ray beams and x-ray optics
+41.60.-m	3	41.	Radiation by moving charges
+41.75.-i	3	41.	Charged-particle beams
+41.85.-p	3	41.	Beam optics
+41.90.+e	3	41.	Other topics in electromagnetism; electron and ion optics (restricted to new topics in section 41)
+42.	2	40.	Optics
+42.15.-i	3	42.	Geometrical optics
+42.25.-p	3	42.	Wave optics
+42.30.-d	3	42.	Imaging and optical processing
+42.40.-i	3	42.	Holography
+42.50.-p	3	42.	Quantum optics
+42.55.-f	3	42.	Lasers
+42.60.-v	3	42.	Laser optical systems: design and operation
+42.62.-b	3	42.	Laser applications
+42.65.-k	3	42.	Nonlinear optics
+42.66.-p	3	42.	Physiological optics
+42.68.-w	3	42.	Atmospheric and ocean optics
+42.70.-a	3	42.	Optical materials
+42.72.-g	3	42.	Optical sources and standards
+42.79.-e	3	42.	Optical elements, devices, and systems
+42.81.-i	3	42.	Fiber optics
+42.82.-m	3	42.	Integrated optics
+42.86.+b	3	42.	Optical workshop techniques
+42.87.-d	3	42.	Optical testing techniques
+42.88.+h	3	42.	Environmental and radiation effects on optical elements, devices, and systems
+42.90.+m	3	42.	Other topics in optics (restricted to new topics in section 42)
+43.	2	40.	Acoustics
+43.20.+g	3	43.	General linear acoustics
+43.25.+y	3	43.	Nonlinear acoustics
+43.28.+h	3	43.	Aeroacoustics and atmospheric sound
+43.30.+m	3	43.	Underwater sound
+43.35.+d	3	43.	Ultrasonics, quantum acoustics, and physical effects of sound
+43.38.+n	3	43.	Transduction; acoustical devices for the generation and reproduction of sound
+43.40.+s	3	43.	Structural acoustics and vibration
+43.50.+y	3	43.	Noise: its effects and control
+43.55.+p	3	43.	Architectural acoustics
+43.58.+z	3	43.	Acoustical measurements and instrumentation
+43.60.+d	3	43.	Acoustic signal processing
+43.64.+r	3	43.	Physiological acoustics
+43.66.+y	3	43.	Psychological acoustics
+43.70.+i	3	43.	Speech production
+43.71.+m	3	43.	Speech perception
+43.72.+q	3	43.	Speech processing and communication systems
+43.75.+a	3	43.	Music and musical instruments
+43.80.+p	3	43.	Bioacoustics
+43.90.+v	3	43.	Other topics in acoustics (restricted to new topics in section 43)
+44.	2	40.	Heat transfer
+44.05.+e	3	44.	Analytical and numerical techniques
+44.10.+i	3	44.	Heat conduction
+44.15.+a	3	44.	Channel and internal heat flow
+44.20.+b	3	44.	Boundary layer heat flow
+44.25.+f	3	44.	Natural convection
+44.27.+g	3	44.	Forced convection
+44.30.+v	3	44.	Heat flow in porous media
+44.35.+c	3	44.	Heat flow in multiphase systems
+44.40.+a	3	44.	Thermal radiation
+44.90.+c	3	44.	Other topics in heat transfer (restricted to new topics in section 44)
+45.	2	40.	Classical mechanics of discrete systems
+45.05.+x	3	45.	General theory of classical mechanics of discrete systems
+45.10.-b	3	45.	Computational methods in classical mechanics
+45.20.-d	3	45.	Formalisms in classical mechanics
+45.30.+s	3	45.	General linear dynamical systems
+45.40.-f	3	45.	Dynamics and kinematics of rigid bodies
+45.50.-j	3	45.	Dynamics and kinematics of a particle and a system of particles
+45.70.-n	3	45.	Granular systems
+45.80.+r	3	45.	Control of mechanical systems
+45.90.+t	3	45.	Other topics in classical mechanics of discrete systems (restricted to new topics in section 45)
+46.	2	40.	Continuum mechanics of solids
+46.05.+b	3	46.	General theory of continuum mechanics of solids
+46.15.-x	3	46.	Computational methods in continuum mechanics
+46.25.-y	3	46.	Static elasticity
+46.32.+x	3	46.	Static buckling and instability
+46.35.+z	3	46.	Viscoelasticity, plasticity, viscoplasticity
+46.40.-f	3	46.	Vibrations and mechanical waves
+46.50.+a	3	46.	Fracture mechanics, fatigue and cracks
+46.55.+d	3	46.	Tribology and mechanical contacts
+46.65.+g	3	46.	Random phenomena and media
+46.70.-p	3	46.	Application of continuum mechanics to structures
+46.80.+j	3	46.	Measurement methods and techniques in continuum mechanics of solids
+46.90.+s	3	46.	Other topics in continuum mechanics of solids (restricted to new topics in section 46)
+47.	2	40.	Fluid dynamics
+47.10.-g	3	47.	General theory in fluid dynamics
+47.11.-j	3	47.	Computational methods in fluid dynamics
+47.15.-x	3	47.	Laminar flows
+47.20.-k	3	47.	Flow instabilities
+47.27.-i	3	47.	Turbulent flows
+47.32.-y	3	47.	Vortex dynamics; rotating fluids
+47.35.-i	3	47.	Hydrodynamic waves
+47.37.+q	3	47.	Hydrodynamic aspects of superfluidity; quantum fluids
+47.40.-x	3	47.	Compressible flows; shock waves
+47.45.-n	3	47.	Rarefied gas dynamics
+47.50.-d	3	47.	Non-Newtonian fluid flows
+47.51.+a	3	47.	Mixing
+47.52.+j	3	47.	Chaos in fluid dynamics
+47.53.+n	3	47.	Fractals in fluid dynamics
+47.54.-r	3	47.	Pattern selection; pattern formation
+47.55.-t	3	47.	Multiphase and stratified flows
+47.56.+r	3	47.	Flows through porous media
+47.57.-s	3	47.	Complex fluids and colloidal systems
+47.60.-i	3	47.	Flow phenomena in quasi-one-dimensional systems
+47.61.-k	3	47.	Micro- and nano- scale flow phenomena
+47.63.-b	3	47.	Biological fluid dynamics
+47.65.-d	3	47.	Magnetohydrodynamics and electrohydrodynamics
+47.70.-n	3	47.	Reactive and radiative flows
+47.75.+f	3	47.	Relativistic fluid dynamics
+47.80.-v	3	47.	Instrumentation and measurement methods in fluid dynamics
+47.85.-g	3	47.	Applied fluid mechanics
+47.90.+a	3	47.	Other topics in fluid dynamics (restricted to new topics in section 47)
+50.	1		PHYSICS OF GASES, PLASMAS, AND ELECTRIC DISCHARGES
+51.	2	50.	Physics of gases
+51.10.+y	3	51.	Kinetic and transport theory of gases
+51.20.+d	3	51.	Viscosity, diffusion, and thermal conductivity
+51.30.+i	3	51.	Thermodynamic properties, equations of state
+51.35.+a	3	51.	Mechanical properties; compressibility
+51.40.+p	3	51.	Acoustical properties
+51.50.+v	3	51.	Electrical properties (ionization, breakdown, electron and ion mobility, etc.)
+51.60.+a	3	51.	Magnetic properties
+51.70.+f	3	51.	Optical and dielectric properties
+51.90.+r	3	51.	Other topics in the physics of gases (restricted to new topics in section 51)
+52.	2	50.	Physics of plasmas and electric discharges
+52.20.-j	3	52.	Elementary processes in plasmas
+52.25.-b	3	52.	Plasma properties
+52.27.-h	3	52.	Basic studies of specific kinds of plasmas
+52.30.-q	3	52.	Plasma dynamics and flow
+52.35.-g	3	52.	Waves, oscillations, and instabilities in plasmas and intense beams
+52.38.-r	3	52.	Laser-plasma interactions
+52.40.-w	3	52.	Plasma interactions (nonlaser)
+52.50.-b	3	52.	Plasma production and heating
+52.55.-s	3	52.	Magnetic confinement and equilibrium
+52.57.-z	3	52.	Laser inertial confinement
+52.58.-c	3	52.	Other confinement methods
+52.59.-f	3	52.	Intense particle beams and radiation sources
+52.65.-y	3	52.	Plasma simulation
+52.70.-m	3	52.	Plasma diagnostic techniques and instrumentation
+52.72.+v	3	52.	Laboratory studies of space- and astrophysical-plasma processes
+52.75.-d	3	52.	Plasma devices
+52.77.-j	3	52.	Plasma applications
+52.80.-s	3	52.	Electric discharges
+52.90.+z	3	52.	Other topics in physics of plasmas and electric discharges (restricted to new topics in section 52)
+60.	1		CONDENSED MATTER: STRUCTURAL, MECHANICAL, AND THERMAL PROPERTIES
+61.	2	60.	Structure of solids and liquids; crystallography
+61.05.-a	3	61.	Techniques for structure determination
+61.20.-p	3	61.	Structure of liquids
+61.25.-f	3	61.	Studies of specific liquid structures
+61.30.-v	3	61.	Liquid crystals
+61.41.+e	3	61.	Polymers, elastomers, and plastics
+61.43.-j	3	61.	Disordered solids
+61.44.-n	3	61.	Semi-periodic solids
+61.46.-w	3	61.	Structure of nanoscale materials
+61.48.-c	3	61.	Structure of fullerenes and related hollow and planar molecular structures
+61.50.-f	3	61.	Structure of bulk crystals
+61.66.-f	3	61.	Structure of specific crystalline solids
+61.68.+n	3	61.	Crystallographic databases
+61.72.-y	3	61.	Defects and impurities in crystals; microstructure
+61.80.-x	3	61.	Physical radiation effects, radiation damage
+61.82.-d	3	61.	Radiation effects on specific materials
+61.85.+p	3	61.	Channeling phenomena (blocking, energy loss, etc.)
+61.90.+d	3	61.	Other topics in structure of solids and liquids; crystallography (restricted to new topics in section 61)
+62.	2	60.	Mechanical and acoustical properties of condensed matter
+62.10.+s	3	62.	Mechanical properties of liquids
+62.20.-x	3	62.	Mechanical properties of solids
+62.23.-c	3	62.	Structural classes of nanoscale systems
+62.25.-g	3	62.	Mechanical properties of nanoscale systems
+62.30.+d	3	62.	Mechanical and elastic waves; vibrations
+62.40.+i	3	62.	Anelasticity, internal friction, stress relaxation, and mechanical resonances
+62.50.-p	3	62.	High-pressure effects in solids and liquids
+62.60.+v	3	62.	Acoustical properties of liquids
+62.65.+k	3	62.	Acoustical properties of solids
+62.80.+f	3	62.	Ultrasonic relaxation
+62.90.+k	3	62.	Other topics in mechanical and acoustical properties of condensed matter (restricted to new topics in section 62)
+63.	2	60.	Lattice dynamics
+63.10.+a	3	63.	General theory
+63.20.-e	3	63.	Phonons in crystal lattices
+63.22.-m	3	63.	Phonons or vibrational states in low-dimensional structures and nanoscale materials
+63.50.-x	3	63.	Vibrational states in disordered systems
+63.70.+h	3	63.	Statistical mechanics of lattice vibrations and displacive phase transitions
+63.90.+t	3	63.	Other topics in lattice dynamics (restricted to new topics in section 63)
+64.	2	60.	Equations of state, phase equilibria, and phase transitions
+64.10.+h	3	64.	General theory of equations of state and phase equilibria
+64.30.-t	3	64.	Equations of state of specific substances
+64.60.-i	3	64.	General studies of phase transitions
+64.70.-p	3	64.	Specific phase transitions
+64.75.-g	3	64.	Phase equilibria
+64.90.+b	3	64.	Other topics in equations of state, phase equilibria, and phase transitions (restricted to new topics in section 64)
+65.	2	60.	Thermal properties of condensed matter
+65.20.-w	3	65.	Thermal properties of liquids
+65.40.-b	3	65.	Thermal properties of crystalline solids
+65.60.+a	3	65.	Thermal properties of amorphous solids and glasses: heat capacity, thermal expansion, etc.
+65.80.-g	3	65.	Thermal properties of small particles, nanocrystals, nanotubes, and other related systems
+65.90.+i	3	65.	Other topics in thermal properties of condensed matter (restricted to new topics in section 65)
+66.	2	60.	Nonelectronic transport properties of condensed matter
+66.10.-x	3	66.	Diffusion and ionic conduction in liquids
+66.20.-d	3	66.	Viscosity of liquids; diffusive momentum transport
+66.25.+g	3	66.	Thermal conduction in nonmetallic liquids
+66.30.-h	3	66.	Diffusion in solids
+66.35.+a	3	66.	Quantum tunneling of defects
+66.70.-f	3	66.	Nonelectronic thermal conduction and heat-pulse propagation in solids; thermal waves
+66.90.+r	3	66.	Other topics in nonelectronic transport properties of condensed matter (restricted to new topics in section 66)
+67.	2	60.	Quantum fluids and solids
+67.10.-j	3	67.	Quantum fluids: general properties
+67.25.-k	3	67.	4He
+67.30.-n	3	67.	3He
+67.60.-g	3	67.	Mixtures of 3He and 4He
+67.63.-r	3	67.	Hydrogen and isotopes
+67.80.-s	3	67.	Quantum solids
+67.85.-d	3	67.	Ultracold gases, trapped gases
+67.90.+z	3	67.	Other topics in quantum fluids and solids (restricted to new topics in section 67)
+68.	2	60.	Surfaces and interfaces; thin films and nanosystems (structure and nonelectronic properties)
+68.03.-g	3	68.	Gas-liquid and vacuum-liquid interfaces
+68.05.-n	3	68.	Liquid-liquid interfaces
+68.08.-p	3	68.	Liquid-solid interfaces
+68.15.+e	3	68.	Liquid thin films
+68.18.-g	3	68.	Langmuir-Blodgett films on liquids
+68.35.-p	3	68.	Solid surfaces and solid-solid interfaces: structure and energetics
+68.37.-d	3	68.	Microscopy of surfaces, interfaces, and thin films
+68.43.-h	3	68.	Chemisorption/physisorption: adsorbates on surfaces
+68.47.-b	3	68.	Solid-gas/vacuum interfaces: types of surfaces
+68.49.-h	3	68.	Surface characterization by particle-surface scattering
+68.55.-a	3	68.	Thin film structure and morphology
+68.60.-p	3	68.	Physical properties of thin films, nonelectronic
+68.65.-k	3	68.	Low-dimensional, mesoscopic, nanoscale and other related systems: structure and nonelectronic properties
+68.70.+w	3	68.	Whiskers and dendrites (growth, structure, and nonelectronic properties)
+68.90.+g	3	68.	Other topics in structure, and nonelectronic properties of surfaces and interfaces; thin films and low-dimensional structures (restricted to new topics in section 68)
+70.	1		CONDENSED MATTER: ELECTRONIC STRUCTURE, ELECTRICAL, MAGNETIC, AND OPTICAL PROPERTIES
+71.	2	70.	Electronic structure of bulk materials
+71.10.-w	3	71.	Theories and models of many-electron systems
+71.15.-m	3	71.	Methods of electronic structure calculations
+71.18.+y	3	71.	Fermi surface: calculations and measurements; effective mass, g factor
+71.20.-b	3	71.	Electron density of states and band structure of crystalline solids
+71.22.+i	3	71.	Electronic structure of liquid metals and semiconductors and their alloys
+71.23.-k	3	71.	Electronic structure of disordered solids
+71.27.+a	3	71.	Strongly correlated electron systems; heavy fermions
+71.28.+d	3	71.	Narrow-band systems; intermediate-valence solids
+71.30.+h	3	71.	Metal-insulator transitions and other electronic transitions
+71.35.-y	3	71.	Excitons and related phenomena
+71.36.+c	3	71.	Polaritons (including photon-phonon and photon-magnon interactions)
+71.38.-k	3	71.	Polarons and electron-phonon interactions
+71.45.-d	3	71.	Collective effects
+71.55.-i	3	71.	Impurity and defect levels
+71.60.+z	3	71.	Positron states
+71.70.-d	3	71.	Level splitting and interactions
+71.90.+q	3	71.	Other topics in electronic structure (restricted to new topics in section 71)
+72.	2	70.	Electronic transport in condensed matter
+72.10.-d	3	72.	Theory of electronic transport; scattering mechanisms
+72.15.-v	3	72.	Electronic conduction in metals and alloys
+72.20.-i	3	72.	Conductivity phenomena in semiconductors and insulators
+72.25.-b	3	72.	Spin polarized transport
+72.30.+q	3	72.	High-frequency effects; plasma effects
+72.40.+w	3	72.	Photoconduction and photovoltaic effects
+72.50.+b	3	72.	Acoustoelectric effects
+72.55.+s	3	72.	Magnetoacoustic effects
+72.60.+g	3	72.	Mixed conductivity and conductivity transitions
+72.70.+m	3	72.	Noise processes and phenomena
+72.80.-r	3	72.	Conductivity of specific materials
+72.90.+y	3	72.	Other topics in electronic transport in condensed matter (restricted to new topics in section 72)
+73.	2	70.	Electronic structure and electrical properties of surfaces, interfaces, thin films, and low-dimensional structures
+73.20.-r	3	73.	Electron states at surfaces and interfaces
+73.21.-b	3	73.	Electron states and collective excitations in multilayers, quantum wells, mesoscopic, and nanoscale systems
+73.22.-f	3	73.	Electronic structure of nanoscale materials and related systems
+73.23.-b	3	73.	Electronic transport in mesoscopic systems
+73.25.+i	3	73.	Surface conductivity and carrier phenomena
+73.30.+y	3	73.	Surface double layers, Schottky barriers, and work functions
+73.40.-c	3	73.	Electronic transport in interface structures
+73.43.-f	3	73.	Quantum Hall effects
+73.50.-h	3	73.	Electronic transport phenomena in thin films
+73.61.-r	3	73.	Electrical properties of specific thin films
+73.63.-b	3	73.	Electronic transport in nanoscale materials and structures
+73.90.+f	3	73.	Other topics in electronic structure and electrical properties of surfaces, interfaces, thin films, and low-dimensional structures (Restricted to new topics in section 73)
+74.	2	70.	Superconductivity
+74.10.+v	3	74.	Occurrence, potential candidates
+74.20.-z	3	74.	Theories and models of superconducting state
+74.25.-q	3	74.	Properties of superconductors
+74.40.-n	3	74.	Fluctuation phenomena
+74.45.+c	3	74.	Proximity effects; Andreev reflection; SN and SNS junctions
+74.50.+r	3	74.	Tunneling phenomena; Josephson effects
+74.55.+v	3	74.	Tunneling phenomena: single particle tunneling and STM
+74.62.-c	3	74.	Transition temperature variations, phase diagrams
+74.70.-b	3	74.	Superconducting materials other than cuprates
+74.72.-h	3	74.	Cuprate superconductors
+74.78.-w	3	74.	Superconducting films and low-dimensional structures
+74.81.-g	3	74.	Inhomogeneous superconductors and superconducting systems, including electronic inhomogeneities
+74.90.+n	3	74.	Other topics in superconductivity (restricted to new topics in section 74)
+75.	2	70.	Magnetic properties and materials
+75.10.-b	3	75.	General theory and models of magnetic ordering
+75.20.-g	3	75.	Diamagnetism, paramagnetism, and superparamagnetism
+75.25.-j	3	75.	Spin arrangements in magnetically ordered materials (including neutron and spin-polarized electron studies, synchrotron-source x-ray scattering, etc.)
+75.30.-m	3	75.	Intrinsic properties of magnetically ordered materials
+75.40.-s	3	75.	Critical-point effects, specific heats, short-range order
+75.45.+j	3	75.	Macroscopic quantum phenomena in magnetic systems
+75.47.-m	3	75.	Magnetotransport phenomena; materials for magnetotransport
+75.50.-y	3	75.	Studies of specific magnetic materials
+75.60.-d	3	75.	Domain effects, magnetization curves, and hysteresis
+75.70.-i	3	75.	Magnetic properties of thin films, surfaces, and interfaces
+75.75.-c	3	75.	Magnetic properties of nanostructures
+75.76.+j	3	75.	Spin transport effects
+75.78.-n	3	75.	Magnetization dynamics
+75.80.+q	3	75.	Magnetomechanical effects, magnetostriction
+75.85.+t	3	75.	Magnetoelectric effects, multiferroics
+75.90.+w	3	75.	Other topics in magnetic properties and materials (restricted to new topics in section 75)
+76.	2	70.	Magnetic resonances and relaxations in condensed matter, M&#xF6;ssbauer effect
+76.20.+q	3	76.	General theory of resonances and relaxations
+76.30.-v	3	76.	Electron paramagnetic resonance and relaxation
+76.40.+b	3	76.	Diamagnetic and cyclotron resonances
+76.50.+g	3	76.	Ferromagnetic, antiferromagnetic, and ferrimagnetic resonances; spin-wave resonance
+76.60.-k	3	76.	Nuclear magnetic resonance and relaxation
+76.70.-r	3	76.	Magnetic double resonances and cross effects
+76.75.+i	3	76.	Muon spin rotation and relaxation
+76.80.+y	3	76.	M&#xF6;ssbauer effect; other &#x3B3;-ray spectroscopy
+76.90.+d	3	76.	Other topics in magnetic resonances and relaxations (restricted to new topics in section 76)
+77.	2	70.	Dielectrics, piezoelectrics, and ferroelectrics and their properties
+77.22.-d	3	77.	Dielectric properties of solids and liquids
+77.55.-g	3	77.	Dielectric thin films
+77.65.-j	3	77.	Piezoelectricity and electromechanical effects
+77.70.+a	3	77.	Pyroelectric and electrocaloric effects
+77.80.-e	3	77.	Ferroelectricity and antiferroelectricity
+77.84.-s	3	77.	Dielectric, piezoelectric, ferroelectric, and antiferroelectric materials
+77.90.+k	3	77.	Other topics in dielectrics, piezoelectrics, and ferroelectrics and their properties (restricted to new topics in section 77)
+78.	2	70.	Optical properties, condensed-matter spectroscopy and other interactions of radiation and particles with condensed matter
+78.15.+e	3	78.	Optical properties of fluid materials, supercritical fluids and liquid crystals
+78.20.-e	3	78.	Optical properties of bulk materials and thin films
+78.30.-j	3	78.	Infrared and Raman spectra
+78.35.+c	3	78.	Brillouin and Rayleigh scattering; other light scattering
+78.40.-q	3	78.	Absorption and reflection spectra: visible and ultraviolet
+78.45.+h	3	78.	Stimulated emission
+78.47.-p	3	78.	Spectroscopy of solid state dynamics
+78.55.-m	3	78.	Photoluminescence, properties and materials
+78.56.-a	3	78.	Photoconduction and photovoltaic effects
+78.60.-b	3	78.	Other luminescence and radiative recombination
+78.66.-w	3	78.	Optical properties of specific thin films
+78.67.-n	3	78.	Optical properties of low-dimensional, mesoscopic, and nanoscale materials and structures
+78.68.+m	3	78.	Optical properties of surfaces
+78.70.-g	3	78.	Interactions of particles and radiation with matter
+78.90.+t	3	78.	Other topics in optical properties, condensed matter spectroscopy and other interactions of particles and radiation with condensed matter (restricted to new topics in section 78)
+79.	2	70.	Electron and ion emission by liquids and solids; impact phenomena
+79.05.+c	3	79.	Solvated electrons
+79.10.-n	3	79.	Thermoelectronic phenomena
+79.20.-m	3	79.	Impact phenomena (including electron spectra and sputtering)
+79.40.+z	3	79.	Thermionic emission
+79.60.-i	3	79.	Photoemission and photoelectron spectra
+79.70.+q	3	79.	Field emission, ionization, evaporation, and desorption
+79.75.+g	3	79.	Exoelectron emission
+79.77.+g	3	79.	Coulomb explosion
+79.90.+b	3	79.	Other topics in electron and ion emission by liquids and solids and impact phenomena (restricted to new topics in section 79)
+80.	1		INTERDISCIPLINARY PHYSICS AND RELATED AREAS OF SCIENCE AND TECHNOLOGY
+81.	2	80.	Materials science
+81.05.-t	3	81.	Specific materials: fabrication, treatment, testing, and analysis
+81.07.-b	3	81.	Nanoscale materials and structures: fabrication and characterization
+81.10.-h	3	81.	Methods of crystal growth; physics and chemistry of crystal growth, crystal morphology, and orientation
+81.15.-z	3	81.	Methods of deposition of films and coatings; film growth and epitaxy
+81.16.-c	3	81.	Methods of micro- and nanofabrication and processing
+81.20.-n	3	81.	Methods of materials synthesis and materials processing
+81.30.-t	3	81.	Phase diagrams and microstructures developed by solidification and solid-solid phase transformations
+81.40.-z	3	81.	Treatment of materials and its effects on microstructure, nanostructure, and properties
+81.65.-b	3	81.	Surface treatments
+81.70.-q	3	81.	Methods of materials testing and analysis
+81.90.+c	3	81.	Other topics in materials science (restricted to new topics in section 81)
+82.	2	80.	Physical chemistry and chemical physics
+82.20.-w	3	82.	Chemical kinetics and dynamics
+82.30.-b	3	82.	Specific chemical reactions; reaction mechanisms
+82.33.-z	3	82.	Reactions in various media
+82.35.-x	3	82.	Polymers: properties; reactions; polymerization
+82.37.-j	3	82.	Single molecule kinetics
+82.39.-k	3	82.	Chemical kinetics in biological systems
+82.40.-g	3	82.	Chemical kinetics and reactions: special regimes and techniques
+82.45.-h	3	82.	Electrochemistry and electrophoresis
+82.47.-a	3	82.	Applied electrochemistry
+82.50.-m	3	82.	Photochemistry
+82.53.-k	3	82.	Femtochemistry
+82.56.-b	3	82.	Nuclear magnetic resonance
+82.60.-s	3	82.	Chemical thermodynamics
+82.65.+r	3	82.	Surface and interface chemistry; heterogeneous catalysis at surfaces
+82.70.-y	3	82.	Disperse systems; complex fluids
+82.75.-z	3	82.	Molecular sieves, zeolites, clathrates, and other complex solids
+82.80.-d	3	82.	Chemical analysis and related physical methods of analysis
+82.90.+j	3	82.	Other topics in physical chemistry and chemical physics (restricted to new topics in section 82)
+83.	2	80.	Rheology
+83.10.-y	3	83.	Fundamentals and theoretical
+83.50.-v	3	83.	Deformation and flow
+83.60.-a	3	83.	Material behavior
+83.80.-k	3	83.	Material type
+83.85.-c	3	83.	Techniques and apparatus
+83.90.+s	3	83.	Other topics in rheology (restricted to new topics in section 83)
+84.	2	80.	Electronics; radiowave and microwave technology; direct energy conversion and storage
+84.30.-r	3	84.	Electronic circuits
+84.32.-y	3	84.	Passive circuit components
+84.35.+i	3	84.	Neural networks
+84.37.+q	3	84.	Measurements in electric variables (including voltage, current, resistance, capacitance, inductance, impedance, and admittance, etc.)
+84.40.-x	3	84.	Radiowave and microwave (including millimeter wave) technology
+84.47.+w	3	84.	Vacuum tubes
+84.50.+d	3	84.	Electric motors
+84.60.-h	3	84.	Direct energy conversion and storage
+84.70.+p	3	84.	High-current and high-voltage technology: power systems; power transmission lines and cables
+84.71.-b	3	84.	Superconducting high-power technology
+84.90.+a	3	84.	Other topics in electronics, radiowave and microwave technology, and direct energy conversion and storage (restricted to new topics in section 84)
+85.	2	80.	Electronic and magnetic devices; microelectronics
+85.25.-j	3	85.	Superconducting devices
+85.30.-z	3	85.	Semiconductor devices
+85.35.-p	3	85.	Nanoelectronic devices
+85.40.-e	3	85.	Microelectronics: LSI, VLSI, ULSI; integrated circuit fabrication technology
+85.45.-w	3	85.	Vacuum microelectronics
+85.50.-n	3	85.	Dielectric, ferroelectric, and piezoelectric devices
+85.60.-q	3	85.	Optoelectronic devices
+85.65.+h	3	85.	Molecular electronic devices
+85.70.-w	3	85.	Magnetic devices
+85.75.-d	3	85.	Magnetoelectronics; spintronics: devices exploiting spin polarized transport or integrated magnetic fields
+85.80.-b	3	85.	Thermoelectromagnetic and other devices
+85.85.+j	3	85.	Micro- and nano-electromechanical systems (MEMS/NEMS) and devices
+85.90.+h	3	85.	Other topics in electronic and magnetic devices and microelectronics (restricted to new topics in section 85)
+87.	2	80.	Biological and medical physics
+87.10.-e	3	87.	General theory and mathematical aspects
+87.14.-g	3	87.	Biomolecules: types
+87.15.-v	3	87.	Biomolecules: structure and physical properties
+87.16.-b	3	87.	Subcellular structure and processes
+87.17.-d	3	87.	Cell processes
+87.18.-h	3	87.	Biological complexity
+87.19.-j	3	87.	Properties of higher organisms
+87.23.-n	3	87.	Ecology and evolution
+87.50.-a	3	87.	Effects of electromagnetic and acoustic fields on biological systems
+87.53.-j	3	87.	Effects of ionizing radiation on biological systems
+87.55.-x	3	87.	Treatment strategy
+87.56.-v	3	87.	Radiation therapy equipment
+87.57.-s	3	87.	Medical imaging
+87.59.-e	3	87.	X-ray imaging
+87.61.-c	3	87.	Magnetic resonance imaging
+87.63.-d	3	87.	Non-ionizing radiation equipment and techniques
+87.64.-t	3	87.	Spectroscopic and microscopic techniques in biophysics and medical physics
+87.80.-y	3	87.	Biophysical techniques (research methods)
+87.85.-d	3	87.	Biomedical engineering
+87.90.+y	3	87.	Other topics in biological and medical physics (restricted to new topics in section 87)
+88.	2	80.	Renewable energy resources and applications
+88.05.-b	3	88.	Energy analysis
+88.10.-g	3	88.	Geothermal energy
+88.20.-j	3	88.	Biomass energy
+88.30.-k	3	88.	Hydrogen and fuel cell technology
+88.40.-j	3	88.	Solar energy
+88.50.-k	3	88.	Wind energy
+88.60.-m	3	88.	Hydroelectric power
+88.80.-q	3	88.	Energy delivery and storage
+88.85.-r	3	88.	Advanced vehicles
+88.90.+t	3	88.	Other topics in renewable energy and applications (restricted to new topics in section 88)
+89.	2	80.	Other areas of applied and interdisciplinary physics
+89.20.-a	3	89.	Interdisciplinary applications of physics
+89.30.-g	3	89.	Fossil fuels and nuclear power
+89.40.-a	3	89.	Transportation
+89.60.-k	3	89.	Environmental studies
+89.65.-s	3	89.	Social and economic systems
+89.70.-a	3	89.	Information and communication theory
+89.75.-k	3	89.	Complex systems
+89.90.+n	3	89.	Other topics in areas of applied and interdisciplinary physics (restricted to new topics in section 89)
+90.	1		GEOPHYSICS, ASTRONOMY, AND ASTROPHYSICS
+91.	2	90.	Solid Earth physics
+91.10.-v	3	91.	Geodesy and gravity
+91.25.-r	3	91.	Geomagnetism and paleomagnetism; geoelectricity
+91.30.-f	3	91.	Seismology
+91.32.-m	3	91.	Rheology of the Earth
+91.35.-x	3	91.	Earth's interior structure and properties
+91.40.-k	3	91.	Volcanology
+91.45.-c	3	91.	Tectonophysics
+91.50.-r	3	91.	Marine geology and geophysics
+91.55.-y	3	91.	Structural geology
+91.60.-x	3	91.	Physical properties of rocks and minerals
+91.62.+g	3	91.	Biogeosciences
+91.65.-n	3	91.	Mineralogy and petrology
+91.67.-y	3	91.	Geochemistry
+91.70.-c	3	91.	Information related to geologic time
+91.80.+d	3	91.	Geochronology
+91.90.+p	3	91.	Other topics in solid Earth physics (restricted to new topics in section 91)
+92.	2	90.	Hydrospheric and atmospheric geophysics
+92.05.-x	3	92.	General aspects of oceanography
+92.10.-c	3	92.	Physical oceanography
+92.20.-h	3	92.	Chemical and biological oceanography
+92.30.+m	3	92.	Paleoceanography
+92.40.-t	3	92.	Hydrology and glaciology; cryosphere
+92.60.-e	3	92.	Properties and dynamics of the atmosphere; meteorology
+92.70.-j	3	92.	Global change
+92.90.+x	3	92.	Other topics in hydrospheric and atmospheric geophysics (restricted to new topics in section 92)
+93.	2	90.	Geophysical observations, instrumentation, and techniques
+93.30.-w	3	93.	Information related to geographical regions
+93.55.+z	3	93.	International organizations, national and international programs
+93.85.-q	3	93.	Instruments and techniques for geophysical research: Exploration geophysics
+93.90.+y	3	93.	Other topics in geophysical observations, instrumentation, and techniques (restricted to new topics in section 93)
+94.	2	90.	Physics of the ionosphere and magnetosphere
+94.05.-a	3	94.	Space plasma physics
+94.20.-y	3	94.	Physics of the ionosphere
+94.30.-d	3	94.	Physics of the magnetosphere
+94.80.+g	3	94.	Instrumentation for space plasma physics, ionosphere, and magnetosphere
+94.90.+m	3	94.	Other topics in space plasma physics, physics of the ionosphere and magnetosphere (restricted to new topics in section 94)
+95.	2	90.	Fundamental astronomy and astrophysics; instrumentation, techniques, and astronomical observations
+95.10.-a	3	95.	Fundamental astronomy
+95.30.-k	3	95.	Fundamental aspects of astrophysics
+95.35.+d	3	95.	Dark matter (stellar, interstellar, galactic, and cosmological)
+95.36.+x	3	95.	Dark energy
+95.40.+s	3	95.	Artificial Earth satellites
+95.45.+i	3	95.	Observatories and site testing
+95.55.-n	3	95.	Astronomical and space-research instrumentation
+95.75.-z	3	95.	Observation and data reduction techniques; computer modeling and simulation
+95.80.+p	3	95.	Astronomical catalogs, atlases, sky surveys, databases, retrieval systems, archives, etc.
+95.85.-e	3	95.	Astronomical observations (additional primary heading(s) must be chosen with these entries to represent the astronomical objects and/or properties studied)
+95.90.+v	3	95.	Historical astronomy and archaeoastronomy; and other topics in fundamental astronomy and astrophysics; instrumentation, techniques, and astronomical observations
+96.	2	90.	Solar system; planetology
+96.10.+i	3	96.	General; solar nebula; cosmogony
+96.12.-a	3	96.	Planetology of solid surface planets
+96.15.-g	3	96.	Planetology of fluid planets
+96.20.-n	3	96.	Moon
+96.25.-f	3	96.	Planetology of comets and small bodies
+96.30.-t	3	96.	Solar system objects
+96.50.-e	3	96.	Interplanetary physics
+96.55.+z	3	96.	Astrobiology and astrochemistry of the Solar system and interplanetary space
+96.60.-j	3	96.	Solar physics
+96.90.+c	3	96.	Other topics on the Solar system and planetology (restricted to new topics in section 96)
+97.	2	90.	Stars
+97.10.-q	3	97.	Stellar characteristics and properties
+97.20.-w	3	97.	Normal stars (by class): general or individual
+97.21.+a	3	97.	Pre-main sequence objects, young stellar objects (YSO's) and protostars (T Tauri stars, Orion population, Herbig-Haro objects, Bok globules, bipolar outflows, cometary nebulae, etc.)
+97.30.-b	3	97.	Variable and peculiar stars (including novae)
+97.60.-s	3	97.	Late stages of stellar evolution (including black holes)
+97.80.-d	3	97.	Binary and multiple stars
+97.82.-j	3	97.	Extrasolar planetary systems
+97.90.+j	3	97.	Other topics on stars (restricted to new topics in section 97)
+98.	2	90.	Stellar systems; interstellar medium; galactic and extragalactic objects and systems; the Universe
+98.10.+z	3	98.	Stellar dynamics and kinematics
+98.20.-d	3	98.	Stellar clusters and associations
+98.35.-a	3	98.	Characteristics and properties of the Milky Way galaxy
+98.38.-j	3	98.	Interstellar medium (ISM) and nebulae in Milky Way
+98.52.-b	3	98.	Normal galaxies; extragalactic objects and systems (by type)
+98.54.-h	3	98.	Quasars; active or peculiar galaxies, objects, and systems
+98.56.-p	3	98.	Local group; Magellanic Clouds
+98.58.-w	3	98.	Interstellar medium (ISM) and nebulae in external galaxies
+98.62.-g	3	98.	Characteristics and properties of external galaxies and extragalactic objects
+98.65.-r	3	98.	Galaxy groups, clusters, and superclusters; large scale structure of the Universe
+98.70.-f	3	98.	Unidentified sources of radiation outside the Solar System
+98.80.-k	3	98.	Cosmology
+98.90.+s	3	98.	Other topics on stellar systems; interstellar medium; galactic and extragalactic objects and systems; the Universe (restricted to new topics in section 98)

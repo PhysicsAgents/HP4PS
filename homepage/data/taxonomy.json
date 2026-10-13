@@ -1,146 +1,8748 @@
 {
-  "status": "draft",
-  "standards": {
-    "PACS": "PACS 2010",
-    "GB": "GB/T 13745-2009"
-  },
-  "nodes": [
+ "standards": {
+  "PACS": "PACS 2010",
+  "GB": "GB/T 13745-2009"
+ },
+ "nodes": [
+  {
+   "id": "00",
+   "name": {
+    "en": "General",
+    "zh": "物理学总论"
+   },
+   "source": {
+    "PACS": "00.",
+    "GB": [
+     "140.99"
+    ]
+   },
+   "children": [
     {
-      "id": "00",
-      "name": { "en": "General", "zh": "物理学总论" },
-      "source": { "PACS": "00" },
-      "children": [
-        { "id": "01", "name": { "en": "Communication, education, history, and philosophy", "zh": "交流、教育、历史与哲学" }, "source": { "PACS": "01", "GB": "140.10" } },
-        { "id": "02", "name": { "en": "Mathematical methods in physics", "zh": "物理学中的数学方法" }, "source": { "PACS": "02", "GB": "140.75" } },
-        { "id": "03", "name": { "en": "Quantum mechanics, field theories, and special relativity", "zh": "量子力学、场论与狭义相对论" }, "source": { "PACS": "03", "GB": "140.15" } },
-        { "id": "04", "name": { "en": "General relativity and gravitation", "zh": "广义相对论与引力" }, "source": { "PACS": "04", "GB": "140.15" } },
-        { "id": "05", "name": { "en": "Statistical physics, thermodynamics, and nonlinear dynamical systems", "zh": "统计物理、热力学与非线性动力系统" }, "source": { "PACS": "05", "GB": "140.25" } },
-        { "id": "06", "name": { "en": "Metrology, measurements, and laboratory procedures", "zh": "计量、测量与实验方法" }, "source": { "PACS": "06" } },
-        { "id": "07", "name": { "en": "Instruments, apparatus, and components", "zh": "仪器、装置与元件" }, "source": { "PACS": "07" } }
-      ]
+     "id": "01",
+     "name": {
+      "en": "Communication, education, history, and philosophy",
+      "zh": "交流、教育、历史与哲学"
+     },
+     "source": {
+      "PACS": "01."
+     },
+     "children": [
+      {
+       "id": "01.10",
+       "name": {
+        "en": "Announcements, news, and organizational activities",
+        "zh": "公告、新闻与组织活动"
+       },
+       "source": {
+        "PACS": "01.10.-m"
+       }
+      },
+      {
+       "id": "01.20",
+       "name": {
+        "en": "Communication forms and techniques (written, oral, electronic, etc.)",
+        "zh": "交流形式与技术（书面、口头、电子等）"
+       },
+       "source": {
+        "PACS": "01.20.+x"
+       }
+      },
+      {
+       "id": "01.30",
+       "name": {
+        "en": "Physics literature and publications",
+        "zh": "物理学文献与出版物"
+       },
+       "source": {
+        "PACS": "01.30.-y"
+       }
+      },
+      {
+       "id": "01.40",
+       "name": {
+        "en": "Education",
+        "zh": "教育"
+       },
+       "source": {
+        "PACS": "01.40.-d"
+       }
+      },
+      {
+       "id": "01.50",
+       "name": {
+        "en": "Educational aids",
+        "zh": "教具"
+       },
+       "source": {
+        "PACS": "01.50.-i"
+       }
+      },
+      {
+       "id": "01.52",
+       "name": {
+        "en": "National and international laboratory facilities",
+        "zh": "国家与国际实验室设施"
+       },
+       "source": {
+        "PACS": "01.52.+r"
+       }
+      },
+      {
+       "id": "01.55",
+       "name": {
+        "en": "General physics",
+        "zh": "普通物理"
+       },
+       "source": {
+        "PACS": "01.55.+b"
+       }
+      },
+      {
+       "id": "01.60",
+       "name": {
+        "en": "Biographies, tributes, personal notes, and obituaries",
+        "zh": "传记、纪念、个人记述与讣告"
+       },
+       "source": {
+        "PACS": "01.60.+q"
+       }
+      },
+      {
+       "id": "01.65",
+       "name": {
+        "en": "History of science",
+        "zh": "科学史"
+       },
+       "source": {
+        "PACS": "01.65.+g",
+        "GB": [
+         "140.10"
+        ]
+       }
+      },
+      {
+       "id": "01.70",
+       "name": {
+        "en": "Philosophy of science",
+        "zh": "科学哲学"
+       },
+       "source": {
+        "PACS": "01.70.+w"
+       }
+      },
+      {
+       "id": "01.75",
+       "name": {
+        "en": "Science and society",
+        "zh": "科学与社会"
+       },
+       "source": {
+        "PACS": "01.75.+m"
+       }
+      },
+      {
+       "id": "01.78",
+       "name": {
+        "en": "Science and government (funding, politics, etc.)",
+        "zh": "科学与政府（经费、政策等）"
+       },
+       "source": {
+        "PACS": "01.78.+p"
+       }
+      },
+      {
+       "id": "01.80",
+       "name": {
+        "en": "Physics of games and sports",
+        "zh": "游戏与体育运动物理"
+       },
+       "source": {
+        "PACS": "01.80.+b"
+       }
+      },
+      {
+       "id": "01.85",
+       "name": {
+        "en": "Careers in physics and science",
+        "zh": "物理学与科学职业"
+       },
+       "source": {
+        "PACS": "01.85.+f"
+       }
+      },
+      {
+       "id": "01.90",
+       "name": {
+        "en": "Other topics of general interest (restricted to new topics in section 01)",
+        "zh": "其他一般性课题（仅限第 01 节新课题）"
+       },
+       "source": {
+        "PACS": "01.90.+g"
+       }
+      }
+     ]
     },
     {
-      "id": "10",
-      "name": { "en": "Elementary particles and fields", "zh": "粒子物理与场" },
-      "source": { "PACS": "10", "GB": "140.70" },
-      "children": [
-        { "id": "11", "name": { "en": "General theory of fields and particles", "zh": "场与粒子的一般理论" }, "source": { "PACS": "11" } },
-        { "id": "12", "name": { "en": "Specific theories and interaction models; particle systematics", "zh": "具体理论与相互作用模型；粒子分类" }, "source": { "PACS": "12" } },
-        { "id": "13", "name": { "en": "Specific reactions and phenomenology", "zh": "具体反应与唯象学" }, "source": { "PACS": "13" } },
-        { "id": "14", "name": { "en": "Properties of specific particles", "zh": "具体粒子的性质" }, "source": { "PACS": "14" } }
+     "id": "02",
+     "name": {
+      "en": "Mathematical methods in physics",
+      "zh": "物理学中的数学方法"
+     },
+     "source": {
+      "PACS": "02.",
+      "GB": [
+       "140.1510"
       ]
+     },
+     "children": [
+      {
+       "id": "02.10",
+       "name": {
+        "en": "Logic, set theory, and algebra",
+        "zh": "逻辑、集合论与代数"
+       },
+       "source": {
+        "PACS": "02.10.-v"
+       }
+      },
+      {
+       "id": "02.20",
+       "name": {
+        "en": "Group theory",
+        "zh": "群论"
+       },
+       "source": {
+        "PACS": "02.20.-a"
+       }
+      },
+      {
+       "id": "02.30",
+       "name": {
+        "en": "Function theory, analysis",
+        "zh": "函数论、分析"
+       },
+       "source": {
+        "PACS": "02.30.-f"
+       }
+      },
+      {
+       "id": "02.40",
+       "name": {
+        "en": "Geometry, differential geometry, and topology",
+        "zh": "几何、微分几何与拓扑"
+       },
+       "source": {
+        "PACS": "02.40.-k"
+       }
+      },
+      {
+       "id": "02.50",
+       "name": {
+        "en": "Probability theory, stochastic processes, and statistics",
+        "zh": "概率论、随机过程与统计"
+       },
+       "source": {
+        "PACS": "02.50.-r"
+       }
+      },
+      {
+       "id": "02.60",
+       "name": {
+        "en": "Numerical approximation and analysis",
+        "zh": "数值逼近与分析"
+       },
+       "source": {
+        "PACS": "02.60.-x"
+       }
+      },
+      {
+       "id": "02.70",
+       "name": {
+        "en": "Computational techniques; simulations",
+        "zh": "计算技术；模拟"
+       },
+       "source": {
+        "PACS": "02.70.-c",
+        "GB": [
+         "140.75"
+        ]
+       }
+      },
+      {
+       "id": "02.90",
+       "name": {
+        "en": "Other topics in mathematical methods in physics (restricted to new topics in section 02)",
+        "zh": "物理学数学方法的其他课题（仅限第 02 节新课题）"
+       },
+       "source": {
+        "PACS": "02.90.+p"
+       }
+      }
+     ]
     },
     {
-      "id": "20",
-      "name": { "en": "Nuclear physics", "zh": "原子核物理" },
-      "source": { "PACS": "20", "GB": "140.65" },
-      "children": [
-        { "id": "21", "name": { "en": "Nuclear structure", "zh": "核结构" }, "source": { "PACS": "21" } },
-        { "id": "23", "name": { "en": "Radioactive decay and in-beam spectroscopy", "zh": "放射性衰变与在束谱学" }, "source": { "PACS": "23" } },
-        { "id": "24", "name": { "en": "Nuclear reactions: general", "zh": "核反应：一般" }, "source": { "PACS": "24" } },
-        { "id": "25", "name": { "en": "Nuclear reactions: specific reactions", "zh": "核反应：具体反应" }, "source": { "PACS": "25" } },
-        { "id": "26", "name": { "en": "Nuclear astrophysics", "zh": "核天体物理" }, "source": { "PACS": "26" } },
-        { "id": "27", "name": { "en": "Properties of specific nuclei", "zh": "具体原子核的性质" }, "source": { "PACS": "27" } },
-        { "id": "28", "name": { "en": "Nuclear engineering and nuclear power", "zh": "核工程与核能" }, "source": { "PACS": "28" } },
-        { "id": "29", "name": { "en": "Experimental methods and instrumentation for particle and nuclear physics", "zh": "粒子与核物理实验方法和仪器" }, "source": { "PACS": "29" } }
+     "id": "03",
+     "name": {
+      "en": "Quantum mechanics, field theories, and special relativity",
+      "zh": "量子力学、场论与狭义相对论"
+     },
+     "source": {
+      "PACS": "03.",
+      "GB": [
+       "140.15",
+       "140.1599"
       ]
+     },
+     "children": [
+      {
+       "id": "03.30",
+       "name": {
+        "en": "Special relativity",
+        "zh": "狭义相对论"
+       },
+       "source": {
+        "PACS": "03.30.+p",
+        "GB": [
+         "140.1540"
+        ]
+       }
+      },
+      {
+       "id": "03.50",
+       "name": {
+        "en": "Classical field theories",
+        "zh": "经典场论"
+       },
+       "source": {
+        "PACS": "03.50.-z",
+        "GB": [
+         "140.1520",
+         "140.1530",
+         "140.3540"
+        ]
+       }
+      },
+      {
+       "id": "03.65",
+       "name": {
+        "en": "Quantum mechanics",
+        "zh": "量子力学"
+       },
+       "source": {
+        "PACS": "03.65.-w",
+        "GB": [
+         "140.1550"
+        ]
+       }
+      },
+      {
+       "id": "03.67",
+       "name": {
+        "en": "Quantum information",
+        "zh": "量子信息"
+       },
+       "source": {
+        "PACS": "03.67.-a"
+       }
+      },
+      {
+       "id": "03.70",
+       "name": {
+        "en": "Theory of quantized fields",
+        "zh": "量子化场论"
+       },
+       "source": {
+        "PACS": "03.70.+k"
+       }
+      },
+      {
+       "id": "03.75",
+       "name": {
+        "en": "Matter waves",
+        "zh": "物质波"
+       },
+       "source": {
+        "PACS": "03.75.-b"
+       }
+      }
+     ]
     },
     {
-      "id": "30",
-      "name": { "en": "Atomic and molecular physics", "zh": "原子与分子物理" },
-      "source": { "PACS": "30", "GB": "140.60" },
-      "children": [
-        { "id": "31", "name": { "en": "Electronic structure of atoms and molecules: theory", "zh": "原子与分子电子结构：理论" }, "source": { "PACS": "31" } },
-        { "id": "32", "name": { "en": "Atomic properties and interactions with photons", "zh": "原子性质及与光子的相互作用" }, "source": { "PACS": "32" } },
-        { "id": "33", "name": { "en": "Molecular properties and interactions with photons", "zh": "分子性质及与光子的相互作用" }, "source": { "PACS": "33" } },
-        { "id": "34", "name": { "en": "Atomic and molecular collision processes and interactions", "zh": "原子与分子碰撞过程及相互作用" }, "source": { "PACS": "34" } },
-        { "id": "36", "name": { "en": "Exotic atoms and molecules; macromolecules; clusters", "zh": "奇异原子与分子；大分子；团簇" }, "source": { "PACS": "36" } },
-        { "id": "37", "name": { "en": "Mechanical control of atoms, molecules, and ions", "zh": "原子、分子与离子的力学操控" }, "source": { "PACS": "37" } }
+     "id": "04",
+     "name": {
+      "en": "General relativity and gravitation",
+      "zh": "广义相对论与引力"
+     },
+     "source": {
+      "PACS": "04.",
+      "GB": [
+       "140.15",
+       "140.1540",
+       "140.1599"
       ]
+     },
+     "children": [
+      {
+       "id": "04.20",
+       "name": {
+        "en": "Classical general relativity",
+        "zh": "经典广义相对论"
+       },
+       "source": {
+        "PACS": "04.20.-q"
+       }
+      },
+      {
+       "id": "04.25",
+       "name": {
+        "en": "Approximation methods; equations of motion",
+        "zh": "近似方法；运动方程"
+       },
+       "source": {
+        "PACS": "04.25.-g"
+       }
+      },
+      {
+       "id": "04.30",
+       "name": {
+        "en": "Gravitational waves",
+        "zh": "引力波"
+       },
+       "source": {
+        "PACS": "04.30.-w"
+       }
+      },
+      {
+       "id": "04.40",
+       "name": {
+        "en": "Self-gravitating systems; continuous media and classical fields in curved spacetime",
+        "zh": "自引力系统；弯曲时空中的连续介质与经典场"
+       },
+       "source": {
+        "PACS": "04.40.-b"
+       }
+      },
+      {
+       "id": "04.50",
+       "name": {
+        "en": "Higher-dimensional gravity and other theories of gravity",
+        "zh": "高维引力及其他引力理论"
+       },
+       "source": {
+        "PACS": "04.50.-h"
+       }
+      },
+      {
+       "id": "04.60",
+       "name": {
+        "en": "Quantum gravity",
+        "zh": "量子引力"
+       },
+       "source": {
+        "PACS": "04.60.-m"
+       }
+      },
+      {
+       "id": "04.62",
+       "name": {
+        "en": "Quantum fields in curved spacetime",
+        "zh": "弯曲时空中的量子场"
+       },
+       "source": {
+        "PACS": "04.62.+v"
+       }
+      },
+      {
+       "id": "04.65",
+       "name": {
+        "en": "Supergravity",
+        "zh": "超引力"
+       },
+       "source": {
+        "PACS": "04.65.+e"
+       }
+      },
+      {
+       "id": "04.70",
+       "name": {
+        "en": "Physics of black holes",
+        "zh": "黑洞物理"
+       },
+       "source": {
+        "PACS": "04.70.-s"
+       }
+      },
+      {
+       "id": "04.80",
+       "name": {
+        "en": "Experimental studies of gravity",
+        "zh": "引力的实验研究"
+       },
+       "source": {
+        "PACS": "04.80.-y"
+       }
+      },
+      {
+       "id": "04.90",
+       "name": {
+        "en": "Other topics in general relativity and gravitation (restricted to new topics in section 04)",
+        "zh": "广义相对论与引力的其他课题（仅限第 04 节新课题）"
+       },
+       "source": {
+        "PACS": "04.90.+e"
+       }
+      }
+     ]
     },
     {
-      "id": "40",
-      "name": { "en": "Electromagnetism, optics, acoustics, heat transfer, classical mechanics, and fluid dynamics", "zh": "电磁学、光学、声学、传热、经典力学与流体力学" },
-      "source": { "PACS": "40" },
-      "children": [
-        { "id": "41", "name": { "en": "Electromagnetism; electron and ion optics", "zh": "电磁学；电子与离子光学" }, "source": { "PACS": "41", "GB": "140.35" } },
-        { "id": "42", "name": { "en": "Optics", "zh": "光学" }, "source": { "PACS": "42", "GB": "140.30" } },
-        { "id": "43", "name": { "en": "Acoustics", "zh": "声学" }, "source": { "PACS": "43", "GB": "140.20" } },
-        { "id": "44", "name": { "en": "Heat transfer", "zh": "传热" }, "source": { "PACS": "44", "GB": "140.25" } },
-        { "id": "45", "name": { "en": "Classical mechanics of discrete systems", "zh": "离散系统经典力学" }, "source": { "PACS": "45", "GB": "130" } },
-        { "id": "46", "name": { "en": "Continuum mechanics of solids", "zh": "固体连续介质力学" }, "source": { "PACS": "46", "GB": "130" } },
-        { "id": "47", "name": { "en": "Fluid dynamics", "zh": "流体力学" }, "source": { "PACS": "47", "GB": "130" } }
-      ]
+     "id": "05",
+     "name": {
+      "en": "Statistical physics, thermodynamics, and nonlinear dynamical systems",
+      "zh": "统计物理、热力学与非线性动力系统"
+     },
+     "source": {
+      "PACS": "05."
+     },
+     "children": [
+      {
+       "id": "05.10",
+       "name": {
+        "en": "Computational methods in statistical physics and nonlinear dynamics",
+        "zh": "统计物理与非线性动力学的计算方法"
+       },
+       "source": {
+        "PACS": "05.10.-a",
+        "GB": [
+         "140.75"
+        ]
+       }
+      },
+      {
+       "id": "05.20",
+       "name": {
+        "en": "Classical statistical mechanics",
+        "zh": "经典统计力学"
+       },
+       "source": {
+        "PACS": "05.20.-y",
+        "GB": [
+         "130.45",
+         "140.1560"
+        ]
+       }
+      },
+      {
+       "id": "05.30",
+       "name": {
+        "en": "Quantum statistical mechanics",
+        "zh": "量子统计力学"
+       },
+       "source": {
+        "PACS": "05.30.-d",
+        "GB": [
+         "140.1560"
+        ]
+       }
+      },
+      {
+       "id": "05.40",
+       "name": {
+        "en": "Fluctuation phenomena, random processes, noise, and Brownian motion",
+        "zh": "涨落现象、随机过程、噪声与布朗运动"
+       },
+       "source": {
+        "PACS": "05.40.-a"
+       }
+      },
+      {
+       "id": "05.45",
+       "name": {
+        "en": "Nonlinear dynamics and chaos",
+        "zh": "非线性动力学与混沌"
+       },
+       "source": {
+        "PACS": "05.45.-a"
+       }
+      },
+      {
+       "id": "05.50",
+       "name": {
+        "en": "Lattice theory and statistics (Ising, Potts, etc.)",
+        "zh": "格点理论与统计（伊辛、波茨模型等）"
+       },
+       "source": {
+        "PACS": "05.50.+q"
+       }
+      },
+      {
+       "id": "05.60",
+       "name": {
+        "en": "Transport processes",
+        "zh": "输运过程"
+       },
+       "source": {
+        "PACS": "05.60.-k"
+       }
+      },
+      {
+       "id": "05.65",
+       "name": {
+        "en": "Self-organized systems",
+        "zh": "自组织系统"
+       },
+       "source": {
+        "PACS": "05.65.+b"
+       }
+      },
+      {
+       "id": "05.70",
+       "name": {
+        "en": "Thermodynamics",
+        "zh": "热力学"
+       },
+       "source": {
+        "PACS": "05.70.-a",
+        "GB": [
+         "140.25",
+         "140.2510"
+        ]
+       }
+      },
+      {
+       "id": "05.90",
+       "name": {
+        "en": "Other topics in statistical physics, thermodynamics, and nonlinear dynamical systems (restricted to new topics in section 05)",
+        "zh": "统计物理、热力学与非线性动力系统的其他课题（仅限第 05 节新课题）"
+       },
+       "source": {
+        "PACS": "05.90.+m"
+       }
+      }
+     ]
     },
     {
-      "id": "50",
-      "name": { "en": "Physics of gases, plasmas, and electric discharges", "zh": "气体、等离子体与放电物理" },
-      "source": { "PACS": "50" },
-      "children": [
-        { "id": "51", "name": { "en": "Physics of gases", "zh": "气体物理" }, "source": { "PACS": "51" } },
-        { "id": "52", "name": { "en": "Physics of plasmas and electric discharges", "zh": "等离子体与放电物理" }, "source": { "PACS": "52", "GB": "140.55" } }
-      ]
+     "id": "06",
+     "name": {
+      "en": "Metrology, measurements, and laboratory procedures",
+      "zh": "计量、测量与实验室方法"
+     },
+     "source": {
+      "PACS": "06."
+     },
+     "children": [
+      {
+       "id": "06.20",
+       "name": {
+        "en": "Metrology",
+        "zh": "计量学"
+       },
+       "source": {
+        "PACS": "06.20.-f"
+       }
+      },
+      {
+       "id": "06.30",
+       "name": {
+        "en": "Measurements common to several branches of physics and astronomy",
+        "zh": "物理学与天文学多个分支共用的测量"
+       },
+       "source": {
+        "PACS": "06.30.-k"
+       }
+      },
+      {
+       "id": "06.60",
+       "name": {
+        "en": "Laboratory procedures",
+        "zh": "实验室方法"
+       },
+       "source": {
+        "PACS": "06.60.-c"
+       }
+      },
+      {
+       "id": "06.90",
+       "name": {
+        "en": "Other topics in metrology, measurements, and laboratory procedures (restricted to new topics in section 06)",
+        "zh": "计量、测量与实验室方法的其他课题（仅限第 06 节新课题）"
+       },
+       "source": {
+        "PACS": "06.90.+v"
+       }
+      }
+     ]
     },
     {
-      "id": "60",
-      "name": { "en": "Condensed matter: structural, mechanical and thermal properties", "zh": "凝聚态：结构、力学与热学性质" },
-      "source": { "PACS": "60", "GB": "140.50" },
-      "children": [
-        { "id": "61", "name": { "en": "Structure of solids and liquids; crystallography", "zh": "固体与液体结构；晶体学" }, "source": { "PACS": "61" } },
-        { "id": "62", "name": { "en": "Mechanical and acoustical properties of condensed matter", "zh": "凝聚态的力学与声学性质" }, "source": { "PACS": "62" } },
-        { "id": "63", "name": { "en": "Lattice dynamics", "zh": "晶格动力学" }, "source": { "PACS": "63" } },
-        { "id": "64", "name": { "en": "Equations of state, phase equilibria, and phase transitions", "zh": "物态方程、相平衡与相变" }, "source": { "PACS": "64" } },
-        { "id": "65", "name": { "en": "Thermal properties of condensed matter", "zh": "凝聚态的热学性质" }, "source": { "PACS": "65" } },
-        { "id": "66", "name": { "en": "Nonelectronic transport properties of condensed matter", "zh": "凝聚态的非电子输运性质" }, "source": { "PACS": "66" } },
-        { "id": "67", "name": { "en": "Quantum fluids and solids", "zh": "量子流体与量子固体" }, "source": { "PACS": "67" } },
-        { "id": "68", "name": { "en": "Surfaces and interfaces; thin films and nanosystems", "zh": "表面与界面；薄膜与纳米体系" }, "source": { "PACS": "68" } }
-      ]
-    },
-    {
-      "id": "70",
-      "name": { "en": "Condensed matter: electronic structure, electrical, magnetic, and optical properties", "zh": "凝聚态：电子结构、电学、磁学与光学性质" },
-      "source": { "PACS": "70", "GB": "140.50" },
-      "children": [
-        { "id": "71", "name": { "en": "Electronic structure of bulk materials", "zh": "体材料电子结构" }, "source": { "PACS": "71" } },
-        { "id": "72", "name": { "en": "Electronic transport in condensed matter", "zh": "凝聚态电子输运" }, "source": { "PACS": "72" } },
-        { "id": "73", "name": { "en": "Surfaces, interfaces, thin films, and low-dimensional structures", "zh": "表面、界面、薄膜与低维结构" }, "source": { "PACS": "73" } },
-        { "id": "74", "name": { "en": "Superconductivity", "zh": "超导" }, "source": { "PACS": "74" } },
-        { "id": "75", "name": { "en": "Magnetic properties and materials", "zh": "磁性与磁性材料" }, "source": { "PACS": "75" } },
-        { "id": "76", "name": { "en": "Magnetic resonances and relaxations; Mössbauer effect", "zh": "磁共振与弛豫；穆斯堡尔效应" }, "source": { "PACS": "76" } },
-        { "id": "77", "name": { "en": "Dielectrics, piezoelectrics, and ferroelectrics", "zh": "电介质、压电体与铁电体" }, "source": { "PACS": "77" } },
-        { "id": "78", "name": { "en": "Optical properties and condensed-matter spectroscopy", "zh": "光学性质与凝聚态光谱学" }, "source": { "PACS": "78" } },
-        { "id": "79", "name": { "en": "Electron and ion emission; impact phenomena", "zh": "电子与离子发射；碰撞现象" }, "source": { "PACS": "79", "GB": "140.45" } }
-      ]
-    },
-    {
-      "id": "80",
-      "name": { "en": "Interdisciplinary physics and related areas", "zh": "交叉物理及相关领域" },
-      "source": { "PACS": "80", "GB": "140.80" },
-      "children": [
-        { "id": "81", "name": { "en": "Materials science", "zh": "材料科学" }, "source": { "PACS": "81" } },
-        { "id": "82", "name": { "en": "Physical chemistry and chemical physics", "zh": "物理化学与化学物理" }, "source": { "PACS": "82" } },
-        { "id": "83", "name": { "en": "Rheology", "zh": "流变学" }, "source": { "PACS": "83" } },
-        { "id": "84", "name": { "en": "Electronics; radiowave and microwave technology; energy conversion and storage", "zh": "电子学；无线电与微波技术；能量转换与存储" }, "source": { "PACS": "84", "GB": "140.40" } },
-        { "id": "85", "name": { "en": "Electronic and magnetic devices; microelectronics", "zh": "电子与磁性器件；微电子学" }, "source": { "PACS": "85", "GB": "140.45" } },
-        { "id": "87", "name": { "en": "Biological and medical physics", "zh": "生物与医学物理" }, "source": { "PACS": "87" } },
-        { "id": "88", "name": { "en": "Renewable energy resources and applications", "zh": "可再生能源及应用" }, "source": { "PACS": "88" } },
-        { "id": "89", "name": { "en": "Other areas of applied and interdisciplinary physics", "zh": "其他应用与交叉物理" }, "source": { "PACS": "89" } }
-      ]
-    },
-    {
-      "id": "90",
-      "name": { "en": "Geophysics, astronomy, and astrophysics", "zh": "地球物理、天文学与天体物理" },
-      "source": { "PACS": "90" },
-      "children": [
-        { "id": "91", "name": { "en": "Solid Earth physics", "zh": "固体地球物理" }, "source": { "PACS": "91", "GB": "170" } },
-        { "id": "92", "name": { "en": "Hydrospheric and atmospheric geophysics", "zh": "水圈与大气地球物理" }, "source": { "PACS": "92", "GB": "170" } },
-        { "id": "93", "name": { "en": "Geophysical observations, instrumentation, and techniques", "zh": "地球物理观测、仪器与技术" }, "source": { "PACS": "93", "GB": "170" } },
-        { "id": "94", "name": { "en": "Physics of the ionosphere and magnetosphere", "zh": "电离层与磁层物理" }, "source": { "PACS": "94", "GB": "170" } },
-        { "id": "95", "name": { "en": "Fundamental astronomy and astrophysics", "zh": "基础天文学与天体物理" }, "source": { "PACS": "95", "GB": "160" } },
-        { "id": "96", "name": { "en": "Solar system; planetology", "zh": "太阳系；行星科学" }, "source": { "PACS": "96", "GB": "160" } },
-        { "id": "97", "name": { "en": "Stars", "zh": "恒星" }, "source": { "PACS": "97", "GB": "160" } },
-        { "id": "98", "name": { "en": "Stellar systems; galactic and extragalactic objects; the Universe", "zh": "恒星系统；星系与河外天体；宇宙" }, "source": { "PACS": "98", "GB": "160" } }
-      ]
+     "id": "07",
+     "name": {
+      "en": "Instruments, apparatus, and components common to several branches of physics and astronomy",
+      "zh": "物理学与天文学多个分支共用的仪器、装置与元件"
+     },
+     "source": {
+      "PACS": "07."
+     },
+     "children": [
+      {
+       "id": "07.05",
+       "name": {
+        "en": "Computers in experimental physics",
+        "zh": "实验物理中的计算机"
+       },
+       "source": {
+        "PACS": "07.05.-t"
+       }
+      },
+      {
+       "id": "07.07",
+       "name": {
+        "en": "General equipment",
+        "zh": "通用设备"
+       },
+       "source": {
+        "PACS": "07.07.-a"
+       }
+      },
+      {
+       "id": "07.10",
+       "name": {
+        "en": "Mechanical instruments and equipment",
+        "zh": "机械仪器与设备"
+       },
+       "source": {
+        "PACS": "07.10.-h"
+       }
+      },
+      {
+       "id": "07.20",
+       "name": {
+        "en": "Thermal instruments and apparatus",
+        "zh": "热学仪器与装置"
+       },
+       "source": {
+        "PACS": "07.20.-n"
+       }
+      },
+      {
+       "id": "07.30",
+       "name": {
+        "en": "Vacuum apparatus",
+        "zh": "真空装置"
+       },
+       "source": {
+        "PACS": "07.30.-t",
+        "GB": [
+         "140.4520"
+        ]
+       }
+      },
+      {
+       "id": "07.35",
+       "name": {
+        "en": "High-pressure apparatus; shock tubes; diamond anvil cells",
+        "zh": "高压装置；激波管；金刚石对顶砧"
+       },
+       "source": {
+        "PACS": "07.35.+k"
+       }
+      },
+      {
+       "id": "07.50",
+       "name": {
+        "en": "Electrical and electronic instruments and components",
+        "zh": "电学与电子仪器及元件"
+       },
+       "source": {
+        "PACS": "07.50.-e"
+       }
+      },
+      {
+       "id": "07.55",
+       "name": {
+        "en": "Magnetic instruments and components",
+        "zh": "磁学仪器与元件"
+       },
+       "source": {
+        "PACS": "07.55.-w"
+       }
+      },
+      {
+       "id": "07.57",
+       "name": {
+        "en": "Infrared, submillimeter wave, microwave and radiowave instruments and equipment",
+        "zh": "红外、亚毫米波、微波与无线电波仪器及设备"
+       },
+       "source": {
+        "PACS": "07.57.-c",
+        "GB": [
+         "140.3050",
+         "140.4030"
+        ]
+       }
+      },
+      {
+       "id": "07.60",
+       "name": {
+        "en": "Optical instruments and equipment",
+        "zh": "光学仪器与设备"
+       },
+       "source": {
+        "PACS": "07.60.-j"
+       }
+      },
+      {
+       "id": "07.64",
+       "name": {
+        "en": "Acoustic instruments and equipment",
+        "zh": "声学仪器与设备"
+       },
+       "source": {
+        "PACS": "07.64.+z"
+       }
+      },
+      {
+       "id": "07.68",
+       "name": {
+        "en": "Photography, photographic instruments; xerography",
+        "zh": "摄影与摄影仪器；静电复印"
+       },
+       "source": {
+        "PACS": "07.68.+m"
+       }
+      },
+      {
+       "id": "07.75",
+       "name": {
+        "en": "Mass spectrometers",
+        "zh": "质谱仪"
+       },
+       "source": {
+        "PACS": "07.75.+h"
+       }
+      },
+      {
+       "id": "07.77",
+       "name": {
+        "en": "Atomic, molecular, and charged-particle sources and detectors",
+        "zh": "原子、分子与带电粒子源及探测器"
+       },
+       "source": {
+        "PACS": "07.77.-n"
+       }
+      },
+      {
+       "id": "07.78",
+       "name": {
+        "en": "Electron, positron, and ion microscopes; electron diffractometers",
+        "zh": "电子、正电子与离子显微镜；电子衍射仪"
+       },
+       "source": {
+        "PACS": "07.78.+s"
+       }
+      },
+      {
+       "id": "07.79",
+       "name": {
+        "en": "Scanning probe microscopes and components",
+        "zh": "扫描探针显微镜及其部件"
+       },
+       "source": {
+        "PACS": "07.79.-v"
+       }
+      },
+      {
+       "id": "07.81",
+       "name": {
+        "en": "Electron and ion spectrometers",
+        "zh": "电子与离子能谱仪"
+       },
+       "source": {
+        "PACS": "07.81.+a"
+       }
+      },
+      {
+       "id": "07.85",
+       "name": {
+        "en": "X- and γ-ray instruments",
+        "zh": "X 射线与 γ 射线仪器"
+       },
+       "source": {
+        "PACS": "07.85.-m"
+       }
+      },
+      {
+       "id": "07.87",
+       "name": {
+        "en": "Spaceborne and space research instruments, apparatus, and components (satellites, space vehicles, etc.)",
+        "zh": "空间与空间研究用仪器、装置与元件（卫星、航天器等）"
+       },
+       "source": {
+        "PACS": "07.87.+v"
+       }
+      },
+      {
+       "id": "07.88",
+       "name": {
+        "en": "Instruments for environmental pollution measurements",
+        "zh": "环境污染测量仪器"
+       },
+       "source": {
+        "PACS": "07.88.+y"
+       }
+      },
+      {
+       "id": "07.89",
+       "name": {
+        "en": "Environmental effects on instruments (e.g., radiation and pollution effects)",
+        "zh": "环境对仪器的影响（如辐射与污染效应）"
+       },
+       "source": {
+        "PACS": "07.89.+b"
+       }
+      },
+      {
+       "id": "07.90",
+       "name": {
+        "en": "Other topics in instruments, apparatus, and components common to several branches of physics and astronomy (restricted to new topics in section 07)",
+        "zh": "物理学与天文学多个分支共用的仪器、装置与元件的其他课题（仅限第 07 节新课题）"
+       },
+       "source": {
+        "PACS": "07.90.+c"
+       }
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "id": "10",
+   "name": {
+    "en": "The physics of elementary particles and fields",
+    "zh": "粒子物理与场"
+   },
+   "source": {
+    "PACS": "10.",
+    "GB": [
+     "140.70",
+     "140.7099"
+    ]
+   },
+   "children": [
+    {
+     "id": "11",
+     "name": {
+      "en": "General theory of fields and particles",
+      "zh": "场与粒子的一般理论"
+     },
+     "source": {
+      "PACS": "11.",
+      "GB": [
+       "140.15",
+       "140.1599"
+      ]
+     },
+     "children": [
+      {
+       "id": "11.10",
+       "name": {
+        "en": "Field theory",
+        "zh": "场论"
+       },
+       "source": {
+        "PACS": "11.10.-z"
+       }
+      },
+      {
+       "id": "11.15",
+       "name": {
+        "en": "Gauge field theories",
+        "zh": "规范场论"
+       },
+       "source": {
+        "PACS": "11.15.-q"
+       }
+      },
+      {
+       "id": "11.25",
+       "name": {
+        "en": "Strings and branes",
+        "zh": "弦与膜"
+       },
+       "source": {
+        "PACS": "11.25.-w"
+       }
+      },
+      {
+       "id": "11.27",
+       "name": {
+        "en": "Extended classical solutions; cosmic strings, domain walls, texture",
+        "zh": "扩展经典解；宇宙弦、畴壁、织构"
+       },
+       "source": {
+        "PACS": "11.27.+d"
+       }
+      },
+      {
+       "id": "11.30",
+       "name": {
+        "en": "Symmetry and conservation laws",
+        "zh": "对称性与守恒定律"
+       },
+       "source": {
+        "PACS": "11.30.-j"
+       }
+      },
+      {
+       "id": "11.40",
+       "name": {
+        "en": "Currents and their properties",
+        "zh": "流及其性质"
+       },
+       "source": {
+        "PACS": "11.40.-q"
+       }
+      },
+      {
+       "id": "11.55",
+       "name": {
+        "en": "S-matrix theory; analytic structure of amplitudes",
+        "zh": "S 矩阵理论；振幅的解析结构"
+       },
+       "source": {
+        "PACS": "11.55.-m"
+       }
+      },
+      {
+       "id": "11.80",
+       "name": {
+        "en": "Relativistic scattering theory",
+        "zh": "相对论性散射理论"
+       },
+       "source": {
+        "PACS": "11.80.-m"
+       }
+      },
+      {
+       "id": "11.90",
+       "name": {
+        "en": "Other topics in general theory of fields and particles (restricted to new topics in section 11)",
+        "zh": "场与粒子一般理论的其他课题（仅限第 11 节新课题）"
+       },
+       "source": {
+        "PACS": "11.90.+t"
+       }
+      }
+     ]
+    },
+    {
+     "id": "12",
+     "name": {
+      "en": "Specific theories and interaction models; particle systematics",
+      "zh": "具体理论与相互作用模型；粒子分类"
+     },
+     "source": {
+      "PACS": "12.",
+      "GB": [
+       "140.7010"
+      ]
+     },
+     "children": [
+      {
+       "id": "12.10",
+       "name": {
+        "en": "Unified field theories and models",
+        "zh": "统一场论与模型"
+       },
+       "source": {
+        "PACS": "12.10.-g"
+       }
+      },
+      {
+       "id": "12.15",
+       "name": {
+        "en": "Electroweak interactions",
+        "zh": "电弱相互作用"
+       },
+       "source": {
+        "PACS": "12.15.-y"
+       }
+      },
+      {
+       "id": "12.20",
+       "name": {
+        "en": "Quantum electrodynamics",
+        "zh": "量子电动力学"
+       },
+       "source": {
+        "PACS": "12.20.-m"
+       }
+      },
+      {
+       "id": "12.38",
+       "name": {
+        "en": "Quantum chromodynamics",
+        "zh": "量子色动力学"
+       },
+       "source": {
+        "PACS": "12.38.-t"
+       }
+      },
+      {
+       "id": "12.39",
+       "name": {
+        "en": "Phenomenological quark models",
+        "zh": "唯象夸克模型"
+       },
+       "source": {
+        "PACS": "12.39.-x"
+       }
+      },
+      {
+       "id": "12.40",
+       "name": {
+        "en": "Other models for strong interactions",
+        "zh": "强相互作用的其他模型"
+       },
+       "source": {
+        "PACS": "12.40.-y"
+       }
+      },
+      {
+       "id": "12.60",
+       "name": {
+        "en": "Models beyond the standard model",
+        "zh": "超出标准模型的模型"
+       },
+       "source": {
+        "PACS": "12.60.-i"
+       }
+      },
+      {
+       "id": "12.90",
+       "name": {
+        "en": "Miscellaneous theoretical ideas and models (restricted to new topics in section 12)",
+        "zh": "其他理论构想与模型（仅限第 12 节新课题）"
+       },
+       "source": {
+        "PACS": "12.90.+b"
+       }
+      }
+     ]
+    },
+    {
+     "id": "13",
+     "name": {
+      "en": "Specific reactions and phenomenology",
+      "zh": "具体反应与唯象学"
+     },
+     "source": {
+      "PACS": "13.",
+      "GB": [
+       "140.7010"
+      ]
+     },
+     "children": [
+      {
+       "id": "13.15",
+       "name": {
+        "en": "Neutrino interactions",
+        "zh": "中微子相互作用"
+       },
+       "source": {
+        "PACS": "13.15.+g"
+       }
+      },
+      {
+       "id": "13.20",
+       "name": {
+        "en": "Leptonic, semileptonic, and radiative decays of mesons",
+        "zh": "介子的轻子衰变、半轻子衰变与辐射衰变"
+       },
+       "source": {
+        "PACS": "13.20.-v"
+       }
+      },
+      {
+       "id": "13.25",
+       "name": {
+        "en": "Hadronic decays of mesons",
+        "zh": "介子的强子衰变"
+       },
+       "source": {
+        "PACS": "13.25.-k"
+       }
+      },
+      {
+       "id": "13.30",
+       "name": {
+        "en": "Decays of baryons",
+        "zh": "重子衰变"
+       },
+       "source": {
+        "PACS": "13.30.-a"
+       }
+      },
+      {
+       "id": "13.35",
+       "name": {
+        "en": "Decays of leptons",
+        "zh": "轻子衰变"
+       },
+       "source": {
+        "PACS": "13.35.-r"
+       }
+      },
+      {
+       "id": "13.38",
+       "name": {
+        "en": "Decays of intermediate bosons",
+        "zh": "中间玻色子衰变"
+       },
+       "source": {
+        "PACS": "13.38.-b"
+       }
+      },
+      {
+       "id": "13.40",
+       "name": {
+        "en": "Electromagnetic processes and properties",
+        "zh": "电磁过程与电磁性质"
+       },
+       "source": {
+        "PACS": "13.40.-f"
+       }
+      },
+      {
+       "id": "13.60",
+       "name": {
+        "en": "Photon and charged-lepton interactions with hadrons",
+        "zh": "光子及带电轻子与强子的相互作用"
+       },
+       "source": {
+        "PACS": "13.60.-r"
+       }
+      },
+      {
+       "id": "13.66",
+       "name": {
+        "en": "Lepton-lepton interactions",
+        "zh": "轻子-轻子相互作用"
+       },
+       "source": {
+        "PACS": "13.66.-a"
+       }
+      },
+      {
+       "id": "13.75",
+       "name": {
+        "en": "Hadron-induced low- and intermediate-energy reactions and scattering (energy ≤ 10 GeV)",
+        "zh": "强子引起的低能与中能反应及散射（能量 ≤ 10 GeV）"
+       },
+       "source": {
+        "PACS": "13.75.-n"
+       }
+      },
+      {
+       "id": "13.85",
+       "name": {
+        "en": "Hadron-induced high- and super-high-energy interactions (energy > 10 GeV)",
+        "zh": "强子引起的高能与超高能相互作用（能量 > 10 GeV）"
+       },
+       "source": {
+        "PACS": "13.85.-t"
+       }
+      },
+      {
+       "id": "13.87",
+       "name": {
+        "en": "Jets in large-Q2 scattering",
+        "zh": "大 Q² 散射中的喷注"
+       },
+       "source": {
+        "PACS": "13.87.-a"
+       }
+      },
+      {
+       "id": "13.88",
+       "name": {
+        "en": "Polarization in interactions and scattering",
+        "zh": "相互作用与散射中的极化"
+       },
+       "source": {
+        "PACS": "13.88.+e"
+       }
+      },
+      {
+       "id": "13.90",
+       "name": {
+        "en": "Other topics in specific reactions and phenomenology of elementary particles (restricted to new topics in section 13)",
+        "zh": "粒子具体反应与唯象学的其他课题（仅限第 13 节新课题）"
+       },
+       "source": {
+        "PACS": "13.90.+i"
+       }
+      }
+     ]
+    },
+    {
+     "id": "14",
+     "name": {
+      "en": "Properties of specific particles",
+      "zh": "具体粒子的性质"
+     },
+     "source": {
+      "PACS": "14.",
+      "GB": [
+       "140.7010"
+      ]
+     },
+     "children": [
+      {
+       "id": "14.20",
+       "name": {
+        "en": "Baryons (including antiparticles)",
+        "zh": "重子（含反粒子）"
+       },
+       "source": {
+        "PACS": "14.20.-c"
+       }
+      },
+      {
+       "id": "14.40",
+       "name": {
+        "en": "Mesons",
+        "zh": "介子"
+       },
+       "source": {
+        "PACS": "14.40.-n"
+       }
+      },
+      {
+       "id": "14.60",
+       "name": {
+        "en": "Leptons",
+        "zh": "轻子"
+       },
+       "source": {
+        "PACS": "14.60.-z"
+       }
+      },
+      {
+       "id": "14.65",
+       "name": {
+        "en": "Quarks",
+        "zh": "夸克"
+       },
+       "source": {
+        "PACS": "14.65.-q"
+       }
+      },
+      {
+       "id": "14.70",
+       "name": {
+        "en": "Gauge bosons",
+        "zh": "规范玻色子"
+       },
+       "source": {
+        "PACS": "14.70.-e"
+       }
+      },
+      {
+       "id": "14.80",
+       "name": {
+        "en": "Other particles (including hypothetical)",
+        "zh": "其他粒子（含假设粒子）"
+       },
+       "source": {
+        "PACS": "14.80.-j"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "20",
+   "name": {
+    "en": "Nuclear physics",
+    "zh": "原子核物理"
+   },
+   "source": {
+    "PACS": "20.",
+    "GB": [
+     "140.65",
+     "140.6599"
+    ]
+   },
+   "children": [
+    {
+     "id": "21",
+     "name": {
+      "en": "Nuclear structure",
+      "zh": "核结构"
+     },
+     "source": {
+      "PACS": "21.",
+      "GB": [
+       "140.6510"
+      ]
+     },
+     "children": [
+      {
+       "id": "21.10",
+       "name": {
+        "en": "Properties of nuclei; nuclear energy levels",
+        "zh": "原子核性质；核能级"
+       },
+       "source": {
+        "PACS": "21.10.-k"
+       }
+      },
+      {
+       "id": "21.30",
+       "name": {
+        "en": "Nuclear forces",
+        "zh": "核力"
+       },
+       "source": {
+        "PACS": "21.30.-x"
+       }
+      },
+      {
+       "id": "21.45",
+       "name": {
+        "en": "Few-body systems",
+        "zh": "少体系统"
+       },
+       "source": {
+        "PACS": "21.45.-v"
+       }
+      },
+      {
+       "id": "21.60",
+       "name": {
+        "en": "Nuclear structure models and methods",
+        "zh": "核结构模型与方法"
+       },
+       "source": {
+        "PACS": "21.60.-n"
+       }
+      },
+      {
+       "id": "21.65",
+       "name": {
+        "en": "Nuclear matter",
+        "zh": "核物质"
+       },
+       "source": {
+        "PACS": "21.65.-f"
+       }
+      },
+      {
+       "id": "21.80",
+       "name": {
+        "en": "Hypernuclei",
+        "zh": "超核"
+       },
+       "source": {
+        "PACS": "21.80.+a"
+       }
+      },
+      {
+       "id": "21.85",
+       "name": {
+        "en": "Mesic nuclei",
+        "zh": "介子核"
+       },
+       "source": {
+        "PACS": "21.85.+d"
+       }
+      },
+      {
+       "id": "21.90",
+       "name": {
+        "en": "Other topics in nuclear structure (restricted to new topics in section 21)",
+        "zh": "核结构的其他课题（仅限第 21 节新课题）"
+       },
+       "source": {
+        "PACS": "21.90.+f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "23",
+     "name": {
+      "en": "Radioactive decay and in-beam spectroscopy",
+      "zh": "放射性衰变与在束谱学"
+     },
+     "source": {
+      "PACS": "23.",
+      "GB": [
+       "140.6515"
+      ]
+     },
+     "children": [
+      {
+       "id": "23.20",
+       "name": {
+        "en": "Electromagnetic transitions",
+        "zh": "电磁跃迁"
+       },
+       "source": {
+        "PACS": "23.20.-g"
+       }
+      },
+      {
+       "id": "23.35",
+       "name": {
+        "en": "Isomer decay",
+        "zh": "同质异能态衰变"
+       },
+       "source": {
+        "PACS": "23.35.+g"
+       }
+      },
+      {
+       "id": "23.40",
+       "name": {
+        "en": "β decay; double β decay; electron and muon capture",
+        "zh": "β 衰变；双 β 衰变；电子俘获与 μ 子俘获"
+       },
+       "source": {
+        "PACS": "23.40.-s"
+       }
+      },
+      {
+       "id": "23.50",
+       "name": {
+        "en": "Decay by proton emission",
+        "zh": "质子发射衰变"
+       },
+       "source": {
+        "PACS": "23.50.+z"
+       }
+      },
+      {
+       "id": "23.60",
+       "name": {
+        "en": "α decay",
+        "zh": "α 衰变"
+       },
+       "source": {
+        "PACS": "23.60.+e"
+       }
+      },
+      {
+       "id": "23.70",
+       "name": {
+        "en": "Heavy-particle decay",
+        "zh": "重粒子衰变"
+       },
+       "source": {
+        "PACS": "23.70.+j"
+       }
+      },
+      {
+       "id": "23.90",
+       "name": {
+        "en": "Other topics in radioactive decay and in-beam spectroscopy (restricted to new topics in section 23)",
+        "zh": "放射性衰变与在束谱学的其他课题（仅限第 23 节新课题）"
+       },
+       "source": {
+        "PACS": "23.90.+w"
+       }
+      }
+     ]
+    },
+    {
+     "id": "24",
+     "name": {
+      "en": "Nuclear reactions: general",
+      "zh": "核反应：一般"
+     },
+     "source": {
+      "PACS": "24.",
+      "GB": [
+       "140.6520"
+      ]
+     },
+     "children": [
+      {
+       "id": "24.10",
+       "name": {
+        "en": "Nuclear reaction models and methods",
+        "zh": "核反应模型与方法"
+       },
+       "source": {
+        "PACS": "24.10.-i"
+       }
+      },
+      {
+       "id": "24.30",
+       "name": {
+        "en": "Resonance reactions",
+        "zh": "共振反应"
+       },
+       "source": {
+        "PACS": "24.30.-v"
+       }
+      },
+      {
+       "id": "24.50",
+       "name": {
+        "en": "Direct reactions",
+        "zh": "直接反应"
+       },
+       "source": {
+        "PACS": "24.50.+g"
+       }
+      },
+      {
+       "id": "24.60",
+       "name": {
+        "en": "Statistical theory and fluctuations",
+        "zh": "统计理论与涨落"
+       },
+       "source": {
+        "PACS": "24.60.-k"
+       }
+      },
+      {
+       "id": "24.70",
+       "name": {
+        "en": "Polarization phenomena in reactions",
+        "zh": "反应中的极化现象"
+       },
+       "source": {
+        "PACS": "24.70.+s"
+       }
+      },
+      {
+       "id": "24.75",
+       "name": {
+        "en": "General properties of fission",
+        "zh": "裂变的一般性质"
+       },
+       "source": {
+        "PACS": "24.75.+i",
+        "GB": [
+         "140.6530"
+        ]
+       }
+      },
+      {
+       "id": "24.80",
+       "name": {
+        "en": "Nuclear tests of fundamental interactions and symmetries",
+        "zh": "基本相互作用与对称性的核检验"
+       },
+       "source": {
+        "PACS": "24.80.+y"
+       }
+      },
+      {
+       "id": "24.85",
+       "name": {
+        "en": "Quarks, gluons, and QCD in nuclear reactions",
+        "zh": "核反应中的夸克、胶子与量子色动力学"
+       },
+       "source": {
+        "PACS": "24.85.+p",
+        "GB": [
+         "140.6550"
+        ]
+       }
+      },
+      {
+       "id": "24.87",
+       "name": {
+        "en": "Surrogate reactions",
+        "zh": "替代反应"
+       },
+       "source": {
+        "PACS": "24.87.+y"
+       }
+      },
+      {
+       "id": "24.90",
+       "name": {
+        "en": "Other topics in nuclear reactions: general (restricted to new topics in section 24)",
+        "zh": "核反应一般性的其他课题（仅限第 24 节新课题）"
+       },
+       "source": {
+        "PACS": "24.90.+d"
+       }
+      }
+     ]
+    },
+    {
+     "id": "25",
+     "name": {
+      "en": "Nuclear reactions: specific reactions",
+      "zh": "核反应：具体反应"
+     },
+     "source": {
+      "PACS": "25.",
+      "GB": [
+       "140.6520"
+      ]
+     },
+     "children": [
+      {
+       "id": "25.10",
+       "name": {
+        "en": "Nuclear reactions involving few-nucleon systems",
+        "zh": "少核子系统的核反应"
+       },
+       "source": {
+        "PACS": "25.10.+s",
+        "GB": [
+         "140.6540"
+        ]
+       }
+      },
+      {
+       "id": "25.20",
+       "name": {
+        "en": "Photonuclear reactions",
+        "zh": "光核反应"
+       },
+       "source": {
+        "PACS": "25.20.-x"
+       }
+      },
+      {
+       "id": "25.30",
+       "name": {
+        "en": "Lepton-induced reactions",
+        "zh": "轻子引起的反应"
+       },
+       "source": {
+        "PACS": "25.30.-c"
+       }
+      },
+      {
+       "id": "25.40",
+       "name": {
+        "en": "Nucleon-induced reactions",
+        "zh": "核子引起的反应"
+       },
+       "source": {
+        "PACS": "25.40.-h"
+       }
+      },
+      {
+       "id": "25.43",
+       "name": {
+        "en": "Antiproton-induced reactions",
+        "zh": "反质子引起的反应"
+       },
+       "source": {
+        "PACS": "25.43.+t"
+       }
+      },
+      {
+       "id": "25.45",
+       "name": {
+        "en": "2H-induced reactions",
+        "zh": "²H 引起的反应"
+       },
+       "source": {
+        "PACS": "25.45.-z",
+        "GB": [
+         "140.6540"
+        ]
+       }
+      },
+      {
+       "id": "25.55",
+       "name": {
+        "en": "3H-, 3He-, and 4He-induced reactions",
+        "zh": "³H、³He 与 ⁴He 引起的反应"
+       },
+       "source": {
+        "PACS": "25.55.-e",
+        "GB": [
+         "140.6540"
+        ]
+       }
+      },
+      {
+       "id": "25.60",
+       "name": {
+        "en": "Reactions induced by unstable nuclei",
+        "zh": "不稳定核引起的反应"
+       },
+       "source": {
+        "PACS": "25.60.-t"
+       }
+      },
+      {
+       "id": "25.70",
+       "name": {
+        "en": "Low and intermediate energy heavy-ion reactions",
+        "zh": "低能与中能重离子反应"
+       },
+       "source": {
+        "PACS": "25.70.-z",
+        "GB": [
+         "140.6535",
+         "140.6545"
+        ]
+       }
+      },
+      {
+       "id": "25.75",
+       "name": {
+        "en": "Relativistic heavy-ion collisions",
+        "zh": "相对论重离子碰撞"
+       },
+       "source": {
+        "PACS": "25.75.-q",
+        "GB": [
+         "140.6545",
+         "140.6550"
+        ]
+       }
+      },
+      {
+       "id": "25.80",
+       "name": {
+        "en": "Meson- and hyperon-induced reactions",
+        "zh": "介子与超子引起的反应"
+       },
+       "source": {
+        "PACS": "25.80.-e"
+       }
+      },
+      {
+       "id": "25.85",
+       "name": {
+        "en": "Fission reactions",
+        "zh": "裂变反应"
+       },
+       "source": {
+        "PACS": "25.85.-w",
+        "GB": [
+         "140.6530"
+        ]
+       }
+      },
+      {
+       "id": "25.90",
+       "name": {
+        "en": "Other topics in nuclear reactions: specific reactions (restricted to new topics in section 25)",
+        "zh": "具体核反应的其他课题（仅限第 25 节新课题）"
+       },
+       "source": {
+        "PACS": "25.90.+k"
+       }
+      }
+     ]
+    },
+    {
+     "id": "26",
+     "name": {
+      "en": "Nuclear astrophysics",
+      "zh": "核天体物理"
+     },
+     "source": {
+      "PACS": "26."
+     },
+     "children": [
+      {
+       "id": "26.20",
+       "name": {
+        "en": "Hydrostatic stellar nucleosynthesis",
+        "zh": "恒星流体静力学核合成"
+       },
+       "source": {
+        "PACS": "26.20.-f"
+       }
+      },
+      {
+       "id": "26.30",
+       "name": {
+        "en": "Nucleosynthesis in novae, supernovae, and other explosive environments",
+        "zh": "新星、超新星及其他爆发环境中的核合成"
+       },
+       "source": {
+        "PACS": "26.30.-k"
+       }
+      },
+      {
+       "id": "26.35",
+       "name": {
+        "en": "Big Bang nucleosynthesis",
+        "zh": "大爆炸核合成"
+       },
+       "source": {
+        "PACS": "26.35.+c"
+       }
+      },
+      {
+       "id": "26.40",
+       "name": {
+        "en": "Cosmic ray nucleosynthesis",
+        "zh": "宇宙线核合成"
+       },
+       "source": {
+        "PACS": "26.40.+r"
+       }
+      },
+      {
+       "id": "26.50",
+       "name": {
+        "en": "Nuclear physics aspects of novae, supernovae, and other explosive environments",
+        "zh": "新星、超新星及其他爆发环境的核物理问题"
+       },
+       "source": {
+        "PACS": "26.50.+x"
+       }
+      },
+      {
+       "id": "26.60",
+       "name": {
+        "en": "Nuclear matter aspects of neutron stars",
+        "zh": "中子星的核物质问题"
+       },
+       "source": {
+        "PACS": "26.60.-c"
+       }
+      },
+      {
+       "id": "26.65",
+       "name": {
+        "en": "Solar neutrinos",
+        "zh": "太阳中微子"
+       },
+       "source": {
+        "PACS": "26.65.+t"
+       }
+      },
+      {
+       "id": "26.90",
+       "name": {
+        "en": "Other topics in nuclear astrophysics (restricted to new topics in section 26)",
+        "zh": "核天体物理的其他课题（仅限第 26 节新课题）"
+       },
+       "source": {
+        "PACS": "26.90.+n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "27",
+     "name": {
+      "en": "Properties of specific nuclei listed by mass ranges",
+      "zh": "按质量数分列的具体原子核性质"
+     },
+     "source": {
+      "PACS": "27."
+     },
+     "children": [
+      {
+       "id": "27.10",
+       "name": {
+        "en": "A ≤ 5",
+        "zh": "A ≤ 5"
+       },
+       "source": {
+        "PACS": "27.10.+h"
+       }
+      },
+      {
+       "id": "27.20",
+       "name": {
+        "en": "6 ≤ A ≤ 19",
+        "zh": "6 ≤ A ≤ 19"
+       },
+       "source": {
+        "PACS": "27.20.+n"
+       }
+      },
+      {
+       "id": "27.30",
+       "name": {
+        "en": "20 ≤ A ≤ 38",
+        "zh": "20 ≤ A ≤ 38"
+       },
+       "source": {
+        "PACS": "27.30.+t"
+       }
+      },
+      {
+       "id": "27.40",
+       "name": {
+        "en": "39 ≤ A ≤ 58",
+        "zh": "39 ≤ A ≤ 58"
+       },
+       "source": {
+        "PACS": "27.40.+z"
+       }
+      },
+      {
+       "id": "27.50",
+       "name": {
+        "en": "59 ≤ A ≤ 89",
+        "zh": "59 ≤ A ≤ 89"
+       },
+       "source": {
+        "PACS": "27.50.+e"
+       }
+      },
+      {
+       "id": "27.60",
+       "name": {
+        "en": "90 ≤ A ≤ 149",
+        "zh": "90 ≤ A ≤ 149"
+       },
+       "source": {
+        "PACS": "27.60.+j"
+       }
+      },
+      {
+       "id": "27.70",
+       "name": {
+        "en": "150 ≤ A ≤ 189",
+        "zh": "150 ≤ A ≤ 189"
+       },
+       "source": {
+        "PACS": "27.70.+q"
+       }
+      },
+      {
+       "id": "27.80",
+       "name": {
+        "en": "190 ≤ A ≤ 219",
+        "zh": "190 ≤ A ≤ 219"
+       },
+       "source": {
+        "PACS": "27.80.+w"
+       }
+      },
+      {
+       "id": "27.90",
+       "name": {
+        "en": "A ≥ 220",
+        "zh": "A ≥ 220"
+       },
+       "source": {
+        "PACS": "27.90.+b"
+       }
+      }
+     ]
+    },
+    {
+     "id": "28",
+     "name": {
+      "en": "Nuclear engineering and nuclear power studies",
+      "zh": "核工程与核能研究"
+     },
+     "source": {
+      "PACS": "28."
+     },
+     "children": [
+      {
+       "id": "28.20",
+       "name": {
+        "en": "Neutron physics",
+        "zh": "中子物理"
+       },
+       "source": {
+        "PACS": "28.20.-v",
+        "GB": [
+         "140.6525"
+        ]
+       }
+      },
+      {
+       "id": "28.41",
+       "name": {
+        "en": "Fission reactors",
+        "zh": "裂变反应堆"
+       },
+       "source": {
+        "PACS": "28.41.-i"
+       }
+      },
+      {
+       "id": "28.50",
+       "name": {
+        "en": "Fission reactor types",
+        "zh": "裂变反应堆类型"
+       },
+       "source": {
+        "PACS": "28.50.-k"
+       }
+      },
+      {
+       "id": "28.52",
+       "name": {
+        "en": "Fusion reactors",
+        "zh": "聚变反应堆"
+       },
+       "source": {
+        "PACS": "28.52.-s",
+        "GB": [
+         "140.5510",
+         "140.6535"
+        ]
+       }
+      },
+      {
+       "id": "28.60",
+       "name": {
+        "en": "Isotope separation and enrichment",
+        "zh": "同位素分离与浓缩"
+       },
+       "source": {
+        "PACS": "28.60.+s"
+       }
+      },
+      {
+       "id": "28.65",
+       "name": {
+        "en": "Accelerator-driven transmutation of nuclear waste",
+        "zh": "加速器驱动的核废料嬗变"
+       },
+       "source": {
+        "PACS": "28.65.+a"
+       }
+      },
+      {
+       "id": "28.70",
+       "name": {
+        "en": "Nuclear explosions",
+        "zh": "核爆炸"
+       },
+       "source": {
+        "PACS": "28.70.+y"
+       }
+      },
+      {
+       "id": "28.90",
+       "name": {
+        "en": "Other topics in nuclear engineering and nuclear power studies (restricted to new topics in section 28)",
+        "zh": "核工程与核能研究的其他课题（仅限第 28 节新课题）"
+       },
+       "source": {
+        "PACS": "28.90.+i"
+       }
+      }
+     ]
+    },
+    {
+     "id": "29",
+     "name": {
+      "en": "Experimental methods and instrumentation for elementary-particle and nuclear physics",
+      "zh": "粒子物理与核物理的实验方法和仪器"
+     },
+     "source": {
+      "PACS": "29.",
+      "GB": [
+       "140.7040"
+      ]
+     },
+     "children": [
+      {
+       "id": "29.20",
+       "name": {
+        "en": "Accelerators",
+        "zh": "加速器"
+       },
+       "source": {
+        "PACS": "29.20.-c",
+        "GB": [
+         "140.7030"
+        ]
+       }
+      },
+      {
+       "id": "29.25",
+       "name": {
+        "en": "Particle sources and targets",
+        "zh": "粒子源与靶"
+       },
+       "source": {
+        "PACS": "29.25.-t"
+       }
+      },
+      {
+       "id": "29.27",
+       "name": {
+        "en": "Beams in particle accelerators",
+        "zh": "粒子加速器中的束流"
+       },
+       "source": {
+        "PACS": "29.27.-a",
+        "GB": [
+         "140.7030"
+        ]
+       }
+      },
+      {
+       "id": "29.30",
+       "name": {
+        "en": "Spectrometers and spectroscopic techniques",
+        "zh": "谱仪与谱学技术"
+       },
+       "source": {
+        "PACS": "29.30.-h"
+       }
+      },
+      {
+       "id": "29.38",
+       "name": {
+        "en": "Radioactive beams",
+        "zh": "放射性束"
+       },
+       "source": {
+        "PACS": "29.38.-c"
+       }
+      },
+      {
+       "id": "29.40",
+       "name": {
+        "en": "Radiation detectors",
+        "zh": "辐射探测器"
+       },
+       "source": {
+        "PACS": "29.40.-n"
+       }
+      },
+      {
+       "id": "29.50",
+       "name": {
+        "en": "Computer interfaces",
+        "zh": "计算机接口"
+       },
+       "source": {
+        "PACS": "29.50.+v"
+       }
+      },
+      {
+       "id": "29.85",
+       "name": {
+        "en": "Computer data analysis",
+        "zh": "计算机数据分析"
+       },
+       "source": {
+        "PACS": "29.85.-c"
+       }
+      },
+      {
+       "id": "29.87",
+       "name": {
+        "en": "Nuclear data compilation",
+        "zh": "核数据汇编"
+       },
+       "source": {
+        "PACS": "29.87.+g"
+       }
+      },
+      {
+       "id": "29.90",
+       "name": {
+        "en": "Other topics in elementary-particle and nuclear physics experimental methods and instrumentation (restricted to new topics in section 29)",
+        "zh": "粒子物理与核物理实验方法和仪器的其他课题（仅限第 29 节新课题）"
+       },
+       "source": {
+        "PACS": "29.90.+r"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "30",
+   "name": {
+    "en": "Atomic and molecular physics",
+    "zh": "原子与分子物理"
+   },
+   "source": {
+    "PACS": "30.",
+    "GB": [
+     "140.60",
+     "140.6099"
+    ]
+   },
+   "children": [
+    {
+     "id": "31",
+     "name": {
+      "en": "Electronic structure of atoms and molecules: theory",
+      "zh": "原子与分子的电子结构：理论"
+     },
+     "source": {
+      "PACS": "31.",
+      "GB": [
+       "140.6010"
+      ]
+     },
+     "children": [
+      {
+       "id": "31.10",
+       "name": {
+        "en": "Theory of electronic structure, electronic transitions, and chemical binding",
+        "zh": "电子结构、电子跃迁与化学键理论"
+       },
+       "source": {
+        "PACS": "31.10.+z"
+       }
+      },
+      {
+       "id": "31.15",
+       "name": {
+        "en": "Calculations and mathematical techniques in atomic and molecular physics",
+        "zh": "原子与分子物理中的计算与数学方法"
+       },
+       "source": {
+        "PACS": "31.15.-p",
+        "GB": [
+         "140.75"
+        ]
+       }
+      },
+      {
+       "id": "31.30",
+       "name": {
+        "en": "Corrections to electronic structure",
+        "zh": "电子结构的修正"
+       },
+       "source": {
+        "PACS": "31.30.-i"
+       }
+      },
+      {
+       "id": "31.50",
+       "name": {
+        "en": "Potential energy surfaces",
+        "zh": "势能面"
+       },
+       "source": {
+        "PACS": "31.50.-x"
+       }
+      },
+      {
+       "id": "31.70",
+       "name": {
+        "en": "Effects of atomic and molecular interactions on electronic structure",
+        "zh": "原子与分子相互作用对电子结构的影响"
+       },
+       "source": {
+        "PACS": "31.70.-f"
+       }
+      },
+      {
+       "id": "31.90",
+       "name": {
+        "en": "Other topics in the theory of the electronic structure of atoms and molecules (restricted to new topics in section 31)",
+        "zh": "原子与分子电子结构理论的其他课题（仅限第 31 节新课题）"
+       },
+       "source": {
+        "PACS": "31.90.+s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "32",
+     "name": {
+      "en": "Atomic properties and interactions with photons",
+      "zh": "原子性质及与光子的相互作用"
+     },
+     "source": {
+      "PACS": "32."
+     },
+     "children": [
+      {
+       "id": "32.10",
+       "name": {
+        "en": "Properties of atoms",
+        "zh": "原子的性质"
+       },
+       "source": {
+        "PACS": "32.10.-f"
+       }
+      },
+      {
+       "id": "32.30",
+       "name": {
+        "en": "Atomic spectra",
+        "zh": "原子光谱"
+       },
+       "source": {
+        "PACS": "32.30.-r",
+        "GB": [
+         "140.3025",
+         "140.6020"
+        ]
+       }
+      },
+      {
+       "id": "32.50",
+       "name": {
+        "en": "Fluorescence, phosphorescence (including quenching)",
+        "zh": "荧光与磷光（含猝灭）"
+       },
+       "source": {
+        "PACS": "32.50.+d"
+       }
+      },
+      {
+       "id": "32.60",
+       "name": {
+        "en": "Zeeman and Stark effects",
+        "zh": "塞曼效应与斯塔克效应"
+       },
+       "source": {
+        "PACS": "32.60.+i"
+       }
+      },
+      {
+       "id": "32.70",
+       "name": {
+        "en": "Intensities and shapes of atomic spectral lines",
+        "zh": "原子谱线的强度与线型"
+       },
+       "source": {
+        "PACS": "32.70.-n"
+       }
+      },
+      {
+       "id": "32.80",
+       "name": {
+        "en": "Photoionization and excitation",
+        "zh": "光电离与激发"
+       },
+       "source": {
+        "PACS": "32.80.-t"
+       }
+      },
+      {
+       "id": "32.90",
+       "name": {
+        "en": "Other topics in atomic properties and interactions of atoms with photons (restricted to new topics in section 32)",
+        "zh": "原子性质及原子与光子相互作用的其他课题（仅限第 32 节新课题）"
+       },
+       "source": {
+        "PACS": "32.90.+a"
+       }
+      }
+     ]
+    },
+    {
+     "id": "33",
+     "name": {
+      "en": "Molecular properties and interactions with photons",
+      "zh": "分子性质及与光子的相互作用"
+     },
+     "source": {
+      "PACS": "33."
+     },
+     "children": [
+      {
+       "id": "33.15",
+       "name": {
+        "en": "Properties of molecules",
+        "zh": "分子的性质"
+       },
+       "source": {
+        "PACS": "33.15.-e"
+       }
+      },
+      {
+       "id": "33.20",
+       "name": {
+        "en": "Molecular spectra",
+        "zh": "分子光谱"
+       },
+       "source": {
+        "PACS": "33.20.-t",
+        "GB": [
+         "140.3025",
+         "140.6030"
+        ]
+       }
+      },
+      {
+       "id": "33.25",
+       "name": {
+        "en": "Nuclear resonance and relaxation",
+        "zh": "核共振与弛豫"
+       },
+       "source": {
+        "PACS": "33.25.+k",
+        "GB": [
+         "140.6040"
+        ]
+       }
+      },
+      {
+       "id": "33.35",
+       "name": {
+        "en": "Electron resonance and relaxation",
+        "zh": "电子共振与弛豫"
+       },
+       "source": {
+        "PACS": "33.35.+r",
+        "GB": [
+         "140.6040"
+        ]
+       }
+      },
+      {
+       "id": "33.40",
+       "name": {
+        "en": "Multiple resonances (including double and higher-order resonance processes, such as double nuclear magnetic resonance, electron double resonance, and microwave optical double resonance)",
+        "zh": "多重共振（含双共振及更高阶共振过程，如核磁双共振、电子双共振、微波-光学双共振）"
+       },
+       "source": {
+        "PACS": "33.40.+f"
+       }
+      },
+      {
+       "id": "33.45",
+       "name": {
+        "en": "Mössbauer spectra",
+        "zh": "穆斯堡尔谱"
+       },
+       "source": {
+        "PACS": "33.45.+x"
+       }
+      },
+      {
+       "id": "33.50",
+       "name": {
+        "en": "Fluorescence and phosphorescence; radiationless transitions, quenching (intersystem crossing, internal conversion)",
+        "zh": "荧光与磷光；无辐射跃迁与猝灭（系间窜越、内转换）"
+       },
+       "source": {
+        "PACS": "33.50.-j"
+       }
+      },
+      {
+       "id": "33.55",
+       "name": {
+        "en": "Optical activity and dichroism",
+        "zh": "旋光性与二色性"
+       },
+       "source": {
+        "PACS": "33.55.+b"
+       }
+      },
+      {
+       "id": "33.57",
+       "name": {
+        "en": "Magneto-optical and electro-optical spectra and effects",
+        "zh": "磁光与电光光谱及效应"
+       },
+       "source": {
+        "PACS": "33.57.+c"
+       }
+      },
+      {
+       "id": "33.60",
+       "name": {
+        "en": "Photoelectron spectra",
+        "zh": "光电子能谱"
+       },
+       "source": {
+        "PACS": "33.60.+q"
+       }
+      },
+      {
+       "id": "33.70",
+       "name": {
+        "en": "Intensities and shapes of molecular spectral lines and bands",
+        "zh": "分子谱线与谱带的强度与线型"
+       },
+       "source": {
+        "PACS": "33.70.-w"
+       }
+      },
+      {
+       "id": "33.80",
+       "name": {
+        "en": "Photon interactions with molecules",
+        "zh": "光子与分子的相互作用"
+       },
+       "source": {
+        "PACS": "33.80.-b"
+       }
+      },
+      {
+       "id": "33.90",
+       "name": {
+        "en": "Other topics in molecular properties and interactions with photons (restricted to new topics in section 33)",
+        "zh": "分子性质及与光子相互作用的其他课题（仅限第 33 节新课题）"
+       },
+       "source": {
+        "PACS": "33.90.+h"
+       }
+      }
+     ]
+    },
+    {
+     "id": "34",
+     "name": {
+      "en": "Atomic and molecular collision processes and interactions",
+      "zh": "原子与分子的碰撞过程及相互作用"
+     },
+     "source": {
+      "PACS": "34.",
+      "GB": [
+       "140.6050"
+      ]
+     },
+     "children": [
+      {
+       "id": "34.10",
+       "name": {
+        "en": "General theories and models of atomic and molecular collisions and interactions (including statistical theories, transition state, stochastic and trajectory models, etc.)",
+        "zh": "原子与分子碰撞及相互作用的一般理论与模型（含统计理论、过渡态、随机模型与轨迹模型等）"
+       },
+       "source": {
+        "PACS": "34.10.+x"
+       }
+      },
+      {
+       "id": "34.20",
+       "name": {
+        "en": "Interatomic and intermolecular potentials and forces, potential energy surfaces for collisions",
+        "zh": "原子间与分子间势和力；碰撞势能面"
+       },
+       "source": {
+        "PACS": "34.20.-b"
+       }
+      },
+      {
+       "id": "34.35",
+       "name": {
+        "en": "Interactions of atoms and molecules with surfaces",
+        "zh": "原子与分子同表面的相互作用"
+       },
+       "source": {
+        "PACS": "34.35.+a"
+       }
+      },
+      {
+       "id": "34.50",
+       "name": {
+        "en": "Scattering of atoms and molecules",
+        "zh": "原子与分子的散射"
+       },
+       "source": {
+        "PACS": "34.50.-s"
+       }
+      },
+      {
+       "id": "34.70",
+       "name": {
+        "en": "Charge transfer",
+        "zh": "电荷转移"
+       },
+       "source": {
+        "PACS": "34.70.+e"
+       }
+      },
+      {
+       "id": "34.80",
+       "name": {
+        "en": "Electron and positron scattering",
+        "zh": "电子与正电子散射"
+       },
+       "source": {
+        "PACS": "34.80.-i"
+       }
+      },
+      {
+       "id": "34.90",
+       "name": {
+        "en": "Other topics in atomic and molecular collision processes and interactions (restricted to new topics in section 34)",
+        "zh": "原子与分子碰撞过程及相互作用的其他课题（仅限第 34 节新课题）"
+       },
+       "source": {
+        "PACS": "34.90.+q"
+       }
+      }
+     ]
+    },
+    {
+     "id": "36",
+     "name": {
+      "en": "Exotic atoms and molecules; macromolecules; clusters",
+      "zh": "奇异原子与分子；大分子；团簇"
+     },
+     "source": {
+      "PACS": "36."
+     },
+     "children": [
+      {
+       "id": "36.10",
+       "name": {
+        "en": "Exotic atoms and molecules (containing mesons, antiprotons and other unusual particles)",
+        "zh": "奇异原子与分子（含介子、反质子及其他非常见粒子）"
+       },
+       "source": {
+        "PACS": "36.10.-k"
+       }
+      },
+      {
+       "id": "36.20",
+       "name": {
+        "en": "Macromolecules and polymer molecules",
+        "zh": "大分子与高分子"
+       },
+       "source": {
+        "PACS": "36.20.-r"
+       }
+      },
+      {
+       "id": "36.40",
+       "name": {
+        "en": "Atomic and molecular clusters",
+        "zh": "原子团簇与分子团簇"
+       },
+       "source": {
+        "PACS": "36.40.-c"
+       }
+      },
+      {
+       "id": "36.90",
+       "name": {
+        "en": "Other topics in exotic atoms and molecules; macromolecules; clusters (restricted to new topics in section 36)",
+        "zh": "奇异原子与分子、大分子与团簇的其他课题（仅限第 36 节新课题）"
+       },
+       "source": {
+        "PACS": "36.90.+f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "37",
+     "name": {
+      "en": "Mechanical control of atoms, molecules, and ions",
+      "zh": "原子、分子与离子的力学操控"
+     },
+     "source": {
+      "PACS": "37."
+     },
+     "children": [
+      {
+       "id": "37.10",
+       "name": {
+        "en": "Atom, molecule, and ion cooling methods",
+        "zh": "原子、分子与离子冷却方法"
+       },
+       "source": {
+        "PACS": "37.10.-x"
+       }
+      },
+      {
+       "id": "37.20",
+       "name": {
+        "en": "Atomic and molecular beam sources and techniques",
+        "zh": "原子束与分子束的源及技术"
+       },
+       "source": {
+        "PACS": "37.20.+j"
+       }
+      },
+      {
+       "id": "37.25",
+       "name": {
+        "en": "Atom interferometry techniques",
+        "zh": "原子干涉技术"
+       },
+       "source": {
+        "PACS": "37.25.+k"
+       }
+      },
+      {
+       "id": "37.30",
+       "name": {
+        "en": "Atoms, molecules, and ions in cavities",
+        "zh": "腔中的原子、分子与离子"
+       },
+       "source": {
+        "PACS": "37.30.+i"
+       }
+      },
+      {
+       "id": "37.90",
+       "name": {
+        "en": "Other topics in mechanical control of atoms, molecules, and ions (restricted to new topics in section 37)",
+        "zh": "原子、分子与离子力学操控的其他课题（仅限第 37 节新课题）"
+       },
+       "source": {
+        "PACS": "37.90.+j"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "40",
+   "name": {
+    "en": "Electromagnetism, optics, acoustics, heat transfer, classical mechanics, and fluid dynamics",
+    "zh": "电磁学、光学、声学、传热、经典力学与流体力学"
+   },
+   "source": {
+    "PACS": "40."
+   },
+   "children": [
+    {
+     "id": "41",
+     "name": {
+      "en": "Electromagnetism; electron and ion optics",
+      "zh": "电磁学；电子光学与离子光学"
+     },
+     "source": {
+      "PACS": "41.",
+      "GB": [
+       "140.35"
+      ]
+     },
+     "children": [
+      {
+       "id": "41.20",
+       "name": {
+        "en": "Applied classical electromagnetism",
+        "zh": "应用经典电磁学"
+       },
+       "source": {
+        "PACS": "41.20.-q",
+        "GB": [
+         "140.3510",
+         "140.3520",
+         "140.3530",
+         "140.4010"
+        ]
+       }
+      },
+      {
+       "id": "41.50",
+       "name": {
+        "en": "X-ray beams and x-ray optics",
+        "zh": "X 射线束与 X 射线光学"
+       },
+       "source": {
+        "PACS": "41.50.+h"
+       }
+      },
+      {
+       "id": "41.60",
+       "name": {
+        "en": "Radiation by moving charges",
+        "zh": "运动电荷的辐射"
+       },
+       "source": {
+        "PACS": "41.60.-m",
+        "GB": [
+         "140.3540"
+        ]
+       }
+      },
+      {
+       "id": "41.75",
+       "name": {
+        "en": "Charged-particle beams",
+        "zh": "带电粒子束"
+       },
+       "source": {
+        "PACS": "41.75.-i",
+        "GB": [
+         "140.4530",
+         "140.7030"
+        ]
+       }
+      },
+      {
+       "id": "41.85",
+       "name": {
+        "en": "Beam optics",
+        "zh": "束流光学"
+       },
+       "source": {
+        "PACS": "41.85.-p",
+        "GB": [
+         "140.4530"
+        ]
+       }
+      },
+      {
+       "id": "41.90",
+       "name": {
+        "en": "Other topics in electromagnetism; electron and ion optics (restricted to new topics in section 41)",
+        "zh": "电磁学及电子与离子光学的其他课题（仅限第 41 节新课题）"
+       },
+       "source": {
+        "PACS": "41.90.+e",
+        "GB": [
+         "140.3599"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "42",
+     "name": {
+      "en": "Optics",
+      "zh": "光学"
+     },
+     "source": {
+      "PACS": "42.",
+      "GB": [
+       "140.30"
+      ]
+     },
+     "children": [
+      {
+       "id": "42.15",
+       "name": {
+        "en": "Geometrical optics",
+        "zh": "几何光学"
+       },
+       "source": {
+        "PACS": "42.15.-i",
+        "GB": [
+         "140.3010"
+        ]
+       }
+      },
+      {
+       "id": "42.25",
+       "name": {
+        "en": "Wave optics",
+        "zh": "波动光学"
+       },
+       "source": {
+        "PACS": "42.25.-p",
+        "GB": [
+         "140.3015"
+        ]
+       }
+      },
+      {
+       "id": "42.30",
+       "name": {
+        "en": "Imaging and optical processing",
+        "zh": "成像与光学信息处理"
+       },
+       "source": {
+        "PACS": "42.30.-d",
+        "GB": [
+         "140.3035"
+        ]
+       }
+      },
+      {
+       "id": "42.40",
+       "name": {
+        "en": "Holography",
+        "zh": "全息术"
+       },
+       "source": {
+        "PACS": "42.40.-i",
+        "GB": [
+         "140.3035"
+        ]
+       }
+      },
+      {
+       "id": "42.50",
+       "name": {
+        "en": "Quantum optics",
+        "zh": "量子光学"
+       },
+       "source": {
+        "PACS": "42.50.-p",
+        "GB": [
+         "140.3030"
+        ]
+       }
+      },
+      {
+       "id": "42.55",
+       "name": {
+        "en": "Lasers",
+        "zh": "激光器"
+       },
+       "source": {
+        "PACS": "42.55.-f",
+        "GB": [
+         "140.3055",
+         "140.4510"
+        ]
+       }
+      },
+      {
+       "id": "42.60",
+       "name": {
+        "en": "Laser optical systems: design and operation",
+        "zh": "激光光学系统：设计与运行"
+       },
+       "source": {
+        "PACS": "42.60.-v",
+        "GB": [
+         "140.3055"
+        ]
+       }
+      },
+      {
+       "id": "42.62",
+       "name": {
+        "en": "Laser applications",
+        "zh": "激光应用"
+       },
+       "source": {
+        "PACS": "42.62.-b",
+        "GB": [
+         "140.3060"
+        ]
+       }
+      },
+      {
+       "id": "42.65",
+       "name": {
+        "en": "Nonlinear optics",
+        "zh": "非线性光学"
+       },
+       "source": {
+        "PACS": "42.65.-k",
+        "GB": [
+         "140.3020"
+        ]
+       }
+      },
+      {
+       "id": "42.66",
+       "name": {
+        "en": "Physiological optics",
+        "zh": "生理光学"
+       },
+       "source": {
+        "PACS": "42.66.-p"
+       }
+      },
+      {
+       "id": "42.68",
+       "name": {
+        "en": "Atmospheric and ocean optics",
+        "zh": "大气光学与海洋光学"
+       },
+       "source": {
+        "PACS": "42.68.-w",
+        "GB": [
+         "170.1510"
+        ]
+       }
+      },
+      {
+       "id": "42.70",
+       "name": {
+        "en": "Optical materials",
+        "zh": "光学材料"
+       },
+       "source": {
+        "PACS": "42.70.-a"
+       }
+      },
+      {
+       "id": "42.72",
+       "name": {
+        "en": "Optical sources and standards",
+        "zh": "光源与光学标准"
+       },
+       "source": {
+        "PACS": "42.72.-g"
+       }
+      },
+      {
+       "id": "42.79",
+       "name": {
+        "en": "Optical elements, devices, and systems",
+        "zh": "光学元件、器件与系统"
+       },
+       "source": {
+        "PACS": "42.79.-e",
+        "GB": [
+         "140.3060"
+        ]
+       }
+      },
+      {
+       "id": "42.81",
+       "name": {
+        "en": "Fiber optics",
+        "zh": "光纤光学"
+       },
+       "source": {
+        "PACS": "42.81.-i",
+        "GB": [
+         "140.3040"
+        ]
+       }
+      },
+      {
+       "id": "42.82",
+       "name": {
+        "en": "Integrated optics",
+        "zh": "集成光学"
+       },
+       "source": {
+        "PACS": "42.82.-m",
+        "GB": [
+         "140.3040"
+        ]
+       }
+      },
+      {
+       "id": "42.86",
+       "name": {
+        "en": "Optical workshop techniques",
+        "zh": "光学车间技术"
+       },
+       "source": {
+        "PACS": "42.86.+b"
+       }
+      },
+      {
+       "id": "42.87",
+       "name": {
+        "en": "Optical testing techniques",
+        "zh": "光学检测技术"
+       },
+       "source": {
+        "PACS": "42.87.-d"
+       }
+      },
+      {
+       "id": "42.88",
+       "name": {
+        "en": "Environmental and radiation effects on optical elements, devices, and systems",
+        "zh": "环境与辐射对光学元件、器件和系统的影响"
+       },
+       "source": {
+        "PACS": "42.88.+h"
+       }
+      },
+      {
+       "id": "42.90",
+       "name": {
+        "en": "Other topics in optics (restricted to new topics in section 42)",
+        "zh": "光学的其他课题（仅限第 42 节新课题）"
+       },
+       "source": {
+        "PACS": "42.90.+m",
+        "GB": [
+         "140.3099"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "43",
+     "name": {
+      "en": "Acoustics",
+      "zh": "声学"
+     },
+     "source": {
+      "PACS": "43.",
+      "GB": [
+       "140.20"
+      ]
+     },
+     "children": [
+      {
+       "id": "43.20",
+       "name": {
+        "en": "General linear acoustics",
+        "zh": "一般线性声学"
+       },
+       "source": {
+        "PACS": "43.20.+g",
+        "GB": [
+         "140.2010"
+        ]
+       }
+      },
+      {
+       "id": "43.25",
+       "name": {
+        "en": "Nonlinear acoustics",
+        "zh": "非线性声学"
+       },
+       "source": {
+        "PACS": "43.25.+y",
+        "GB": [
+         "140.2020"
+        ]
+       }
+      },
+      {
+       "id": "43.28",
+       "name": {
+        "en": "Aeroacoustics and atmospheric sound",
+        "zh": "气动声学与大气声学"
+       },
+       "source": {
+        "PACS": "43.28.+h"
+       }
+      },
+      {
+       "id": "43.30",
+       "name": {
+        "en": "Underwater sound",
+        "zh": "水声学"
+       },
+       "source": {
+        "PACS": "43.30.+m",
+        "GB": [
+         "140.2050"
+        ]
+       }
+      },
+      {
+       "id": "43.35",
+       "name": {
+        "en": "Ultrasonics, quantum acoustics, and physical effects of sound",
+        "zh": "超声学、量子声学与声的物理效应"
+       },
+       "source": {
+        "PACS": "43.35.+d",
+        "GB": [
+         "140.2030",
+         "140.2040"
+        ]
+       }
+      },
+      {
+       "id": "43.38",
+       "name": {
+        "en": "Transduction; acoustical devices for the generation and reproduction of sound",
+        "zh": "换能；声的产生与重放器件"
+       },
+       "source": {
+        "PACS": "43.38.+n",
+        "GB": [
+         "140.2060"
+        ]
+       }
+      },
+      {
+       "id": "43.40",
+       "name": {
+        "en": "Structural acoustics and vibration",
+        "zh": "结构声学与振动"
+       },
+       "source": {
+        "PACS": "43.40.+s"
+       }
+      },
+      {
+       "id": "43.50",
+       "name": {
+        "en": "Noise: its effects and control",
+        "zh": "噪声：影响与控制"
+       },
+       "source": {
+        "PACS": "43.50.+y",
+        "GB": [
+         "140.2060"
+        ]
+       }
+      },
+      {
+       "id": "43.55",
+       "name": {
+        "en": "Architectural acoustics",
+        "zh": "建筑声学"
+       },
+       "source": {
+        "PACS": "43.55.+p",
+        "GB": [
+         "140.2060"
+        ]
+       }
+      },
+      {
+       "id": "43.58",
+       "name": {
+        "en": "Acoustical measurements and instrumentation",
+        "zh": "声学测量与仪器"
+       },
+       "source": {
+        "PACS": "43.58.+z"
+       }
+      },
+      {
+       "id": "43.60",
+       "name": {
+        "en": "Acoustic signal processing",
+        "zh": "声信号处理"
+       },
+       "source": {
+        "PACS": "43.60.+d",
+        "GB": [
+         "140.2060"
+        ]
+       }
+      },
+      {
+       "id": "43.64",
+       "name": {
+        "en": "Physiological acoustics",
+        "zh": "生理声学"
+       },
+       "source": {
+        "PACS": "43.64.+r"
+       }
+      },
+      {
+       "id": "43.66",
+       "name": {
+        "en": "Psychological acoustics",
+        "zh": "心理声学"
+       },
+       "source": {
+        "PACS": "43.66.+y"
+       }
+      },
+      {
+       "id": "43.70",
+       "name": {
+        "en": "Speech production",
+        "zh": "语音产生"
+       },
+       "source": {
+        "PACS": "43.70.+i"
+       }
+      },
+      {
+       "id": "43.71",
+       "name": {
+        "en": "Speech perception",
+        "zh": "语音感知"
+       },
+       "source": {
+        "PACS": "43.71.+m"
+       }
+      },
+      {
+       "id": "43.72",
+       "name": {
+        "en": "Speech processing and communication systems",
+        "zh": "语音处理与通信系统"
+       },
+       "source": {
+        "PACS": "43.72.+q"
+       }
+      },
+      {
+       "id": "43.75",
+       "name": {
+        "en": "Music and musical instruments",
+        "zh": "音乐与乐器"
+       },
+       "source": {
+        "PACS": "43.75.+a"
+       }
+      },
+      {
+       "id": "43.80",
+       "name": {
+        "en": "Bioacoustics",
+        "zh": "生物声学"
+       },
+       "source": {
+        "PACS": "43.80.+p"
+       }
+      },
+      {
+       "id": "43.90",
+       "name": {
+        "en": "Other topics in acoustics (restricted to new topics in section 43)",
+        "zh": "声学的其他课题（仅限第 43 节新课题）"
+       },
+       "source": {
+        "PACS": "43.90.+v",
+        "GB": [
+         "140.2099"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "44",
+     "name": {
+      "en": "Heat transfer",
+      "zh": "传热"
+     },
+     "source": {
+      "PACS": "44.",
+      "GB": [
+       "140.25",
+       "140.2530"
+      ]
+     },
+     "children": [
+      {
+       "id": "44.05",
+       "name": {
+        "en": "Analytical and numerical techniques",
+        "zh": "解析与数值方法"
+       },
+       "source": {
+        "PACS": "44.05.+e"
+       }
+      },
+      {
+       "id": "44.10",
+       "name": {
+        "en": "Heat conduction",
+        "zh": "热传导"
+       },
+       "source": {
+        "PACS": "44.10.+i"
+       }
+      },
+      {
+       "id": "44.15",
+       "name": {
+        "en": "Channel and internal heat flow",
+        "zh": "管道与内部热流"
+       },
+       "source": {
+        "PACS": "44.15.+a"
+       }
+      },
+      {
+       "id": "44.20",
+       "name": {
+        "en": "Boundary layer heat flow",
+        "zh": "边界层热流"
+       },
+       "source": {
+        "PACS": "44.20.+b"
+       }
+      },
+      {
+       "id": "44.25",
+       "name": {
+        "en": "Natural convection",
+        "zh": "自然对流"
+       },
+       "source": {
+        "PACS": "44.25.+f"
+       }
+      },
+      {
+       "id": "44.27",
+       "name": {
+        "en": "Forced convection",
+        "zh": "强迫对流"
+       },
+       "source": {
+        "PACS": "44.27.+g"
+       }
+      },
+      {
+       "id": "44.30",
+       "name": {
+        "en": "Heat flow in porous media",
+        "zh": "多孔介质中的热流"
+       },
+       "source": {
+        "PACS": "44.30.+v"
+       }
+      },
+      {
+       "id": "44.35",
+       "name": {
+        "en": "Heat flow in multiphase systems",
+        "zh": "多相系统中的热流"
+       },
+       "source": {
+        "PACS": "44.35.+c"
+       }
+      },
+      {
+       "id": "44.40",
+       "name": {
+        "en": "Thermal radiation",
+        "zh": "热辐射"
+       },
+       "source": {
+        "PACS": "44.40.+a"
+       }
+      },
+      {
+       "id": "44.90",
+       "name": {
+        "en": "Other topics in heat transfer (restricted to new topics in section 44)",
+        "zh": "传热的其他课题（仅限第 44 节新课题）"
+       },
+       "source": {
+        "PACS": "44.90.+c",
+        "GB": [
+         "140.2599"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "45",
+     "name": {
+      "en": "Classical mechanics of discrete systems",
+      "zh": "离散系统经典力学"
+     },
+     "source": {
+      "PACS": "45.",
+      "GB": [
+       "130.10"
+      ]
+     },
+     "children": [
+      {
+       "id": "45.05",
+       "name": {
+        "en": "General theory of classical mechanics of discrete systems",
+        "zh": "离散系统经典力学的一般理论"
+       },
+       "source": {
+        "PACS": "45.05.+x"
+       }
+      },
+      {
+       "id": "45.10",
+       "name": {
+        "en": "Computational methods in classical mechanics",
+        "zh": "经典力学的计算方法"
+       },
+       "source": {
+        "PACS": "45.10.-b",
+        "GB": [
+         "140.75"
+        ]
+       }
+      },
+      {
+       "id": "45.20",
+       "name": {
+        "en": "Formalisms in classical mechanics",
+        "zh": "经典力学的表述形式"
+       },
+       "source": {
+        "PACS": "45.20.-d"
+       }
+      },
+      {
+       "id": "45.30",
+       "name": {
+        "en": "General linear dynamical systems",
+        "zh": "一般线性动力系统"
+       },
+       "source": {
+        "PACS": "45.30.+s"
+       }
+      },
+      {
+       "id": "45.40",
+       "name": {
+        "en": "Dynamics and kinematics of rigid bodies",
+        "zh": "刚体动力学与运动学"
+       },
+       "source": {
+        "PACS": "45.40.-f"
+       }
+      },
+      {
+       "id": "45.50",
+       "name": {
+        "en": "Dynamics and kinematics of a particle and a system of particles",
+        "zh": "质点与质点系的动力学和运动学"
+       },
+       "source": {
+        "PACS": "45.50.-j"
+       }
+      },
+      {
+       "id": "45.70",
+       "name": {
+        "en": "Granular systems",
+        "zh": "颗粒系统"
+       },
+       "source": {
+        "PACS": "45.70.-n",
+        "GB": [
+         "130.1550"
+        ]
+       }
+      },
+      {
+       "id": "45.80",
+       "name": {
+        "en": "Control of mechanical systems",
+        "zh": "机械系统控制"
+       },
+       "source": {
+        "PACS": "45.80.+r"
+       }
+      },
+      {
+       "id": "45.90",
+       "name": {
+        "en": "Other topics in classical mechanics of discrete systems (restricted to new topics in section 45)",
+        "zh": "离散系统经典力学的其他课题（仅限第 45 节新课题）"
+       },
+       "source": {
+        "PACS": "45.90.+t"
+       }
+      }
+     ]
+    },
+    {
+     "id": "46",
+     "name": {
+      "en": "Continuum mechanics of solids",
+      "zh": "固体连续介质力学"
+     },
+     "source": {
+      "PACS": "46.",
+      "GB": [
+       "130.15"
+      ]
+     },
+     "children": [
+      {
+       "id": "46.05",
+       "name": {
+        "en": "General theory of continuum mechanics of solids",
+        "zh": "固体连续介质力学的一般理论"
+       },
+       "source": {
+        "PACS": "46.05.+b",
+        "GB": [
+         "130.1555"
+        ]
+       }
+      },
+      {
+       "id": "46.15",
+       "name": {
+        "en": "Computational methods in continuum mechanics",
+        "zh": "连续介质力学的计算方法"
+       },
+       "source": {
+        "PACS": "46.15.-x",
+        "GB": [
+         "140.75",
+         "130.1570"
+        ]
+       }
+      },
+      {
+       "id": "46.25",
+       "name": {
+        "en": "Static elasticity",
+        "zh": "静弹性力学"
+       },
+       "source": {
+        "PACS": "46.25.-y",
+        "GB": [
+         "130.1510"
+        ]
+       }
+      },
+      {
+       "id": "46.32",
+       "name": {
+        "en": "Static buckling and instability",
+        "zh": "静力屈曲与失稳"
+       },
+       "source": {
+        "PACS": "46.32.+x"
+       }
+      },
+      {
+       "id": "46.35",
+       "name": {
+        "en": "Viscoelasticity, plasticity, viscoplasticity",
+        "zh": "粘弹性、塑性与粘塑性"
+       },
+       "source": {
+        "PACS": "46.35.+z",
+        "GB": [
+         "130.1515",
+         "130.1520"
+        ]
+       }
+      },
+      {
+       "id": "46.40",
+       "name": {
+        "en": "Vibrations and mechanical waves",
+        "zh": "振动与机械波"
+       },
+       "source": {
+        "PACS": "46.40.-f",
+        "GB": [
+         "130.20",
+         "130.3520"
+        ]
+       }
+      },
+      {
+       "id": "46.50",
+       "name": {
+        "en": "Fracture mechanics, fatigue and cracks",
+        "zh": "断裂力学、疲劳与裂纹"
+       },
+       "source": {
+        "PACS": "46.50.+a",
+        "GB": [
+         "130.1535",
+         "130.1540",
+         "130.1545"
+        ]
+       }
+      },
+      {
+       "id": "46.55",
+       "name": {
+        "en": "Tribology and mechanical contacts",
+        "zh": "摩擦学与机械接触"
+       },
+       "source": {
+        "PACS": "46.55.+d",
+        "GB": [
+         "130.1530"
+        ]
+       }
+      },
+      {
+       "id": "46.65",
+       "name": {
+        "en": "Random phenomena and media",
+        "zh": "随机现象与随机介质"
+       },
+       "source": {
+        "PACS": "46.65.+g"
+       }
+      },
+      {
+       "id": "46.70",
+       "name": {
+        "en": "Application of continuum mechanics to structures",
+        "zh": "连续介质力学在结构中的应用"
+       },
+       "source": {
+        "PACS": "46.70.-p",
+        "GB": [
+         "130.50",
+         "130.1565"
+        ]
+       }
+      },
+      {
+       "id": "46.80",
+       "name": {
+        "en": "Measurement methods and techniques in continuum mechanics of solids",
+        "zh": "固体连续介质力学的测量方法与技术"
+       },
+       "source": {
+        "PACS": "46.80.+j",
+        "GB": [
+         "130.1575"
+        ]
+       }
+      },
+      {
+       "id": "46.90",
+       "name": {
+        "en": "Other topics in continuum mechanics of solids (restricted to new topics in section 46)",
+        "zh": "固体连续介质力学的其他课题（仅限第 46 节新课题）"
+       },
+       "source": {
+        "PACS": "46.90.+s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "47",
+     "name": {
+      "en": "Fluid dynamics",
+      "zh": "流体力学"
+     },
+     "source": {
+      "PACS": "47.",
+      "GB": [
+       "130.25"
+      ]
+     },
+     "children": [
+      {
+       "id": "47.10",
+       "name": {
+        "en": "General theory in fluid dynamics",
+        "zh": "流体力学一般理论"
+       },
+       "source": {
+        "PACS": "47.10.-g",
+        "GB": [
+         "130.2511"
+        ]
+       }
+      },
+      {
+       "id": "47.11",
+       "name": {
+        "en": "Computational methods in fluid dynamics",
+        "zh": "流体力学的计算方法"
+       },
+       "source": {
+        "PACS": "47.11.-j",
+        "GB": [
+         "140.75",
+         "130.2564"
+        ]
+       }
+      },
+      {
+       "id": "47.15",
+       "name": {
+        "en": "Laminar flows",
+        "zh": "层流"
+       },
+       "source": {
+        "PACS": "47.15.-x",
+        "GB": [
+         "130.2531"
+        ]
+       }
+      },
+      {
+       "id": "47.20",
+       "name": {
+        "en": "Flow instabilities",
+        "zh": "流动不稳定性"
+       },
+       "source": {
+        "PACS": "47.20.-k"
+       }
+      },
+      {
+       "id": "47.27",
+       "name": {
+        "en": "Turbulent flows",
+        "zh": "湍流"
+       },
+       "source": {
+        "PACS": "47.27.-i",
+        "GB": [
+         "130.2527"
+        ]
+       }
+      },
+      {
+       "id": "47.32",
+       "name": {
+        "en": "Vortex dynamics; rotating fluids",
+        "zh": "涡动力学；旋转流体"
+       },
+       "source": {
+        "PACS": "47.32.-y",
+        "GB": [
+         "130.2557"
+        ]
+       }
+      },
+      {
+       "id": "47.35",
+       "name": {
+        "en": "Hydrodynamic waves",
+        "zh": "流体动力学波"
+       },
+       "source": {
+        "PACS": "47.35.-i"
+       }
+      },
+      {
+       "id": "47.37",
+       "name": {
+        "en": "Hydrodynamic aspects of superfluidity; quantum fluids",
+        "zh": "超流的流体动力学问题；量子流体"
+       },
+       "source": {
+        "PACS": "47.37.+q"
+       }
+      },
+      {
+       "id": "47.40",
+       "name": {
+        "en": "Compressible flows; shock waves",
+        "zh": "可压缩流；激波"
+       },
+       "source": {
+        "PACS": "47.40.-x",
+        "GB": [
+         "130.35",
+         "130.2517",
+         "130.3510",
+         "130.3520"
+        ]
+       }
+      },
+      {
+       "id": "47.45",
+       "name": {
+        "en": "Rarefied gas dynamics",
+        "zh": "稀薄气体动力学"
+       },
+       "source": {
+        "PACS": "47.45.-n",
+        "GB": [
+         "130.2517"
+        ]
+       }
+      },
+      {
+       "id": "47.50",
+       "name": {
+        "en": "Non-Newtonian fluid flows",
+        "zh": "非牛顿流体流动"
+       },
+       "source": {
+        "PACS": "47.50.-d",
+        "GB": [
+         "130.2551"
+        ]
+       }
+      },
+      {
+       "id": "47.51",
+       "name": {
+        "en": "Mixing",
+        "zh": "混合"
+       },
+       "source": {
+        "PACS": "47.51.+a"
+       }
+      },
+      {
+       "id": "47.52",
+       "name": {
+        "en": "Chaos in fluid dynamics",
+        "zh": "流体力学中的混沌"
+       },
+       "source": {
+        "PACS": "47.52.+j"
+       }
+      },
+      {
+       "id": "47.53",
+       "name": {
+        "en": "Fractals in fluid dynamics",
+        "zh": "流体力学中的分形"
+       },
+       "source": {
+        "PACS": "47.53.+n"
+       }
+      },
+      {
+       "id": "47.54",
+       "name": {
+        "en": "Pattern selection; pattern formation",
+        "zh": "斑图选择；斑图形成"
+       },
+       "source": {
+        "PACS": "47.54.-r"
+       }
+      },
+      {
+       "id": "47.55",
+       "name": {
+        "en": "Multiphase and stratified flows",
+        "zh": "多相流与分层流"
+       },
+       "source": {
+        "PACS": "47.55.-t",
+        "GB": [
+         "130.2534",
+         "130.2557"
+        ]
+       }
+      },
+      {
+       "id": "47.56",
+       "name": {
+        "en": "Flows through porous media",
+        "zh": "多孔介质中的流动"
+       },
+       "source": {
+        "PACS": "47.56.+r",
+        "GB": [
+         "130.2537"
+        ]
+       }
+      },
+      {
+       "id": "47.57",
+       "name": {
+        "en": "Complex fluids and colloidal systems",
+        "zh": "复杂流体与胶体系统"
+       },
+       "source": {
+        "PACS": "47.57.-s",
+        "GB": [
+         "130.2524"
+        ]
+       }
+      },
+      {
+       "id": "47.60",
+       "name": {
+        "en": "Flow phenomena in quasi-one-dimensional systems",
+        "zh": "准一维系统中的流动现象"
+       },
+       "source": {
+        "PACS": "47.60.-i"
+       }
+      },
+      {
+       "id": "47.61",
+       "name": {
+        "en": "Micro- and nano- scale flow phenomena",
+        "zh": "微纳尺度流动现象"
+       },
+       "source": {
+        "PACS": "47.61.-k"
+       }
+      },
+      {
+       "id": "47.63",
+       "name": {
+        "en": "Biological fluid dynamics",
+        "zh": "生物流体力学"
+       },
+       "source": {
+        "PACS": "47.63.-b"
+       }
+      },
+      {
+       "id": "47.65",
+       "name": {
+        "en": "Magnetohydrodynamics and electrohydrodynamics",
+        "zh": "磁流体力学与电流体力学"
+       },
+       "source": {
+        "PACS": "47.65.-d",
+        "GB": [
+         "130.2547"
+        ]
+       }
+      },
+      {
+       "id": "47.70",
+       "name": {
+        "en": "Reactive and radiative flows",
+        "zh": "反应流与辐射流"
+       },
+       "source": {
+        "PACS": "47.70.-n",
+        "GB": [
+         "130.2541",
+         "130.2561",
+         "130.3510"
+        ]
+       }
+      },
+      {
+       "id": "47.75",
+       "name": {
+        "en": "Relativistic fluid dynamics",
+        "zh": "相对论流体力学"
+       },
+       "source": {
+        "PACS": "47.75.+f"
+       }
+      },
+      {
+       "id": "47.80",
+       "name": {
+        "en": "Instrumentation and measurement methods in fluid dynamics",
+        "zh": "流体力学的仪器与测量方法"
+       },
+       "source": {
+        "PACS": "47.80.-v",
+        "GB": [
+         "130.2567"
+        ]
+       }
+      },
+      {
+       "id": "47.85",
+       "name": {
+        "en": "Applied fluid mechanics",
+        "zh": "应用流体力学"
+       },
+       "source": {
+        "PACS": "47.85.-g",
+        "GB": [
+         "130.2521",
+         "130.2571"
+        ]
+       }
+      },
+      {
+       "id": "47.90",
+       "name": {
+        "en": "Other topics in fluid dynamics (restricted to new topics in section 47)",
+        "zh": "流体力学的其他课题（仅限第 47 节新课题）"
+       },
+       "source": {
+        "PACS": "47.90.+a"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "50",
+   "name": {
+    "en": "Physics of gases, plasmas, and electric discharges",
+    "zh": "气体、等离子体与放电物理"
+   },
+   "source": {
+    "PACS": "50."
+   },
+   "children": [
+    {
+     "id": "51",
+     "name": {
+      "en": "Physics of gases",
+      "zh": "气体物理"
+     },
+     "source": {
+      "PACS": "51."
+     },
+     "children": [
+      {
+       "id": "51.10",
+       "name": {
+        "en": "Kinetic and transport theory of gases",
+        "zh": "气体动理论与输运理论"
+       },
+       "source": {
+        "PACS": "51.10.+y"
+       }
+      },
+      {
+       "id": "51.20",
+       "name": {
+        "en": "Viscosity, diffusion, and thermal conductivity",
+        "zh": "粘滞、扩散与热传导"
+       },
+       "source": {
+        "PACS": "51.20.+d"
+       }
+      },
+      {
+       "id": "51.30",
+       "name": {
+        "en": "Thermodynamic properties, equations of state",
+        "zh": "热力学性质；物态方程"
+       },
+       "source": {
+        "PACS": "51.30.+i"
+       }
+      },
+      {
+       "id": "51.35",
+       "name": {
+        "en": "Mechanical properties; compressibility",
+        "zh": "力学性质；压缩性"
+       },
+       "source": {
+        "PACS": "51.35.+a"
+       }
+      },
+      {
+       "id": "51.40",
+       "name": {
+        "en": "Acoustical properties",
+        "zh": "声学性质"
+       },
+       "source": {
+        "PACS": "51.40.+p"
+       }
+      },
+      {
+       "id": "51.50",
+       "name": {
+        "en": "Electrical properties (ionization, breakdown, electron and ion mobility, etc.)",
+        "zh": "电学性质（电离、击穿、电子与离子迁移率等）"
+       },
+       "source": {
+        "PACS": "51.50.+v"
+       }
+      },
+      {
+       "id": "51.60",
+       "name": {
+        "en": "Magnetic properties",
+        "zh": "磁学性质"
+       },
+       "source": {
+        "PACS": "51.60.+a"
+       }
+      },
+      {
+       "id": "51.70",
+       "name": {
+        "en": "Optical and dielectric properties",
+        "zh": "光学与介电性质"
+       },
+       "source": {
+        "PACS": "51.70.+f"
+       }
+      },
+      {
+       "id": "51.90",
+       "name": {
+        "en": "Other topics in the physics of gases (restricted to new topics in section 51)",
+        "zh": "气体物理的其他课题（仅限第 51 节新课题）"
+       },
+       "source": {
+        "PACS": "51.90.+r"
+       }
+      }
+     ]
+    },
+    {
+     "id": "52",
+     "name": {
+      "en": "Physics of plasmas and electric discharges",
+      "zh": "等离子体与放电物理"
+     },
+     "source": {
+      "PACS": "52.",
+      "GB": [
+       "140.55"
+      ]
+     },
+     "children": [
+      {
+       "id": "52.20",
+       "name": {
+        "en": "Elementary processes in plasmas",
+        "zh": "等离子体中的基本过程"
+       },
+       "source": {
+        "PACS": "52.20.-j"
+       }
+      },
+      {
+       "id": "52.25",
+       "name": {
+        "en": "Plasma properties",
+        "zh": "等离子体性质"
+       },
+       "source": {
+        "PACS": "52.25.-b"
+       }
+      },
+      {
+       "id": "52.27",
+       "name": {
+        "en": "Basic studies of specific kinds of plasmas",
+        "zh": "特定种类等离子体的基础研究"
+       },
+       "source": {
+        "PACS": "52.27.-h",
+        "GB": [
+         "140.5540",
+         "140.5550"
+        ]
+       }
+      },
+      {
+       "id": "52.30",
+       "name": {
+        "en": "Plasma dynamics and flow",
+        "zh": "等离子体动力学与流动"
+       },
+       "source": {
+        "PACS": "52.30.-q",
+        "GB": [
+         "130.2544"
+        ]
+       }
+      },
+      {
+       "id": "52.35",
+       "name": {
+        "en": "Waves, oscillations, and instabilities in plasmas and intense beams",
+        "zh": "等离子体与强束流中的波、振荡与不稳定性"
+       },
+       "source": {
+        "PACS": "52.35.-g"
+       }
+      },
+      {
+       "id": "52.38",
+       "name": {
+        "en": "Laser-plasma interactions",
+        "zh": "激光-等离子体相互作用"
+       },
+       "source": {
+        "PACS": "52.38.-r"
+       }
+      },
+      {
+       "id": "52.40",
+       "name": {
+        "en": "Plasma interactions (nonlaser)",
+        "zh": "等离子体相互作用（非激光）"
+       },
+       "source": {
+        "PACS": "52.40.-w"
+       }
+      },
+      {
+       "id": "52.50",
+       "name": {
+        "en": "Plasma production and heating",
+        "zh": "等离子体产生与加热"
+       },
+       "source": {
+        "PACS": "52.50.-b"
+       }
+      },
+      {
+       "id": "52.55",
+       "name": {
+        "en": "Magnetic confinement and equilibrium",
+        "zh": "磁约束与平衡"
+       },
+       "source": {
+        "PACS": "52.55.-s",
+        "GB": [
+         "140.5510"
+        ]
+       }
+      },
+      {
+       "id": "52.57",
+       "name": {
+        "en": "Laser inertial confinement",
+        "zh": "激光惯性约束"
+       },
+       "source": {
+        "PACS": "52.57.-z",
+        "GB": [
+         "140.5510"
+        ]
+       }
+      },
+      {
+       "id": "52.58",
+       "name": {
+        "en": "Other confinement methods",
+        "zh": "其他约束方法"
+       },
+       "source": {
+        "PACS": "52.58.-c"
+       }
+      },
+      {
+       "id": "52.59",
+       "name": {
+        "en": "Intense particle beams and radiation sources",
+        "zh": "强粒子束与辐射源"
+       },
+       "source": {
+        "PACS": "52.59.-f"
+       }
+      },
+      {
+       "id": "52.65",
+       "name": {
+        "en": "Plasma simulation",
+        "zh": "等离子体模拟"
+       },
+       "source": {
+        "PACS": "52.65.-y",
+        "GB": [
+         "140.75"
+        ]
+       }
+      },
+      {
+       "id": "52.70",
+       "name": {
+        "en": "Plasma diagnostic techniques and instrumentation",
+        "zh": "等离子体诊断技术与仪器"
+       },
+       "source": {
+        "PACS": "52.70.-m",
+        "GB": [
+         "140.5530"
+        ]
+       }
+      },
+      {
+       "id": "52.72",
+       "name": {
+        "en": "Laboratory studies of space- and astrophysical-plasma processes",
+        "zh": "空间与天体等离子体过程的实验室研究"
+       },
+       "source": {
+        "PACS": "52.72.+v"
+       }
+      },
+      {
+       "id": "52.75",
+       "name": {
+        "en": "Plasma devices",
+        "zh": "等离子体装置"
+       },
+       "source": {
+        "PACS": "52.75.-d"
+       }
+      },
+      {
+       "id": "52.77",
+       "name": {
+        "en": "Plasma applications",
+        "zh": "等离子体应用"
+       },
+       "source": {
+        "PACS": "52.77.-j",
+        "GB": [
+         "140.5520"
+        ]
+       }
+      },
+      {
+       "id": "52.80",
+       "name": {
+        "en": "Electric discharges",
+        "zh": "放电"
+       },
+       "source": {
+        "PACS": "52.80.-s",
+        "GB": [
+         "140.5520"
+        ]
+       }
+      },
+      {
+       "id": "52.90",
+       "name": {
+        "en": "Other topics in physics of plasmas and electric discharges (restricted to new topics in section 52)",
+        "zh": "等离子体与放电物理的其他课题（仅限第 52 节新课题）"
+       },
+       "source": {
+        "PACS": "52.90.+z",
+        "GB": [
+         "140.5599"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60",
+   "name": {
+    "en": "Condensed matter: structural, mechanical, and thermal properties",
+    "zh": "凝聚态：结构、力学与热学性质"
+   },
+   "source": {
+    "PACS": "60.",
+    "GB": [
+     "140.50",
+     "140.5099"
+    ]
+   },
+   "children": [
+    {
+     "id": "61",
+     "name": {
+      "en": "Structure of solids and liquids; crystallography",
+      "zh": "固体与液体结构；晶体学"
+     },
+     "source": {
+      "PACS": "61.",
+      "GB": [
+       "140.5030"
+      ]
+     },
+     "children": [
+      {
+       "id": "61.05",
+       "name": {
+        "en": "Techniques for structure determination",
+        "zh": "结构测定技术"
+       },
+       "source": {
+        "PACS": "61.05.-a"
+       }
+      },
+      {
+       "id": "61.20",
+       "name": {
+        "en": "Structure of liquids",
+        "zh": "液体结构"
+       },
+       "source": {
+        "PACS": "61.20.-p"
+       }
+      },
+      {
+       "id": "61.25",
+       "name": {
+        "en": "Studies of specific liquid structures",
+        "zh": "特定液体结构研究"
+       },
+       "source": {
+        "PACS": "61.25.-f"
+       }
+      },
+      {
+       "id": "61.30",
+       "name": {
+        "en": "Liquid crystals",
+        "zh": "液晶"
+       },
+       "source": {
+        "PACS": "61.30.-v",
+        "GB": [
+         "140.5040"
+        ]
+       }
+      },
+      {
+       "id": "61.41",
+       "name": {
+        "en": "Polymers, elastomers, and plastics",
+        "zh": "聚合物、弹性体与塑料"
+       },
+       "source": {
+        "PACS": "61.41.+e"
+       }
+      },
+      {
+       "id": "61.43",
+       "name": {
+        "en": "Disordered solids",
+        "zh": "无序固体"
+       },
+       "source": {
+        "PACS": "61.43.-j",
+        "GB": [
+         "140.5035"
+        ]
+       }
+      },
+      {
+       "id": "61.44",
+       "name": {
+        "en": "Semi-periodic solids",
+        "zh": "准周期固体"
+       },
+       "source": {
+        "PACS": "61.44.-n"
+       }
+      },
+      {
+       "id": "61.46",
+       "name": {
+        "en": "Structure of nanoscale materials",
+        "zh": "纳米材料的结构"
+       },
+       "source": {
+        "PACS": "61.46.-w"
+       }
+      },
+      {
+       "id": "61.48",
+       "name": {
+        "en": "Structure of fullerenes and related hollow and planar molecular structures",
+        "zh": "富勒烯及相关中空和平面分子结构的结构"
+       },
+       "source": {
+        "PACS": "61.48.-c"
+       }
+      },
+      {
+       "id": "61.50",
+       "name": {
+        "en": "Structure of bulk crystals",
+        "zh": "块体晶体的结构"
+       },
+       "source": {
+        "PACS": "61.50.-f"
+       }
+      },
+      {
+       "id": "61.66",
+       "name": {
+        "en": "Structure of specific crystalline solids",
+        "zh": "特定晶态固体的结构"
+       },
+       "source": {
+        "PACS": "61.66.-f"
+       }
+      },
+      {
+       "id": "61.68",
+       "name": {
+        "en": "Crystallographic databases",
+        "zh": "晶体学数据库"
+       },
+       "source": {
+        "PACS": "61.68.+n"
+       }
+      },
+      {
+       "id": "61.72",
+       "name": {
+        "en": "Defects and impurities in crystals; microstructure",
+        "zh": "晶体中的缺陷与杂质；微结构"
+       },
+       "source": {
+        "PACS": "61.72.-y"
+       }
+      },
+      {
+       "id": "61.80",
+       "name": {
+        "en": "Physical radiation effects, radiation damage",
+        "zh": "物理辐射效应；辐射损伤"
+       },
+       "source": {
+        "PACS": "61.80.-x"
+       }
+      },
+      {
+       "id": "61.82",
+       "name": {
+        "en": "Radiation effects on specific materials",
+        "zh": "特定材料的辐射效应"
+       },
+       "source": {
+        "PACS": "61.82.-d"
+       }
+      },
+      {
+       "id": "61.85",
+       "name": {
+        "en": "Channeling phenomena (blocking, energy loss, etc.)",
+        "zh": "沟道现象（阻塞、能量损失等）"
+       },
+       "source": {
+        "PACS": "61.85.+p"
+       }
+      },
+      {
+       "id": "61.90",
+       "name": {
+        "en": "Other topics in structure of solids and liquids; crystallography (restricted to new topics in section 61)",
+        "zh": "固体与液体结构及晶体学的其他课题（仅限第 61 节新课题）"
+       },
+       "source": {
+        "PACS": "61.90.+d"
+       }
+      }
+     ]
+    },
+    {
+     "id": "62",
+     "name": {
+      "en": "Mechanical and acoustical properties of condensed matter",
+      "zh": "凝聚态的力学与声学性质"
+     },
+     "source": {
+      "PACS": "62.",
+      "GB": [
+       "130.40"
+      ]
+     },
+     "children": [
+      {
+       "id": "62.10",
+       "name": {
+        "en": "Mechanical properties of liquids",
+        "zh": "液体的力学性质"
+       },
+       "source": {
+        "PACS": "62.10.+s"
+       }
+      },
+      {
+       "id": "62.20",
+       "name": {
+        "en": "Mechanical properties of solids",
+        "zh": "固体的力学性质"
+       },
+       "source": {
+        "PACS": "62.20.-x",
+        "GB": [
+         "130.1525"
+        ]
+       }
+      },
+      {
+       "id": "62.23",
+       "name": {
+        "en": "Structural classes of nanoscale systems",
+        "zh": "纳米尺度系统的结构类别"
+       },
+       "source": {
+        "PACS": "62.23.-c"
+       }
+      },
+      {
+       "id": "62.25",
+       "name": {
+        "en": "Mechanical properties of nanoscale systems",
+        "zh": "纳米尺度系统的力学性质"
+       },
+       "source": {
+        "PACS": "62.25.-g"
+       }
+      },
+      {
+       "id": "62.30",
+       "name": {
+        "en": "Mechanical and elastic waves; vibrations",
+        "zh": "力学波与弹性波；振动"
+       },
+       "source": {
+        "PACS": "62.30.+d"
+       }
+      },
+      {
+       "id": "62.40",
+       "name": {
+        "en": "Anelasticity, internal friction, stress relaxation, and mechanical resonances",
+        "zh": "滞弹性、内耗、应力弛豫与力学共振"
+       },
+       "source": {
+        "PACS": "62.40.+i"
+       }
+      },
+      {
+       "id": "62.50",
+       "name": {
+        "en": "High-pressure effects in solids and liquids",
+        "zh": "固体与液体中的高压效应"
+       },
+       "source": {
+        "PACS": "62.50.-p",
+        "GB": [
+         "130.3530",
+         "140.5080"
+        ]
+       }
+      },
+      {
+       "id": "62.60",
+       "name": {
+        "en": "Acoustical properties of liquids",
+        "zh": "液体的声学性质"
+       },
+       "source": {
+        "PACS": "62.60.+v"
+       }
+      },
+      {
+       "id": "62.65",
+       "name": {
+        "en": "Acoustical properties of solids",
+        "zh": "固体的声学性质"
+       },
+       "source": {
+        "PACS": "62.65.+k"
+       }
+      },
+      {
+       "id": "62.80",
+       "name": {
+        "en": "Ultrasonic relaxation",
+        "zh": "超声弛豫"
+       },
+       "source": {
+        "PACS": "62.80.+f"
+       }
+      },
+      {
+       "id": "62.90",
+       "name": {
+        "en": "Other topics in mechanical and acoustical properties of condensed matter (restricted to new topics in section 62)",
+        "zh": "凝聚态力学与声学性质的其他课题（仅限第 62 节新课题）"
+       },
+       "source": {
+        "PACS": "62.90.+k"
+       }
+      }
+     ]
+    },
+    {
+     "id": "63",
+     "name": {
+      "en": "Lattice dynamics",
+      "zh": "晶格动力学"
+     },
+     "source": {
+      "PACS": "63."
+     },
+     "children": [
+      {
+       "id": "63.10",
+       "name": {
+        "en": "General theory",
+        "zh": "一般理论"
+       },
+       "source": {
+        "PACS": "63.10.+a"
+       }
+      },
+      {
+       "id": "63.20",
+       "name": {
+        "en": "Phonons in crystal lattices",
+        "zh": "晶格中的声子"
+       },
+       "source": {
+        "PACS": "63.20.-e"
+       }
+      },
+      {
+       "id": "63.22",
+       "name": {
+        "en": "Phonons or vibrational states in low-dimensional structures and nanoscale materials",
+        "zh": "低维结构与纳米材料中的声子或振动态"
+       },
+       "source": {
+        "PACS": "63.22.-m"
+       }
+      },
+      {
+       "id": "63.50",
+       "name": {
+        "en": "Vibrational states in disordered systems",
+        "zh": "无序系统中的振动态"
+       },
+       "source": {
+        "PACS": "63.50.-x"
+       }
+      },
+      {
+       "id": "63.70",
+       "name": {
+        "en": "Statistical mechanics of lattice vibrations and displacive phase transitions",
+        "zh": "晶格振动的统计力学与位移型相变"
+       },
+       "source": {
+        "PACS": "63.70.+h"
+       }
+      },
+      {
+       "id": "63.90",
+       "name": {
+        "en": "Other topics in lattice dynamics (restricted to new topics in section 63)",
+        "zh": "晶格动力学的其他课题（仅限第 63 节新课题）"
+       },
+       "source": {
+        "PACS": "63.90.+t"
+       }
+      }
+     ]
+    },
+    {
+     "id": "64",
+     "name": {
+      "en": "Equations of state, phase equilibria, and phase transitions",
+      "zh": "物态方程、相平衡与相变"
+     },
+     "source": {
+      "PACS": "64."
+     },
+     "children": [
+      {
+       "id": "64.10",
+       "name": {
+        "en": "General theory of equations of state and phase equilibria",
+        "zh": "物态方程与相平衡的一般理论"
+       },
+       "source": {
+        "PACS": "64.10.+h"
+       }
+      },
+      {
+       "id": "64.30",
+       "name": {
+        "en": "Equations of state of specific substances",
+        "zh": "特定物质的物态方程"
+       },
+       "source": {
+        "PACS": "64.30.-t"
+       }
+      },
+      {
+       "id": "64.60",
+       "name": {
+        "en": "General studies of phase transitions",
+        "zh": "相变的一般研究"
+       },
+       "source": {
+        "PACS": "64.60.-i"
+       }
+      },
+      {
+       "id": "64.70",
+       "name": {
+        "en": "Specific phase transitions",
+        "zh": "具体相变"
+       },
+       "source": {
+        "PACS": "64.70.-p"
+       }
+      },
+      {
+       "id": "64.75",
+       "name": {
+        "en": "Phase equilibria",
+        "zh": "相平衡"
+       },
+       "source": {
+        "PACS": "64.75.-g"
+       }
+      },
+      {
+       "id": "64.90",
+       "name": {
+        "en": "Other topics in equations of state, phase equilibria, and phase transitions (restricted to new topics in section 64)",
+        "zh": "物态方程、相平衡与相变的其他课题（仅限第 64 节新课题）"
+       },
+       "source": {
+        "PACS": "64.90.+b"
+       }
+      }
+     ]
+    },
+    {
+     "id": "65",
+     "name": {
+      "en": "Thermal properties of condensed matter",
+      "zh": "凝聚态的热学性质"
+     },
+     "source": {
+      "PACS": "65.",
+      "GB": [
+       "140.2520"
+      ]
+     },
+     "children": [
+      {
+       "id": "65.20",
+       "name": {
+        "en": "Thermal properties of liquids",
+        "zh": "液体的热学性质"
+       },
+       "source": {
+        "PACS": "65.20.-w"
+       }
+      },
+      {
+       "id": "65.40",
+       "name": {
+        "en": "Thermal properties of crystalline solids",
+        "zh": "晶态固体的热学性质"
+       },
+       "source": {
+        "PACS": "65.40.-b"
+       }
+      },
+      {
+       "id": "65.60",
+       "name": {
+        "en": "Thermal properties of amorphous solids and glasses: heat capacity, thermal expansion, etc.",
+        "zh": "非晶固体与玻璃的热学性质：热容、热膨胀等"
+       },
+       "source": {
+        "PACS": "65.60.+a"
+       }
+      },
+      {
+       "id": "65.80",
+       "name": {
+        "en": "Thermal properties of small particles, nanocrystals, nanotubes, and other related systems",
+        "zh": "小颗粒、纳米晶、纳米管及相关系统的热学性质"
+       },
+       "source": {
+        "PACS": "65.80.-g"
+       }
+      },
+      {
+       "id": "65.90",
+       "name": {
+        "en": "Other topics in thermal properties of condensed matter (restricted to new topics in section 65)",
+        "zh": "凝聚态热学性质的其他课题（仅限第 65 节新课题）"
+       },
+       "source": {
+        "PACS": "65.90.+i"
+       }
+      }
+     ]
+    },
+    {
+     "id": "66",
+     "name": {
+      "en": "Nonelectronic transport properties of condensed matter",
+      "zh": "凝聚态的非电子输运性质"
+     },
+     "source": {
+      "PACS": "66."
+     },
+     "children": [
+      {
+       "id": "66.10",
+       "name": {
+        "en": "Diffusion and ionic conduction in liquids",
+        "zh": "液体中的扩散与离子导电"
+       },
+       "source": {
+        "PACS": "66.10.-x"
+       }
+      },
+      {
+       "id": "66.20",
+       "name": {
+        "en": "Viscosity of liquids; diffusive momentum transport",
+        "zh": "液体粘度；扩散性动量输运"
+       },
+       "source": {
+        "PACS": "66.20.-d"
+       }
+      },
+      {
+       "id": "66.25",
+       "name": {
+        "en": "Thermal conduction in nonmetallic liquids",
+        "zh": "非金属液体的热传导"
+       },
+       "source": {
+        "PACS": "66.25.+g"
+       }
+      },
+      {
+       "id": "66.30",
+       "name": {
+        "en": "Diffusion in solids",
+        "zh": "固体中的扩散"
+       },
+       "source": {
+        "PACS": "66.30.-h"
+       }
+      },
+      {
+       "id": "66.35",
+       "name": {
+        "en": "Quantum tunneling of defects",
+        "zh": "缺陷的量子隧穿"
+       },
+       "source": {
+        "PACS": "66.35.+a"
+       }
+      },
+      {
+       "id": "66.70",
+       "name": {
+        "en": "Nonelectronic thermal conduction and heat-pulse propagation in solids; thermal waves",
+        "zh": "固体中的非电子热传导与热脉冲传播；热波"
+       },
+       "source": {
+        "PACS": "66.70.-f"
+       }
+      },
+      {
+       "id": "66.90",
+       "name": {
+        "en": "Other topics in nonelectronic transport properties of condensed matter (restricted to new topics in section 66)",
+        "zh": "凝聚态非电子输运性质的其他课题（仅限第 66 节新课题）"
+       },
+       "source": {
+        "PACS": "66.90.+r"
+       }
+      }
+     ]
+    },
+    {
+     "id": "67",
+     "name": {
+      "en": "Quantum fluids and solids",
+      "zh": "量子流体与量子固体"
+     },
+     "source": {
+      "PACS": "67.",
+      "GB": [
+       "140.5075"
+      ]
+     },
+     "children": [
+      {
+       "id": "67.10",
+       "name": {
+        "en": "Quantum fluids: general properties",
+        "zh": "量子流体：一般性质"
+       },
+       "source": {
+        "PACS": "67.10.-j"
+       }
+      },
+      {
+       "id": "67.25",
+       "name": {
+        "en": "4He",
+        "zh": "⁴He"
+       },
+       "source": {
+        "PACS": "67.25.-k"
+       }
+      },
+      {
+       "id": "67.30",
+       "name": {
+        "en": "3He",
+        "zh": "³He"
+       },
+       "source": {
+        "PACS": "67.30.-n"
+       }
+      },
+      {
+       "id": "67.60",
+       "name": {
+        "en": "Mixtures of 3He and 4He",
+        "zh": "³He 与 ⁴He 混合物"
+       },
+       "source": {
+        "PACS": "67.60.-g"
+       }
+      },
+      {
+       "id": "67.63",
+       "name": {
+        "en": "Hydrogen and isotopes",
+        "zh": "氢及其同位素"
+       },
+       "source": {
+        "PACS": "67.63.-r"
+       }
+      },
+      {
+       "id": "67.80",
+       "name": {
+        "en": "Quantum solids",
+        "zh": "量子固体"
+       },
+       "source": {
+        "PACS": "67.80.-s"
+       }
+      },
+      {
+       "id": "67.85",
+       "name": {
+        "en": "Ultracold gases, trapped gases",
+        "zh": "超冷气体；囚禁气体"
+       },
+       "source": {
+        "PACS": "67.85.-d"
+       }
+      },
+      {
+       "id": "67.90",
+       "name": {
+        "en": "Other topics in quantum fluids and solids (restricted to new topics in section 67)",
+        "zh": "量子流体与量子固体的其他课题（仅限第 67 节新课题）"
+       },
+       "source": {
+        "PACS": "67.90.+z"
+       }
+      }
+     ]
+    },
+    {
+     "id": "68",
+     "name": {
+      "en": "Surfaces and interfaces; thin films and nanosystems (structure and nonelectronic properties)",
+      "zh": "表面与界面；薄膜与纳米体系（结构与非电子性质）"
+     },
+     "source": {
+      "PACS": "68.",
+      "GB": [
+       "140.5055"
+      ]
+     },
+     "children": [
+      {
+       "id": "68.03",
+       "name": {
+        "en": "Gas-liquid and vacuum-liquid interfaces",
+        "zh": "气-液界面与真空-液体界面"
+       },
+       "source": {
+        "PACS": "68.03.-g"
+       }
+      },
+      {
+       "id": "68.05",
+       "name": {
+        "en": "Liquid-liquid interfaces",
+        "zh": "液-液界面"
+       },
+       "source": {
+        "PACS": "68.05.-n"
+       }
+      },
+      {
+       "id": "68.08",
+       "name": {
+        "en": "Liquid-solid interfaces",
+        "zh": "液-固界面"
+       },
+       "source": {
+        "PACS": "68.08.-p"
+       }
+      },
+      {
+       "id": "68.15",
+       "name": {
+        "en": "Liquid thin films",
+        "zh": "液体薄膜"
+       },
+       "source": {
+        "PACS": "68.15.+e"
+       }
+      },
+      {
+       "id": "68.18",
+       "name": {
+        "en": "Langmuir-Blodgett films on liquids",
+        "zh": "液面上的 LB 膜"
+       },
+       "source": {
+        "PACS": "68.18.-g"
+       }
+      },
+      {
+       "id": "68.35",
+       "name": {
+        "en": "Solid surfaces and solid-solid interfaces: structure and energetics",
+        "zh": "固体表面与固-固界面：结构与能量"
+       },
+       "source": {
+        "PACS": "68.35.-p"
+       }
+      },
+      {
+       "id": "68.37",
+       "name": {
+        "en": "Microscopy of surfaces, interfaces, and thin films",
+        "zh": "表面、界面与薄膜的显微术"
+       },
+       "source": {
+        "PACS": "68.37.-d"
+       }
+      },
+      {
+       "id": "68.43",
+       "name": {
+        "en": "Chemisorption/physisorption: adsorbates on surfaces",
+        "zh": "化学吸附与物理吸附：表面吸附物"
+       },
+       "source": {
+        "PACS": "68.43.-h"
+       }
+      },
+      {
+       "id": "68.47",
+       "name": {
+        "en": "Solid-gas/vacuum interfaces: types of surfaces",
+        "zh": "固-气与固-真空界面：表面类型"
+       },
+       "source": {
+        "PACS": "68.47.-b"
+       }
+      },
+      {
+       "id": "68.49",
+       "name": {
+        "en": "Surface characterization by particle-surface scattering",
+        "zh": "用粒子-表面散射表征表面"
+       },
+       "source": {
+        "PACS": "68.49.-h"
+       }
+      },
+      {
+       "id": "68.55",
+       "name": {
+        "en": "Thin film structure and morphology",
+        "zh": "薄膜结构与形貌"
+       },
+       "source": {
+        "PACS": "68.55.-a",
+        "GB": [
+         "140.5045"
+        ]
+       }
+      },
+      {
+       "id": "68.60",
+       "name": {
+        "en": "Physical properties of thin films, nonelectronic",
+        "zh": "薄膜的非电子物理性质"
+       },
+       "source": {
+        "PACS": "68.60.-p",
+        "GB": [
+         "140.5045"
+        ]
+       }
+      },
+      {
+       "id": "68.65",
+       "name": {
+        "en": "Low-dimensional, mesoscopic, nanoscale and other related systems: structure and nonelectronic properties",
+        "zh": "低维、介观、纳米尺度及相关系统：结构与非电子性质"
+       },
+       "source": {
+        "PACS": "68.65.-k",
+        "GB": [
+         "140.5050"
+        ]
+       }
+      },
+      {
+       "id": "68.70",
+       "name": {
+        "en": "Whiskers and dendrites (growth, structure, and nonelectronic properties)",
+        "zh": "晶须与枝晶（生长、结构与非电子性质）"
+       },
+       "source": {
+        "PACS": "68.70.+w"
+       }
+      },
+      {
+       "id": "68.90",
+       "name": {
+        "en": "Other topics in structure, and nonelectronic properties of surfaces and interfaces; thin films and low-dimensional structures (restricted to new topics in section 68)",
+        "zh": "表面与界面、薄膜与低维结构的结构及非电子性质的其他课题（仅限第 68 节新课题）"
+       },
+       "source": {
+        "PACS": "68.90.+g"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "70",
+   "name": {
+    "en": "Condensed matter: electronic structure, electrical, magnetic, and optical properties",
+    "zh": "凝聚态：电子结构、电学、磁学与光学性质"
+   },
+   "source": {
+    "PACS": "70.",
+    "GB": [
+     "140.50",
+     "140.5099"
+    ]
+   },
+   "children": [
+    {
+     "id": "71",
+     "name": {
+      "en": "Electronic structure of bulk materials",
+      "zh": "体材料的电子结构"
+     },
+     "source": {
+      "PACS": "71."
+     },
+     "children": [
+      {
+       "id": "71.10",
+       "name": {
+        "en": "Theories and models of many-electron systems",
+        "zh": "多电子系统的理论与模型"
+       },
+       "source": {
+        "PACS": "71.10.-w",
+        "GB": [
+         "140.5010"
+        ]
+       }
+      },
+      {
+       "id": "71.15",
+       "name": {
+        "en": "Methods of electronic structure calculations",
+        "zh": "电子结构计算方法"
+       },
+       "source": {
+        "PACS": "71.15.-m",
+        "GB": [
+         "140.75"
+        ]
+       }
+      },
+      {
+       "id": "71.18",
+       "name": {
+        "en": "Fermi surface: calculations and measurements; effective mass, g factor",
+        "zh": "费米面：计算与测量；有效质量、g 因子"
+       },
+       "source": {
+        "PACS": "71.18.+y"
+       }
+      },
+      {
+       "id": "71.20",
+       "name": {
+        "en": "Electron density of states and band structure of crystalline solids",
+        "zh": "晶态固体的电子态密度与能带结构"
+       },
+       "source": {
+        "PACS": "71.20.-b"
+       }
+      },
+      {
+       "id": "71.22",
+       "name": {
+        "en": "Electronic structure of liquid metals and semiconductors and their alloys",
+        "zh": "液态金属、液态半导体及其合金的电子结构"
+       },
+       "source": {
+        "PACS": "71.22.+i"
+       }
+      },
+      {
+       "id": "71.23",
+       "name": {
+        "en": "Electronic structure of disordered solids",
+        "zh": "无序固体的电子结构"
+       },
+       "source": {
+        "PACS": "71.23.-k"
+       }
+      },
+      {
+       "id": "71.27",
+       "name": {
+        "en": "Strongly correlated electron systems; heavy fermions",
+        "zh": "强关联电子系统；重费米子"
+       },
+       "source": {
+        "PACS": "71.27.+a"
+       }
+      },
+      {
+       "id": "71.28",
+       "name": {
+        "en": "Narrow-band systems; intermediate-valence solids",
+        "zh": "窄带系统；中间价固体"
+       },
+       "source": {
+        "PACS": "71.28.+d"
+       }
+      },
+      {
+       "id": "71.30",
+       "name": {
+        "en": "Metal-insulator transitions and other electronic transitions",
+        "zh": "金属-绝缘体转变及其他电子转变"
+       },
+       "source": {
+        "PACS": "71.30.+h"
+       }
+      },
+      {
+       "id": "71.35",
+       "name": {
+        "en": "Excitons and related phenomena",
+        "zh": "激子及相关现象"
+       },
+       "source": {
+        "PACS": "71.35.-y"
+       }
+      },
+      {
+       "id": "71.36",
+       "name": {
+        "en": "Polaritons (including photon-phonon and photon-magnon interactions)",
+        "zh": "极化激元（含光子-声子与光子-磁振子相互作用）"
+       },
+       "source": {
+        "PACS": "71.36.+c"
+       }
+      },
+      {
+       "id": "71.38",
+       "name": {
+        "en": "Polarons and electron-phonon interactions",
+        "zh": "极化子与电子-声子相互作用"
+       },
+       "source": {
+        "PACS": "71.38.-k"
+       }
+      },
+      {
+       "id": "71.45",
+       "name": {
+        "en": "Collective effects",
+        "zh": "集体效应"
+       },
+       "source": {
+        "PACS": "71.45.-d"
+       }
+      },
+      {
+       "id": "71.55",
+       "name": {
+        "en": "Impurity and defect levels",
+        "zh": "杂质与缺陷能级"
+       },
+       "source": {
+        "PACS": "71.55.-i"
+       }
+      },
+      {
+       "id": "71.60",
+       "name": {
+        "en": "Positron states",
+        "zh": "正电子态"
+       },
+       "source": {
+        "PACS": "71.60.+z"
+       }
+      },
+      {
+       "id": "71.70",
+       "name": {
+        "en": "Level splitting and interactions",
+        "zh": "能级劈裂与相互作用"
+       },
+       "source": {
+        "PACS": "71.70.-d"
+       }
+      },
+      {
+       "id": "71.90",
+       "name": {
+        "en": "Other topics in electronic structure (restricted to new topics in section 71)",
+        "zh": "电子结构的其他课题（仅限第 71 节新课题）"
+       },
+       "source": {
+        "PACS": "71.90.+q"
+       }
+      }
+     ]
+    },
+    {
+     "id": "72",
+     "name": {
+      "en": "Electronic transport in condensed matter",
+      "zh": "凝聚态中的电子输运"
+     },
+     "source": {
+      "PACS": "72."
+     },
+     "children": [
+      {
+       "id": "72.10",
+       "name": {
+        "en": "Theory of electronic transport; scattering mechanisms",
+        "zh": "电子输运理论；散射机制"
+       },
+       "source": {
+        "PACS": "72.10.-d"
+       }
+      },
+      {
+       "id": "72.15",
+       "name": {
+        "en": "Electronic conduction in metals and alloys",
+        "zh": "金属与合金中的电子导电"
+       },
+       "source": {
+        "PACS": "72.15.-v",
+        "GB": [
+         "140.5015"
+        ]
+       }
+      },
+      {
+       "id": "72.20",
+       "name": {
+        "en": "Conductivity phenomena in semiconductors and insulators",
+        "zh": "半导体与绝缘体中的导电现象"
+       },
+       "source": {
+        "PACS": "72.20.-i",
+        "GB": [
+         "140.5020"
+        ]
+       }
+      },
+      {
+       "id": "72.25",
+       "name": {
+        "en": "Spin polarized transport",
+        "zh": "自旋极化输运"
+       },
+       "source": {
+        "PACS": "72.25.-b"
+       }
+      },
+      {
+       "id": "72.30",
+       "name": {
+        "en": "High-frequency effects; plasma effects",
+        "zh": "高频效应；等离子体效应"
+       },
+       "source": {
+        "PACS": "72.30.+q"
+       }
+      },
+      {
+       "id": "72.40",
+       "name": {
+        "en": "Photoconduction and photovoltaic effects",
+        "zh": "光电导与光伏效应"
+       },
+       "source": {
+        "PACS": "72.40.+w"
+       }
+      },
+      {
+       "id": "72.50",
+       "name": {
+        "en": "Acoustoelectric effects",
+        "zh": "声电效应"
+       },
+       "source": {
+        "PACS": "72.50.+b"
+       }
+      },
+      {
+       "id": "72.55",
+       "name": {
+        "en": "Magnetoacoustic effects",
+        "zh": "磁声效应"
+       },
+       "source": {
+        "PACS": "72.55.+s"
+       }
+      },
+      {
+       "id": "72.60",
+       "name": {
+        "en": "Mixed conductivity and conductivity transitions",
+        "zh": "混合导电与导电转变"
+       },
+       "source": {
+        "PACS": "72.60.+g"
+       }
+      },
+      {
+       "id": "72.70",
+       "name": {
+        "en": "Noise processes and phenomena",
+        "zh": "噪声过程与现象"
+       },
+       "source": {
+        "PACS": "72.70.+m"
+       }
+      },
+      {
+       "id": "72.80",
+       "name": {
+        "en": "Conductivity of specific materials",
+        "zh": "特定材料的电导"
+       },
+       "source": {
+        "PACS": "72.80.-r"
+       }
+      },
+      {
+       "id": "72.90",
+       "name": {
+        "en": "Other topics in electronic transport in condensed matter (restricted to new topics in section 72)",
+        "zh": "凝聚态电子输运的其他课题（仅限第 72 节新课题）"
+       },
+       "source": {
+        "PACS": "72.90.+y"
+       }
+      }
+     ]
+    },
+    {
+     "id": "73",
+     "name": {
+      "en": "Electronic structure and electrical properties of surfaces, interfaces, thin films, and low-dimensional structures",
+      "zh": "表面、界面、薄膜与低维结构的电子结构和电学性质"
+     },
+     "source": {
+      "PACS": "73."
+     },
+     "children": [
+      {
+       "id": "73.20",
+       "name": {
+        "en": "Electron states at surfaces and interfaces",
+        "zh": "表面与界面的电子态"
+       },
+       "source": {
+        "PACS": "73.20.-r",
+        "GB": [
+         "140.5055"
+        ]
+       }
+      },
+      {
+       "id": "73.21",
+       "name": {
+        "en": "Electron states and collective excitations in multilayers, quantum wells, mesoscopic, and nanoscale systems",
+        "zh": "多层膜、量子阱、介观与纳米体系中的电子态与集体激发"
+       },
+       "source": {
+        "PACS": "73.21.-b",
+        "GB": [
+         "140.5050"
+        ]
+       }
+      },
+      {
+       "id": "73.22",
+       "name": {
+        "en": "Electronic structure of nanoscale materials and related systems",
+        "zh": "纳米材料及相关系统的电子结构"
+       },
+       "source": {
+        "PACS": "73.22.-f"
+       }
+      },
+      {
+       "id": "73.23",
+       "name": {
+        "en": "Electronic transport in mesoscopic systems",
+        "zh": "介观系统中的电子输运"
+       },
+       "source": {
+        "PACS": "73.23.-b"
+       }
+      },
+      {
+       "id": "73.25",
+       "name": {
+        "en": "Surface conductivity and carrier phenomena",
+        "zh": "表面电导与载流子现象"
+       },
+       "source": {
+        "PACS": "73.25.+i"
+       }
+      },
+      {
+       "id": "73.30",
+       "name": {
+        "en": "Surface double layers, Schottky barriers, and work functions",
+        "zh": "表面双电层、肖特基势垒与功函数"
+       },
+       "source": {
+        "PACS": "73.30.+y"
+       }
+      },
+      {
+       "id": "73.40",
+       "name": {
+        "en": "Electronic transport in interface structures",
+        "zh": "界面结构中的电子输运"
+       },
+       "source": {
+        "PACS": "73.40.-c"
+       }
+      },
+      {
+       "id": "73.43",
+       "name": {
+        "en": "Quantum Hall effects",
+        "zh": "量子霍尔效应"
+       },
+       "source": {
+        "PACS": "73.43.-f"
+       }
+      },
+      {
+       "id": "73.50",
+       "name": {
+        "en": "Electronic transport phenomena in thin films",
+        "zh": "薄膜中的电子输运现象"
+       },
+       "source": {
+        "PACS": "73.50.-h",
+        "GB": [
+         "140.5045"
+        ]
+       }
+      },
+      {
+       "id": "73.61",
+       "name": {
+        "en": "Electrical properties of specific thin films",
+        "zh": "特定薄膜的电学性质"
+       },
+       "source": {
+        "PACS": "73.61.-r"
+       }
+      },
+      {
+       "id": "73.63",
+       "name": {
+        "en": "Electronic transport in nanoscale materials and structures",
+        "zh": "纳米材料与纳米结构中的电子输运"
+       },
+       "source": {
+        "PACS": "73.63.-b"
+       }
+      },
+      {
+       "id": "73.90",
+       "name": {
+        "en": "Other topics in electronic structure and electrical properties of surfaces, interfaces, thin films, and low-dimensional structures (Restricted to new topics in section 73)",
+        "zh": "表面、界面、薄膜与低维结构的电子结构和电学性质的其他课题（仅限第 73 节新课题）"
+       },
+       "source": {
+        "PACS": "73.90.+f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "74",
+     "name": {
+      "en": "Superconductivity",
+      "zh": "超导"
+     },
+     "source": {
+      "PACS": "74.",
+      "GB": [
+       "140.5070"
+      ]
+     },
+     "children": [
+      {
+       "id": "74.10",
+       "name": {
+        "en": "Occurrence, potential candidates",
+        "zh": "超导的存在；潜在候选材料"
+       },
+       "source": {
+        "PACS": "74.10.+v"
+       }
+      },
+      {
+       "id": "74.20",
+       "name": {
+        "en": "Theories and models of superconducting state",
+        "zh": "超导态的理论与模型"
+       },
+       "source": {
+        "PACS": "74.20.-z"
+       }
+      },
+      {
+       "id": "74.25",
+       "name": {
+        "en": "Properties of superconductors",
+        "zh": "超导体的性质"
+       },
+       "source": {
+        "PACS": "74.25.-q"
+       }
+      },
+      {
+       "id": "74.40",
+       "name": {
+        "en": "Fluctuation phenomena",
+        "zh": "涨落现象"
+       },
+       "source": {
+        "PACS": "74.40.-n"
+       }
+      },
+      {
+       "id": "74.45",
+       "name": {
+        "en": "Proximity effects; Andreev reflection; SN and SNS junctions",
+        "zh": "近邻效应；安德烈夫反射；SN 与 SNS 结"
+       },
+       "source": {
+        "PACS": "74.45.+c"
+       }
+      },
+      {
+       "id": "74.50",
+       "name": {
+        "en": "Tunneling phenomena; Josephson effects",
+        "zh": "隧穿现象；约瑟夫森效应"
+       },
+       "source": {
+        "PACS": "74.50.+r"
+       }
+      },
+      {
+       "id": "74.55",
+       "name": {
+        "en": "Tunneling phenomena: single particle tunneling and STM",
+        "zh": "隧穿现象：单粒子隧穿与扫描隧道显微镜"
+       },
+       "source": {
+        "PACS": "74.55.+v"
+       }
+      },
+      {
+       "id": "74.62",
+       "name": {
+        "en": "Transition temperature variations, phase diagrams",
+        "zh": "转变温度变化；相图"
+       },
+       "source": {
+        "PACS": "74.62.-c"
+       }
+      },
+      {
+       "id": "74.70",
+       "name": {
+        "en": "Superconducting materials other than cuprates",
+        "zh": "铜氧化物以外的超导材料"
+       },
+       "source": {
+        "PACS": "74.70.-b"
+       }
+      },
+      {
+       "id": "74.72",
+       "name": {
+        "en": "Cuprate superconductors",
+        "zh": "铜氧化物超导体"
+       },
+       "source": {
+        "PACS": "74.72.-h"
+       }
+      },
+      {
+       "id": "74.78",
+       "name": {
+        "en": "Superconducting films and low-dimensional structures",
+        "zh": "超导薄膜与低维结构"
+       },
+       "source": {
+        "PACS": "74.78.-w"
+       }
+      },
+      {
+       "id": "74.81",
+       "name": {
+        "en": "Inhomogeneous superconductors and superconducting systems, including electronic inhomogeneities",
+        "zh": "非均匀超导体与超导系统（含电子非均匀性）"
+       },
+       "source": {
+        "PACS": "74.81.-g"
+       }
+      },
+      {
+       "id": "74.90",
+       "name": {
+        "en": "Other topics in superconductivity (restricted to new topics in section 74)",
+        "zh": "超导的其他课题（仅限第 74 节新课题）"
+       },
+       "source": {
+        "PACS": "74.90.+n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "75",
+     "name": {
+      "en": "Magnetic properties and materials",
+      "zh": "磁性与磁性材料"
+     },
+     "source": {
+      "PACS": "75.",
+      "GB": [
+       "140.5065"
+      ]
+     },
+     "children": [
+      {
+       "id": "75.10",
+       "name": {
+        "en": "General theory and models of magnetic ordering",
+        "zh": "磁有序的一般理论与模型"
+       },
+       "source": {
+        "PACS": "75.10.-b"
+       }
+      },
+      {
+       "id": "75.20",
+       "name": {
+        "en": "Diamagnetism, paramagnetism, and superparamagnetism",
+        "zh": "抗磁性、顺磁性与超顺磁性"
+       },
+       "source": {
+        "PACS": "75.20.-g"
+       }
+      },
+      {
+       "id": "75.25",
+       "name": {
+        "en": "Spin arrangements in magnetically ordered materials (including neutron and spin-polarized electron studies, synchrotron-source x-ray scattering, etc.)",
+        "zh": "磁有序材料中的自旋排列（含中子与自旋极化电子研究、同步辐射 X 射线散射等）"
+       },
+       "source": {
+        "PACS": "75.25.-j"
+       }
+      },
+      {
+       "id": "75.30",
+       "name": {
+        "en": "Intrinsic properties of magnetically ordered materials",
+        "zh": "磁有序材料的本征性质"
+       },
+       "source": {
+        "PACS": "75.30.-m"
+       }
+      },
+      {
+       "id": "75.40",
+       "name": {
+        "en": "Critical-point effects, specific heats, short-range order",
+        "zh": "临界点效应、比热、短程序"
+       },
+       "source": {
+        "PACS": "75.40.-s"
+       }
+      },
+      {
+       "id": "75.45",
+       "name": {
+        "en": "Macroscopic quantum phenomena in magnetic systems",
+        "zh": "磁系统中的宏观量子现象"
+       },
+       "source": {
+        "PACS": "75.45.+j"
+       }
+      },
+      {
+       "id": "75.47",
+       "name": {
+        "en": "Magnetotransport phenomena; materials for magnetotransport",
+        "zh": "磁输运现象；磁输运材料"
+       },
+       "source": {
+        "PACS": "75.47.-m"
+       }
+      },
+      {
+       "id": "75.50",
+       "name": {
+        "en": "Studies of specific magnetic materials",
+        "zh": "特定磁性材料研究"
+       },
+       "source": {
+        "PACS": "75.50.-y"
+       }
+      },
+      {
+       "id": "75.60",
+       "name": {
+        "en": "Domain effects, magnetization curves, and hysteresis",
+        "zh": "磁畴效应、磁化曲线与磁滞"
+       },
+       "source": {
+        "PACS": "75.60.-d"
+       }
+      },
+      {
+       "id": "75.70",
+       "name": {
+        "en": "Magnetic properties of thin films, surfaces, and interfaces",
+        "zh": "薄膜、表面与界面的磁性"
+       },
+       "source": {
+        "PACS": "75.70.-i"
+       }
+      },
+      {
+       "id": "75.75",
+       "name": {
+        "en": "Magnetic properties of nanostructures",
+        "zh": "纳米结构的磁性"
+       },
+       "source": {
+        "PACS": "75.75.-c"
+       }
+      },
+      {
+       "id": "75.76",
+       "name": {
+        "en": "Spin transport effects",
+        "zh": "自旋输运效应"
+       },
+       "source": {
+        "PACS": "75.76.+j"
+       }
+      },
+      {
+       "id": "75.78",
+       "name": {
+        "en": "Magnetization dynamics",
+        "zh": "磁化动力学"
+       },
+       "source": {
+        "PACS": "75.78.-n"
+       }
+      },
+      {
+       "id": "75.80",
+       "name": {
+        "en": "Magnetomechanical effects, magnetostriction",
+        "zh": "磁力学效应；磁致伸缩"
+       },
+       "source": {
+        "PACS": "75.80.+q"
+       }
+      },
+      {
+       "id": "75.85",
+       "name": {
+        "en": "Magnetoelectric effects, multiferroics",
+        "zh": "磁电效应；多铁性"
+       },
+       "source": {
+        "PACS": "75.85.+t"
+       }
+      },
+      {
+       "id": "75.90",
+       "name": {
+        "en": "Other topics in magnetic properties and materials (restricted to new topics in section 75)",
+        "zh": "磁性与磁性材料的其他课题（仅限第 75 节新课题）"
+       },
+       "source": {
+        "PACS": "75.90.+w"
+       }
+      }
+     ]
+    },
+    {
+     "id": "76",
+     "name": {
+      "en": "Magnetic resonances and relaxations in condensed matter, Mössbauer effect",
+      "zh": "凝聚态中的磁共振与弛豫；穆斯堡尔效应"
+     },
+     "source": {
+      "PACS": "76.",
+      "GB": [
+       "140.6040"
+      ]
+     },
+     "children": [
+      {
+       "id": "76.20",
+       "name": {
+        "en": "General theory of resonances and relaxations",
+        "zh": "共振与弛豫的一般理论"
+       },
+       "source": {
+        "PACS": "76.20.+q"
+       }
+      },
+      {
+       "id": "76.30",
+       "name": {
+        "en": "Electron paramagnetic resonance and relaxation",
+        "zh": "电子顺磁共振与弛豫"
+       },
+       "source": {
+        "PACS": "76.30.-v"
+       }
+      },
+      {
+       "id": "76.40",
+       "name": {
+        "en": "Diamagnetic and cyclotron resonances",
+        "zh": "抗磁共振与回旋共振"
+       },
+       "source": {
+        "PACS": "76.40.+b"
+       }
+      },
+      {
+       "id": "76.50",
+       "name": {
+        "en": "Ferromagnetic, antiferromagnetic, and ferrimagnetic resonances; spin-wave resonance",
+        "zh": "铁磁、反铁磁与亚铁磁共振；自旋波共振"
+       },
+       "source": {
+        "PACS": "76.50.+g"
+       }
+      },
+      {
+       "id": "76.60",
+       "name": {
+        "en": "Nuclear magnetic resonance and relaxation",
+        "zh": "核磁共振与弛豫"
+       },
+       "source": {
+        "PACS": "76.60.-k"
+       }
+      },
+      {
+       "id": "76.70",
+       "name": {
+        "en": "Magnetic double resonances and cross effects",
+        "zh": "磁双共振与交叉效应"
+       },
+       "source": {
+        "PACS": "76.70.-r"
+       }
+      },
+      {
+       "id": "76.75",
+       "name": {
+        "en": "Muon spin rotation and relaxation",
+        "zh": "μ 子自旋旋转与弛豫"
+       },
+       "source": {
+        "PACS": "76.75.+i"
+       }
+      },
+      {
+       "id": "76.80",
+       "name": {
+        "en": "Mössbauer effect; other γ-ray spectroscopy",
+        "zh": "穆斯堡尔效应；其他 γ 射线谱学"
+       },
+       "source": {
+        "PACS": "76.80.+y"
+       }
+      },
+      {
+       "id": "76.90",
+       "name": {
+        "en": "Other topics in magnetic resonances and relaxations (restricted to new topics in section 76)",
+        "zh": "磁共振与弛豫的其他课题（仅限第 76 节新课题）"
+       },
+       "source": {
+        "PACS": "76.90.+d"
+       }
+      }
+     ]
+    },
+    {
+     "id": "77",
+     "name": {
+      "en": "Dielectrics, piezoelectrics, and ferroelectrics and their properties",
+      "zh": "电介质、压电体与铁电体及其性质"
+     },
+     "source": {
+      "PACS": "77.",
+      "GB": [
+       "140.5025"
+      ]
+     },
+     "children": [
+      {
+       "id": "77.22",
+       "name": {
+        "en": "Dielectric properties of solids and liquids",
+        "zh": "固体与液体的介电性质"
+       },
+       "source": {
+        "PACS": "77.22.-d"
+       }
+      },
+      {
+       "id": "77.55",
+       "name": {
+        "en": "Dielectric thin films",
+        "zh": "介电薄膜"
+       },
+       "source": {
+        "PACS": "77.55.-g"
+       }
+      },
+      {
+       "id": "77.65",
+       "name": {
+        "en": "Piezoelectricity and electromechanical effects",
+        "zh": "压电性与机电效应"
+       },
+       "source": {
+        "PACS": "77.65.-j",
+        "GB": [
+         "130.1560"
+        ]
+       }
+      },
+      {
+       "id": "77.70",
+       "name": {
+        "en": "Pyroelectric and electrocaloric effects",
+        "zh": "热释电效应与电卡效应"
+       },
+       "source": {
+        "PACS": "77.70.+a"
+       }
+      },
+      {
+       "id": "77.80",
+       "name": {
+        "en": "Ferroelectricity and antiferroelectricity",
+        "zh": "铁电性与反铁电性"
+       },
+       "source": {
+        "PACS": "77.80.-e"
+       }
+      },
+      {
+       "id": "77.84",
+       "name": {
+        "en": "Dielectric, piezoelectric, ferroelectric, and antiferroelectric materials",
+        "zh": "介电、压电、铁电与反铁电材料"
+       },
+       "source": {
+        "PACS": "77.84.-s"
+       }
+      },
+      {
+       "id": "77.90",
+       "name": {
+        "en": "Other topics in dielectrics, piezoelectrics, and ferroelectrics and their properties (restricted to new topics in section 77)",
+        "zh": "电介质、压电体与铁电体及其性质的其他课题（仅限第 77 节新课题）"
+       },
+       "source": {
+        "PACS": "77.90.+k"
+       }
+      }
+     ]
+    },
+    {
+     "id": "78",
+     "name": {
+      "en": "Optical properties, condensed-matter spectroscopy and other interactions of radiation and particles with condensed matter",
+      "zh": "光学性质、凝聚态光谱学及辐射和粒子与凝聚态的其他相互作用"
+     },
+     "source": {
+      "PACS": "78."
+     },
+     "children": [
+      {
+       "id": "78.15",
+       "name": {
+        "en": "Optical properties of fluid materials, supercritical fluids and liquid crystals",
+        "zh": "流体材料、超临界流体与液晶的光学性质"
+       },
+       "source": {
+        "PACS": "78.15.+e"
+       }
+      },
+      {
+       "id": "78.20",
+       "name": {
+        "en": "Optical properties of bulk materials and thin films",
+        "zh": "体材料与薄膜的光学性质"
+       },
+       "source": {
+        "PACS": "78.20.-e"
+       }
+      },
+      {
+       "id": "78.30",
+       "name": {
+        "en": "Infrared and Raman spectra",
+        "zh": "红外光谱与拉曼光谱"
+       },
+       "source": {
+        "PACS": "78.30.-j",
+        "GB": [
+         "140.3025",
+         "140.3050"
+        ]
+       }
+      },
+      {
+       "id": "78.35",
+       "name": {
+        "en": "Brillouin and Rayleigh scattering; other light scattering",
+        "zh": "布里渊散射与瑞利散射；其他光散射"
+       },
+       "source": {
+        "PACS": "78.35.+c"
+       }
+      },
+      {
+       "id": "78.40",
+       "name": {
+        "en": "Absorption and reflection spectra: visible and ultraviolet",
+        "zh": "吸收谱与反射谱：可见光与紫外"
+       },
+       "source": {
+        "PACS": "78.40.-q",
+        "GB": [
+         "140.3025"
+        ]
+       }
+      },
+      {
+       "id": "78.45",
+       "name": {
+        "en": "Stimulated emission",
+        "zh": "受激发射"
+       },
+       "source": {
+        "PACS": "78.45.+h"
+       }
+      },
+      {
+       "id": "78.47",
+       "name": {
+        "en": "Spectroscopy of solid state dynamics",
+        "zh": "固态动力学光谱学"
+       },
+       "source": {
+        "PACS": "78.47.-p"
+       }
+      },
+      {
+       "id": "78.55",
+       "name": {
+        "en": "Photoluminescence, properties and materials",
+        "zh": "光致发光：性质与材料"
+       },
+       "source": {
+        "PACS": "78.55.-m",
+        "GB": [
+         "140.3045",
+         "140.5060"
+        ]
+       }
+      },
+      {
+       "id": "78.56",
+       "name": {
+        "en": "Photoconduction and photovoltaic effects",
+        "zh": "光电导与光伏效应"
+       },
+       "source": {
+        "PACS": "78.56.-a"
+       }
+      },
+      {
+       "id": "78.60",
+       "name": {
+        "en": "Other luminescence and radiative recombination",
+        "zh": "其他发光与辐射复合"
+       },
+       "source": {
+        "PACS": "78.60.-b",
+        "GB": [
+         "140.3045",
+         "140.5060"
+        ]
+       }
+      },
+      {
+       "id": "78.66",
+       "name": {
+        "en": "Optical properties of specific thin films",
+        "zh": "特定薄膜的光学性质"
+       },
+       "source": {
+        "PACS": "78.66.-w"
+       }
+      },
+      {
+       "id": "78.67",
+       "name": {
+        "en": "Optical properties of low-dimensional, mesoscopic, and nanoscale materials and structures",
+        "zh": "低维、介观与纳米尺度材料和结构的光学性质"
+       },
+       "source": {
+        "PACS": "78.67.-n"
+       }
+      },
+      {
+       "id": "78.68",
+       "name": {
+        "en": "Optical properties of surfaces",
+        "zh": "表面的光学性质"
+       },
+       "source": {
+        "PACS": "78.68.+m"
+       }
+      },
+      {
+       "id": "78.70",
+       "name": {
+        "en": "Interactions of particles and radiation with matter",
+        "zh": "粒子和辐射与物质的相互作用"
+       },
+       "source": {
+        "PACS": "78.70.-g"
+       }
+      },
+      {
+       "id": "78.90",
+       "name": {
+        "en": "Other topics in optical properties, condensed matter spectroscopy and other interactions of particles and radiation with condensed matter (restricted to new topics in section 78)",
+        "zh": "光学性质、凝聚态光谱学及粒子和辐射与凝聚态相互作用的其他课题（仅限第 78 节新课题）"
+       },
+       "source": {
+        "PACS": "78.90.+t"
+       }
+      }
+     ]
+    },
+    {
+     "id": "79",
+     "name": {
+      "en": "Electron and ion emission by liquids and solids; impact phenomena",
+      "zh": "液体与固体的电子发射和离子发射；碰撞现象"
+     },
+     "source": {
+      "PACS": "79.",
+      "GB": [
+       "140.45",
+       "140.4520"
+      ]
+     },
+     "children": [
+      {
+       "id": "79.05",
+       "name": {
+        "en": "Solvated electrons",
+        "zh": "溶剂化电子"
+       },
+       "source": {
+        "PACS": "79.05.+c"
+       }
+      },
+      {
+       "id": "79.10",
+       "name": {
+        "en": "Thermoelectronic phenomena",
+        "zh": "热电子现象"
+       },
+       "source": {
+        "PACS": "79.10.-n"
+       }
+      },
+      {
+       "id": "79.20",
+       "name": {
+        "en": "Impact phenomena (including electron spectra and sputtering)",
+        "zh": "碰撞现象（含电子能谱与溅射）"
+       },
+       "source": {
+        "PACS": "79.20.-m"
+       }
+      },
+      {
+       "id": "79.40",
+       "name": {
+        "en": "Thermionic emission",
+        "zh": "热电子发射"
+       },
+       "source": {
+        "PACS": "79.40.+z"
+       }
+      },
+      {
+       "id": "79.60",
+       "name": {
+        "en": "Photoemission and photoelectron spectra",
+        "zh": "光电发射与光电子能谱"
+       },
+       "source": {
+        "PACS": "79.60.-i"
+       }
+      },
+      {
+       "id": "79.70",
+       "name": {
+        "en": "Field emission, ionization, evaporation, and desorption",
+        "zh": "场发射、场电离、场蒸发与场解吸"
+       },
+       "source": {
+        "PACS": "79.70.+q"
+       }
+      },
+      {
+       "id": "79.75",
+       "name": {
+        "en": "Exoelectron emission",
+        "zh": "外激电子发射"
+       },
+       "source": {
+        "PACS": "79.75.+g"
+       }
+      },
+      {
+       "id": "79.77",
+       "name": {
+        "en": "Coulomb explosion",
+        "zh": "库仑爆炸"
+       },
+       "source": {
+        "PACS": "79.77.+g"
+       }
+      },
+      {
+       "id": "79.90",
+       "name": {
+        "en": "Other topics in electron and ion emission by liquids and solids and impact phenomena (restricted to new topics in section 79)",
+        "zh": "液体与固体电子和离子发射及碰撞现象的其他课题（仅限第 79 节新课题）"
+       },
+       "source": {
+        "PACS": "79.90.+b"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "80",
+   "name": {
+    "en": "Interdisciplinary physics and related areas of science and technology",
+    "zh": "交叉物理及相关科学技术领域"
+   },
+   "source": {
+    "PACS": "80.",
+    "GB": [
+     "140.80"
+    ]
+   },
+   "children": [
+    {
+     "id": "81",
+     "name": {
+      "en": "Materials science",
+      "zh": "材料科学"
+     },
+     "source": {
+      "PACS": "81."
+     },
+     "children": [
+      {
+       "id": "81.05",
+       "name": {
+        "en": "Specific materials: fabrication, treatment, testing, and analysis",
+        "zh": "具体材料：制备、处理、测试与分析"
+       },
+       "source": {
+        "PACS": "81.05.-t"
+       }
+      },
+      {
+       "id": "81.07",
+       "name": {
+        "en": "Nanoscale materials and structures: fabrication and characterization",
+        "zh": "纳米材料与纳米结构：制备与表征"
+       },
+       "source": {
+        "PACS": "81.07.-b"
+       }
+      },
+      {
+       "id": "81.10",
+       "name": {
+        "en": "Methods of crystal growth; physics and chemistry of crystal growth, crystal morphology, and orientation",
+        "zh": "晶体生长方法；晶体生长的物理与化学、晶体形貌与取向"
+       },
+       "source": {
+        "PACS": "81.10.-h",
+        "GB": [
+         "140.5030"
+        ]
+       }
+      },
+      {
+       "id": "81.15",
+       "name": {
+        "en": "Methods of deposition of films and coatings; film growth and epitaxy",
+        "zh": "薄膜与涂层沉积方法；薄膜生长与外延"
+       },
+       "source": {
+        "PACS": "81.15.-z"
+       }
+      },
+      {
+       "id": "81.16",
+       "name": {
+        "en": "Methods of micro- and nanofabrication and processing",
+        "zh": "微纳加工与处理方法"
+       },
+       "source": {
+        "PACS": "81.16.-c"
+       }
+      },
+      {
+       "id": "81.20",
+       "name": {
+        "en": "Methods of materials synthesis and materials processing",
+        "zh": "材料合成与材料加工方法"
+       },
+       "source": {
+        "PACS": "81.20.-n"
+       }
+      },
+      {
+       "id": "81.30",
+       "name": {
+        "en": "Phase diagrams and microstructures developed by solidification and solid-solid phase transformations",
+        "zh": "凝固与固-固相变形成的相图与微结构"
+       },
+       "source": {
+        "PACS": "81.30.-t"
+       }
+      },
+      {
+       "id": "81.40",
+       "name": {
+        "en": "Treatment of materials and its effects on microstructure, nanostructure, and properties",
+        "zh": "材料处理及其对微结构、纳米结构与性能的影响"
+       },
+       "source": {
+        "PACS": "81.40.-z"
+       }
+      },
+      {
+       "id": "81.65",
+       "name": {
+        "en": "Surface treatments",
+        "zh": "表面处理"
+       },
+       "source": {
+        "PACS": "81.65.-b"
+       }
+      },
+      {
+       "id": "81.70",
+       "name": {
+        "en": "Methods of materials testing and analysis",
+        "zh": "材料测试与分析方法"
+       },
+       "source": {
+        "PACS": "81.70.-q"
+       }
+      },
+      {
+       "id": "81.90",
+       "name": {
+        "en": "Other topics in materials science (restricted to new topics in section 81)",
+        "zh": "材料科学的其他课题（仅限第 81 节新课题）"
+       },
+       "source": {
+        "PACS": "81.90.+c"
+       }
+      }
+     ]
+    },
+    {
+     "id": "82",
+     "name": {
+      "en": "Physical chemistry and chemical physics",
+      "zh": "物理化学与化学物理"
+     },
+     "source": {
+      "PACS": "82."
+     },
+     "children": [
+      {
+       "id": "82.20",
+       "name": {
+        "en": "Chemical kinetics and dynamics",
+        "zh": "化学动力学与反应动力学"
+       },
+       "source": {
+        "PACS": "82.20.-w"
+       }
+      },
+      {
+       "id": "82.30",
+       "name": {
+        "en": "Specific chemical reactions; reaction mechanisms",
+        "zh": "具体化学反应；反应机理"
+       },
+       "source": {
+        "PACS": "82.30.-b"
+       }
+      },
+      {
+       "id": "82.33",
+       "name": {
+        "en": "Reactions in various media",
+        "zh": "各种介质中的反应"
+       },
+       "source": {
+        "PACS": "82.33.-z"
+       }
+      },
+      {
+       "id": "82.35",
+       "name": {
+        "en": "Polymers: properties; reactions; polymerization",
+        "zh": "聚合物：性质、反应与聚合"
+       },
+       "source": {
+        "PACS": "82.35.-x"
+       }
+      },
+      {
+       "id": "82.37",
+       "name": {
+        "en": "Single molecule kinetics",
+        "zh": "单分子动力学"
+       },
+       "source": {
+        "PACS": "82.37.-j"
+       }
+      },
+      {
+       "id": "82.39",
+       "name": {
+        "en": "Chemical kinetics in biological systems",
+        "zh": "生物系统中的化学动力学"
+       },
+       "source": {
+        "PACS": "82.39.-k"
+       }
+      },
+      {
+       "id": "82.40",
+       "name": {
+        "en": "Chemical kinetics and reactions: special regimes and techniques",
+        "zh": "化学动力学与反应：特殊条件与技术"
+       },
+       "source": {
+        "PACS": "82.40.-g"
+       }
+      },
+      {
+       "id": "82.45",
+       "name": {
+        "en": "Electrochemistry and electrophoresis",
+        "zh": "电化学与电泳"
+       },
+       "source": {
+        "PACS": "82.45.-h"
+       }
+      },
+      {
+       "id": "82.47",
+       "name": {
+        "en": "Applied electrochemistry",
+        "zh": "应用电化学"
+       },
+       "source": {
+        "PACS": "82.47.-a"
+       }
+      },
+      {
+       "id": "82.50",
+       "name": {
+        "en": "Photochemistry",
+        "zh": "光化学"
+       },
+       "source": {
+        "PACS": "82.50.-m"
+       }
+      },
+      {
+       "id": "82.53",
+       "name": {
+        "en": "Femtochemistry",
+        "zh": "飞秒化学"
+       },
+       "source": {
+        "PACS": "82.53.-k"
+       }
+      },
+      {
+       "id": "82.56",
+       "name": {
+        "en": "Nuclear magnetic resonance",
+        "zh": "核磁共振"
+       },
+       "source": {
+        "PACS": "82.56.-b"
+       }
+      },
+      {
+       "id": "82.60",
+       "name": {
+        "en": "Chemical thermodynamics",
+        "zh": "化学热力学"
+       },
+       "source": {
+        "PACS": "82.60.-s"
+       }
+      },
+      {
+       "id": "82.65",
+       "name": {
+        "en": "Surface and interface chemistry; heterogeneous catalysis at surfaces",
+        "zh": "表面与界面化学；表面多相催化"
+       },
+       "source": {
+        "PACS": "82.65.+r"
+       }
+      },
+      {
+       "id": "82.70",
+       "name": {
+        "en": "Disperse systems; complex fluids",
+        "zh": "分散体系；复杂流体"
+       },
+       "source": {
+        "PACS": "82.70.-y"
+       }
+      },
+      {
+       "id": "82.75",
+       "name": {
+        "en": "Molecular sieves, zeolites, clathrates, and other complex solids",
+        "zh": "分子筛、沸石、笼形化合物及其他复杂固体"
+       },
+       "source": {
+        "PACS": "82.75.-z"
+       }
+      },
+      {
+       "id": "82.80",
+       "name": {
+        "en": "Chemical analysis and related physical methods of analysis",
+        "zh": "化学分析及相关物理分析方法"
+       },
+       "source": {
+        "PACS": "82.80.-d"
+       }
+      },
+      {
+       "id": "82.90",
+       "name": {
+        "en": "Other topics in physical chemistry and chemical physics (restricted to new topics in section 82)",
+        "zh": "物理化学与化学物理的其他课题（仅限第 82 节新课题）"
+       },
+       "source": {
+        "PACS": "82.90.+j"
+       }
+      }
+     ]
+    },
+    {
+     "id": "83",
+     "name": {
+      "en": "Rheology",
+      "zh": "流变学"
+     },
+     "source": {
+      "PACS": "83.",
+      "GB": [
+       "130.30"
+      ]
+     },
+     "children": [
+      {
+       "id": "83.10",
+       "name": {
+        "en": "Fundamentals and theoretical",
+        "zh": "基础与理论"
+       },
+       "source": {
+        "PACS": "83.10.-y"
+       }
+      },
+      {
+       "id": "83.50",
+       "name": {
+        "en": "Deformation and flow",
+        "zh": "形变与流动"
+       },
+       "source": {
+        "PACS": "83.50.-v"
+       }
+      },
+      {
+       "id": "83.60",
+       "name": {
+        "en": "Material behavior",
+        "zh": "材料行为"
+       },
+       "source": {
+        "PACS": "83.60.-a"
+       }
+      },
+      {
+       "id": "83.80",
+       "name": {
+        "en": "Material type",
+        "zh": "材料类型"
+       },
+       "source": {
+        "PACS": "83.80.-k"
+       }
+      },
+      {
+       "id": "83.85",
+       "name": {
+        "en": "Techniques and apparatus",
+        "zh": "技术与仪器"
+       },
+       "source": {
+        "PACS": "83.85.-c"
+       }
+      },
+      {
+       "id": "83.90",
+       "name": {
+        "en": "Other topics in rheology (restricted to new topics in section 83)",
+        "zh": "流变学的其他课题（仅限第 83 节新课题）"
+       },
+       "source": {
+        "PACS": "83.90.+s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "84",
+     "name": {
+      "en": "Electronics; radiowave and microwave technology; direct energy conversion and storage",
+      "zh": "电子学；无线电与微波技术；直接能量转换与储存"
+     },
+     "source": {
+      "PACS": "84."
+     },
+     "children": [
+      {
+       "id": "84.30",
+       "name": {
+        "en": "Electronic circuits",
+        "zh": "电子电路"
+       },
+       "source": {
+        "PACS": "84.30.-r"
+       }
+      },
+      {
+       "id": "84.32",
+       "name": {
+        "en": "Passive circuit components",
+        "zh": "无源电路元件"
+       },
+       "source": {
+        "PACS": "84.32.-y"
+       }
+      },
+      {
+       "id": "84.35",
+       "name": {
+        "en": "Neural networks",
+        "zh": "神经网络"
+       },
+       "source": {
+        "PACS": "84.35.+i"
+       }
+      },
+      {
+       "id": "84.37",
+       "name": {
+        "en": "Measurements in electric variables (including voltage, current, resistance, capacitance, inductance, impedance, and admittance, etc.)",
+        "zh": "电学量测量（含电压、电流、电阻、电容、电感、阻抗与导纳等）"
+       },
+       "source": {
+        "PACS": "84.37.+q"
+       }
+      },
+      {
+       "id": "84.40",
+       "name": {
+        "en": "Radiowave and microwave (including millimeter wave) technology",
+        "zh": "无线电与微波（含毫米波）技术"
+       },
+       "source": {
+        "PACS": "84.40.-x",
+        "GB": [
+         "140.40",
+         "140.4010",
+         "140.4020",
+         "140.4030",
+         "140.4040",
+         "140.4050"
+        ]
+       }
+      },
+      {
+       "id": "84.47",
+       "name": {
+        "en": "Vacuum tubes",
+        "zh": "真空管"
+       },
+       "source": {
+        "PACS": "84.47.+w"
+       }
+      },
+      {
+       "id": "84.50",
+       "name": {
+        "en": "Electric motors",
+        "zh": "电动机"
+       },
+       "source": {
+        "PACS": "84.50.+d"
+       }
+      },
+      {
+       "id": "84.60",
+       "name": {
+        "en": "Direct energy conversion and storage",
+        "zh": "直接能量转换与储存"
+       },
+       "source": {
+        "PACS": "84.60.-h"
+       }
+      },
+      {
+       "id": "84.70",
+       "name": {
+        "en": "High-current and high-voltage technology: power systems; power transmission lines and cables",
+        "zh": "大电流与高电压技术：电力系统；输电线路与电缆"
+       },
+       "source": {
+        "PACS": "84.70.+p"
+       }
+      },
+      {
+       "id": "84.71",
+       "name": {
+        "en": "Superconducting high-power technology",
+        "zh": "超导大功率技术"
+       },
+       "source": {
+        "PACS": "84.71.-b"
+       }
+      },
+      {
+       "id": "84.90",
+       "name": {
+        "en": "Other topics in electronics, radiowave and microwave technology, and direct energy conversion and storage (restricted to new topics in section 84)",
+        "zh": "电子学、无线电与微波技术及直接能量转换与储存的其他课题（仅限第 84 节新课题）"
+       },
+       "source": {
+        "PACS": "84.90.+a",
+        "GB": [
+         "140.4099"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "85",
+     "name": {
+      "en": "Electronic and magnetic devices; microelectronics",
+      "zh": "电子与磁性器件；微电子学"
+     },
+     "source": {
+      "PACS": "85.",
+      "GB": [
+       "140.45"
+      ]
+     },
+     "children": [
+      {
+       "id": "85.25",
+       "name": {
+        "en": "Superconducting devices",
+        "zh": "超导器件"
+       },
+       "source": {
+        "PACS": "85.25.-j"
+       }
+      },
+      {
+       "id": "85.30",
+       "name": {
+        "en": "Semiconductor devices",
+        "zh": "半导体器件"
+       },
+       "source": {
+        "PACS": "85.30.-z"
+       }
+      },
+      {
+       "id": "85.35",
+       "name": {
+        "en": "Nanoelectronic devices",
+        "zh": "纳米电子器件"
+       },
+       "source": {
+        "PACS": "85.35.-p"
+       }
+      },
+      {
+       "id": "85.40",
+       "name": {
+        "en": "Microelectronics: LSI, VLSI, ULSI; integrated circuit fabrication technology",
+        "zh": "微电子学：LSI、VLSI、ULSI；集成电路制造技术"
+       },
+       "source": {
+        "PACS": "85.40.-e"
+       }
+      },
+      {
+       "id": "85.45",
+       "name": {
+        "en": "Vacuum microelectronics",
+        "zh": "真空微电子学"
+       },
+       "source": {
+        "PACS": "85.45.-w",
+        "GB": [
+         "140.4520"
+        ]
+       }
+      },
+      {
+       "id": "85.50",
+       "name": {
+        "en": "Dielectric, ferroelectric, and piezoelectric devices",
+        "zh": "介电、铁电与压电器件"
+       },
+       "source": {
+        "PACS": "85.50.-n"
+       }
+      },
+      {
+       "id": "85.60",
+       "name": {
+        "en": "Optoelectronic devices",
+        "zh": "光电子器件"
+       },
+       "source": {
+        "PACS": "85.60.-q"
+       }
+      },
+      {
+       "id": "85.65",
+       "name": {
+        "en": "Molecular electronic devices",
+        "zh": "分子电子器件"
+       },
+       "source": {
+        "PACS": "85.65.+h"
+       }
+      },
+      {
+       "id": "85.70",
+       "name": {
+        "en": "Magnetic devices",
+        "zh": "磁性器件"
+       },
+       "source": {
+        "PACS": "85.70.-w"
+       }
+      },
+      {
+       "id": "85.75",
+       "name": {
+        "en": "Magnetoelectronics; spintronics: devices exploiting spin polarized transport or integrated magnetic fields",
+        "zh": "磁电子学；自旋电子学：利用自旋极化输运或集成磁场的器件"
+       },
+       "source": {
+        "PACS": "85.75.-d"
+       }
+      },
+      {
+       "id": "85.80",
+       "name": {
+        "en": "Thermoelectromagnetic and other devices",
+        "zh": "热电磁器件及其他器件"
+       },
+       "source": {
+        "PACS": "85.80.-b"
+       }
+      },
+      {
+       "id": "85.85",
+       "name": {
+        "en": "Micro- and nano-electromechanical systems (MEMS/NEMS) and devices",
+        "zh": "微纳机电系统（MEMS/NEMS）与器件"
+       },
+       "source": {
+        "PACS": "85.85.+j"
+       }
+      },
+      {
+       "id": "85.90",
+       "name": {
+        "en": "Other topics in electronic and magnetic devices and microelectronics (restricted to new topics in section 85)",
+        "zh": "电子与磁性器件及微电子学的其他课题（仅限第 85 节新课题）"
+       },
+       "source": {
+        "PACS": "85.90.+h",
+        "GB": [
+         "140.4599"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "87",
+     "name": {
+      "en": "Biological and medical physics",
+      "zh": "生物与医学物理"
+     },
+     "source": {
+      "PACS": "87."
+     },
+     "children": [
+      {
+       "id": "87.10",
+       "name": {
+        "en": "General theory and mathematical aspects",
+        "zh": "一般理论与数学问题"
+       },
+       "source": {
+        "PACS": "87.10.-e"
+       }
+      },
+      {
+       "id": "87.14",
+       "name": {
+        "en": "Biomolecules: types",
+        "zh": "生物分子：类型"
+       },
+       "source": {
+        "PACS": "87.14.-g"
+       }
+      },
+      {
+       "id": "87.15",
+       "name": {
+        "en": "Biomolecules: structure and physical properties",
+        "zh": "生物分子：结构与物理性质"
+       },
+       "source": {
+        "PACS": "87.15.-v"
+       }
+      },
+      {
+       "id": "87.16",
+       "name": {
+        "en": "Subcellular structure and processes",
+        "zh": "亚细胞结构与过程"
+       },
+       "source": {
+        "PACS": "87.16.-b"
+       }
+      },
+      {
+       "id": "87.17",
+       "name": {
+        "en": "Cell processes",
+        "zh": "细胞过程"
+       },
+       "source": {
+        "PACS": "87.17.-d"
+       }
+      },
+      {
+       "id": "87.18",
+       "name": {
+        "en": "Biological complexity",
+        "zh": "生物复杂性"
+       },
+       "source": {
+        "PACS": "87.18.-h"
+       }
+      },
+      {
+       "id": "87.19",
+       "name": {
+        "en": "Properties of higher organisms",
+        "zh": "高等生物的性质"
+       },
+       "source": {
+        "PACS": "87.19.-j"
+       }
+      },
+      {
+       "id": "87.23",
+       "name": {
+        "en": "Ecology and evolution",
+        "zh": "生态与演化"
+       },
+       "source": {
+        "PACS": "87.23.-n"
+       }
+      },
+      {
+       "id": "87.50",
+       "name": {
+        "en": "Effects of electromagnetic and acoustic fields on biological systems",
+        "zh": "电磁场与声场对生物系统的影响"
+       },
+       "source": {
+        "PACS": "87.50.-a"
+       }
+      },
+      {
+       "id": "87.53",
+       "name": {
+        "en": "Effects of ionizing radiation on biological systems",
+        "zh": "电离辐射对生物系统的影响"
+       },
+       "source": {
+        "PACS": "87.53.-j"
+       }
+      },
+      {
+       "id": "87.55",
+       "name": {
+        "en": "Treatment strategy",
+        "zh": "治疗策略"
+       },
+       "source": {
+        "PACS": "87.55.-x"
+       }
+      },
+      {
+       "id": "87.56",
+       "name": {
+        "en": "Radiation therapy equipment",
+        "zh": "放射治疗设备"
+       },
+       "source": {
+        "PACS": "87.56.-v"
+       }
+      },
+      {
+       "id": "87.57",
+       "name": {
+        "en": "Medical imaging",
+        "zh": "医学成像"
+       },
+       "source": {
+        "PACS": "87.57.-s"
+       }
+      },
+      {
+       "id": "87.59",
+       "name": {
+        "en": "X-ray imaging",
+        "zh": "X 射线成像"
+       },
+       "source": {
+        "PACS": "87.59.-e"
+       }
+      },
+      {
+       "id": "87.61",
+       "name": {
+        "en": "Magnetic resonance imaging",
+        "zh": "磁共振成像"
+       },
+       "source": {
+        "PACS": "87.61.-c"
+       }
+      },
+      {
+       "id": "87.63",
+       "name": {
+        "en": "Non-ionizing radiation equipment and techniques",
+        "zh": "非电离辐射设备与技术"
+       },
+       "source": {
+        "PACS": "87.63.-d"
+       }
+      },
+      {
+       "id": "87.64",
+       "name": {
+        "en": "Spectroscopic and microscopic techniques in biophysics and medical physics",
+        "zh": "生物物理与医学物理中的光谱与显微技术"
+       },
+       "source": {
+        "PACS": "87.64.-t"
+       }
+      },
+      {
+       "id": "87.80",
+       "name": {
+        "en": "Biophysical techniques (research methods)",
+        "zh": "生物物理技术（研究方法）"
+       },
+       "source": {
+        "PACS": "87.80.-y"
+       }
+      },
+      {
+       "id": "87.85",
+       "name": {
+        "en": "Biomedical engineering",
+        "zh": "生物医学工程"
+       },
+       "source": {
+        "PACS": "87.85.-d"
+       }
+      },
+      {
+       "id": "87.90",
+       "name": {
+        "en": "Other topics in biological and medical physics (restricted to new topics in section 87)",
+        "zh": "生物与医学物理的其他课题（仅限第 87 节新课题）"
+       },
+       "source": {
+        "PACS": "87.90.+y"
+       }
+      }
+     ]
+    },
+    {
+     "id": "88",
+     "name": {
+      "en": "Renewable energy resources and applications",
+      "zh": "可再生能源及应用"
+     },
+     "source": {
+      "PACS": "88."
+     },
+     "children": [
+      {
+       "id": "88.05",
+       "name": {
+        "en": "Energy analysis",
+        "zh": "能源分析"
+       },
+       "source": {
+        "PACS": "88.05.-b"
+       }
+      },
+      {
+       "id": "88.10",
+       "name": {
+        "en": "Geothermal energy",
+        "zh": "地热能"
+       },
+       "source": {
+        "PACS": "88.10.-g",
+        "GB": [
+         "170.2040"
+        ]
+       }
+      },
+      {
+       "id": "88.20",
+       "name": {
+        "en": "Biomass energy",
+        "zh": "生物质能"
+       },
+       "source": {
+        "PACS": "88.20.-j"
+       }
+      },
+      {
+       "id": "88.30",
+       "name": {
+        "en": "Hydrogen and fuel cell technology",
+        "zh": "氢能与燃料电池技术"
+       },
+       "source": {
+        "PACS": "88.30.-k"
+       }
+      },
+      {
+       "id": "88.40",
+       "name": {
+        "en": "Solar energy",
+        "zh": "太阳能"
+       },
+       "source": {
+        "PACS": "88.40.-j"
+       }
+      },
+      {
+       "id": "88.50",
+       "name": {
+        "en": "Wind energy",
+        "zh": "风能"
+       },
+       "source": {
+        "PACS": "88.50.-k"
+       }
+      },
+      {
+       "id": "88.60",
+       "name": {
+        "en": "Hydroelectric power",
+        "zh": "水力发电"
+       },
+       "source": {
+        "PACS": "88.60.-m"
+       }
+      },
+      {
+       "id": "88.80",
+       "name": {
+        "en": "Energy delivery and storage",
+        "zh": "能量输送与储存"
+       },
+       "source": {
+        "PACS": "88.80.-q"
+       }
+      },
+      {
+       "id": "88.85",
+       "name": {
+        "en": "Advanced vehicles",
+        "zh": "先进交通工具"
+       },
+       "source": {
+        "PACS": "88.85.-r"
+       }
+      },
+      {
+       "id": "88.90",
+       "name": {
+        "en": "Other topics in renewable energy and applications (restricted to new topics in section 88)",
+        "zh": "可再生能源及应用的其他课题（仅限第 88 节新课题）"
+       },
+       "source": {
+        "PACS": "88.90.+t"
+       }
+      }
+     ]
+    },
+    {
+     "id": "89",
+     "name": {
+      "en": "Other areas of applied and interdisciplinary physics",
+      "zh": "其他应用物理与交叉物理领域"
+     },
+     "source": {
+      "PACS": "89."
+     },
+     "children": [
+      {
+       "id": "89.20",
+       "name": {
+        "en": "Interdisciplinary applications of physics",
+        "zh": "物理学的交叉应用"
+       },
+       "source": {
+        "PACS": "89.20.-a"
+       }
+      },
+      {
+       "id": "89.30",
+       "name": {
+        "en": "Fossil fuels and nuclear power",
+        "zh": "化石燃料与核能"
+       },
+       "source": {
+        "PACS": "89.30.-g"
+       }
+      },
+      {
+       "id": "89.40",
+       "name": {
+        "en": "Transportation",
+        "zh": "交通运输"
+       },
+       "source": {
+        "PACS": "89.40.-a"
+       }
+      },
+      {
+       "id": "89.60",
+       "name": {
+        "en": "Environmental studies",
+        "zh": "环境研究"
+       },
+       "source": {
+        "PACS": "89.60.-k"
+       }
+      },
+      {
+       "id": "89.65",
+       "name": {
+        "en": "Social and economic systems",
+        "zh": "社会与经济系统"
+       },
+       "source": {
+        "PACS": "89.65.-s"
+       }
+      },
+      {
+       "id": "89.70",
+       "name": {
+        "en": "Information and communication theory",
+        "zh": "信息与通信理论"
+       },
+       "source": {
+        "PACS": "89.70.-a"
+       }
+      },
+      {
+       "id": "89.75",
+       "name": {
+        "en": "Complex systems",
+        "zh": "复杂系统"
+       },
+       "source": {
+        "PACS": "89.75.-k"
+       }
+      },
+      {
+       "id": "89.90",
+       "name": {
+        "en": "Other topics in areas of applied and interdisciplinary physics (restricted to new topics in section 89)",
+        "zh": "应用物理与交叉物理领域的其他课题（仅限第 89 节新课题）"
+       },
+       "source": {
+        "PACS": "89.90.+n"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "90",
+   "name": {
+    "en": "Geophysics, astronomy, and astrophysics",
+    "zh": "地球物理、天文学与天体物理"
+   },
+   "source": {
+    "PACS": "90."
+   },
+   "children": [
+    {
+     "id": "91",
+     "name": {
+      "en": "Solid Earth physics",
+      "zh": "固体地球物理"
+     },
+     "source": {
+      "PACS": "91.",
+      "GB": [
+       "170.20"
+      ]
+     },
+     "children": [
+      {
+       "id": "91.10",
+       "name": {
+        "en": "Geodesy and gravity",
+        "zh": "大地测量与重力"
+       },
+       "source": {
+        "PACS": "91.10.-v",
+        "GB": [
+         "170.35",
+         "170.2015"
+        ]
+       }
+      },
+      {
+       "id": "91.25",
+       "name": {
+        "en": "Geomagnetism and paleomagnetism; geoelectricity",
+        "zh": "地磁与古地磁；地电"
+       },
+       "source": {
+        "PACS": "91.25.-r",
+        "GB": [
+         "170.2045",
+         "170.2050"
+        ]
+       }
+      },
+      {
+       "id": "91.30",
+       "name": {
+        "en": "Seismology",
+        "zh": "地震学"
+       },
+       "source": {
+        "PACS": "91.30.-f",
+        "GB": [
+         "170.2035",
+         "170.2060"
+        ]
+       }
+      },
+      {
+       "id": "91.32",
+       "name": {
+        "en": "Rheology of the Earth",
+        "zh": "地球流变学"
+       },
+       "source": {
+        "PACS": "91.32.-m"
+       }
+      },
+      {
+       "id": "91.35",
+       "name": {
+        "en": "Earth's interior structure and properties",
+        "zh": "地球内部结构与性质"
+       },
+       "source": {
+        "PACS": "91.35.-x",
+        "GB": [
+         "170.2020",
+         "170.2030",
+         "170.2040"
+        ]
+       }
+      },
+      {
+       "id": "91.40",
+       "name": {
+        "en": "Volcanology",
+        "zh": "火山学"
+       },
+       "source": {
+        "PACS": "91.40.-k",
+        "GB": [
+         "170.5074"
+        ]
+       }
+      },
+      {
+       "id": "91.45",
+       "name": {
+        "en": "Tectonophysics",
+        "zh": "构造物理学"
+       },
+       "source": {
+        "PACS": "91.45.-c",
+        "GB": [
+         "170.2010",
+         "170.2025"
+        ]
+       }
+      },
+      {
+       "id": "91.50",
+       "name": {
+        "en": "Marine geology and geophysics",
+        "zh": "海洋地质与海洋地球物理"
+       },
+       "source": {
+        "PACS": "91.50.-r",
+        "GB": [
+         "170.6020",
+         "170.6030"
+        ]
+       }
+      },
+      {
+       "id": "91.55",
+       "name": {
+        "en": "Structural geology",
+        "zh": "构造地质学"
+       },
+       "source": {
+        "PACS": "91.55.-y",
+        "GB": [
+         "170.5054"
+        ]
+       }
+      },
+      {
+       "id": "91.60",
+       "name": {
+        "en": "Physical properties of rocks and minerals",
+        "zh": "岩石与矿物的物理性质"
+       },
+       "source": {
+        "PACS": "91.60.-x",
+        "GB": [
+         "170.2075"
+        ]
+       }
+      },
+      {
+       "id": "91.62",
+       "name": {
+        "en": "Biogeosciences",
+        "zh": "生物地球科学"
+       },
+       "source": {
+        "PACS": "91.62.+g"
+       }
+      },
+      {
+       "id": "91.65",
+       "name": {
+        "en": "Mineralogy and petrology",
+        "zh": "矿物学与岩石学"
+       },
+       "source": {
+        "PACS": "91.65.-n",
+        "GB": [
+         "170.5021",
+         "170.5027"
+        ]
+       }
+      },
+      {
+       "id": "91.67",
+       "name": {
+        "en": "Geochemistry",
+        "zh": "地球化学"
+       },
+       "source": {
+        "PACS": "91.67.-y",
+        "GB": [
+         "170.30",
+         "170.2055"
+        ]
+       }
+      },
+      {
+       "id": "91.70",
+       "name": {
+        "en": "Information related to geologic time",
+        "zh": "地质年代相关信息"
+       },
+       "source": {
+        "PACS": "91.70.-c"
+       }
+      },
+      {
+       "id": "91.80",
+       "name": {
+        "en": "Geochronology",
+        "zh": "同位素地质年代学"
+       },
+       "source": {
+        "PACS": "91.80.+d",
+        "GB": [
+         "170.3040"
+        ]
+       }
+      },
+      {
+       "id": "91.90",
+       "name": {
+        "en": "Other topics in solid Earth physics (restricted to new topics in section 91)",
+        "zh": "固体地球物理的其他课题（仅限第 91 节新课题）"
+       },
+       "source": {
+        "PACS": "91.90.+p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "92",
+     "name": {
+      "en": "Hydrospheric and atmospheric geophysics",
+      "zh": "水圈与大气地球物理"
+     },
+     "source": {
+      "PACS": "92."
+     },
+     "children": [
+      {
+       "id": "92.05",
+       "name": {
+        "en": "General aspects of oceanography",
+        "zh": "海洋学一般问题"
+       },
+       "source": {
+        "PACS": "92.05.-x",
+        "GB": [
+         "170.60"
+        ]
+       }
+      },
+      {
+       "id": "92.10",
+       "name": {
+        "en": "Physical oceanography",
+        "zh": "物理海洋学"
+       },
+       "source": {
+        "PACS": "92.10.-c",
+        "GB": [
+         "170.6010",
+         "170.6035"
+        ]
+       }
+      },
+      {
+       "id": "92.20",
+       "name": {
+        "en": "Chemical and biological oceanography",
+        "zh": "化学海洋学与生物海洋学"
+       },
+       "source": {
+        "PACS": "92.20.-h"
+       }
+      },
+      {
+       "id": "92.30",
+       "name": {
+        "en": "Paleoceanography",
+        "zh": "古海洋学"
+       },
+       "source": {
+        "PACS": "92.30.+m"
+       }
+      },
+      {
+       "id": "92.40",
+       "name": {
+        "en": "Hydrology and glaciology; cryosphere",
+        "zh": "水文学与冰川学；冰冻圈"
+       },
+       "source": {
+        "PACS": "92.40.-t",
+        "GB": [
+         "170.55"
+        ]
+       }
+      },
+      {
+       "id": "92.60",
+       "name": {
+        "en": "Properties and dynamics of the atmosphere; meteorology",
+        "zh": "大气性质与动力学；气象学"
+       },
+       "source": {
+        "PACS": "92.60.-e",
+        "GB": [
+         "170.15",
+         "170.1510",
+         "170.1525",
+         "170.1540",
+         "170.2520"
+        ]
+       }
+      },
+      {
+       "id": "92.70",
+       "name": {
+        "en": "Global change",
+        "zh": "全球变化"
+       },
+       "source": {
+        "PACS": "92.70.-j",
+        "GB": [
+         "170.1535"
+        ]
+       }
+      },
+      {
+       "id": "92.90",
+       "name": {
+        "en": "Other topics in hydrospheric and atmospheric geophysics (restricted to new topics in section 92)",
+        "zh": "水圈与大气地球物理的其他课题（仅限第 92 节新课题）"
+       },
+       "source": {
+        "PACS": "92.90.+x"
+       }
+      }
+     ]
+    },
+    {
+     "id": "93",
+     "name": {
+      "en": "Geophysical observations, instrumentation, and techniques",
+      "zh": "地球物理观测、仪器与技术"
+     },
+     "source": {
+      "PACS": "93."
+     },
+     "children": [
+      {
+       "id": "93.30",
+       "name": {
+        "en": "Information related to geographical regions",
+        "zh": "地理区域相关信息"
+       },
+       "source": {
+        "PACS": "93.30.-w"
+       }
+      },
+      {
+       "id": "93.55",
+       "name": {
+        "en": "International organizations, national and international programs",
+        "zh": "国际组织；国家与国际计划"
+       },
+       "source": {
+        "PACS": "93.55.+z"
+       }
+      },
+      {
+       "id": "93.85",
+       "name": {
+        "en": "Instruments and techniques for geophysical research: Exploration geophysics",
+        "zh": "地球物理研究的仪器与技术：勘探地球物理"
+       },
+       "source": {
+        "PACS": "93.85.-q",
+        "GB": [
+         "170.2065"
+        ]
+       }
+      },
+      {
+       "id": "93.90",
+       "name": {
+        "en": "Other topics in geophysical observations, instrumentation, and techniques (restricted to new topics in section 93)",
+        "zh": "地球物理观测、仪器与技术的其他课题（仅限第 93 节新课题）"
+       },
+       "source": {
+        "PACS": "93.90.+y"
+       }
+      }
+     ]
+    },
+    {
+     "id": "94",
+     "name": {
+      "en": "Physics of the ionosphere and magnetosphere",
+      "zh": "电离层与磁层物理"
+     },
+     "source": {
+      "PACS": "94.",
+      "GB": [
+       "170.25"
+      ]
+     },
+     "children": [
+      {
+       "id": "94.05",
+       "name": {
+        "en": "Space plasma physics",
+        "zh": "空间等离子体物理"
+       },
+       "source": {
+        "PACS": "94.05.-a",
+        "GB": [
+         "170.2550"
+        ]
+       }
+      },
+      {
+       "id": "94.20",
+       "name": {
+        "en": "Physics of the ionosphere",
+        "zh": "电离层物理"
+       },
+       "source": {
+        "PACS": "94.20.-y",
+        "GB": [
+         "170.2510",
+         "170.2520"
+        ]
+       }
+      },
+      {
+       "id": "94.30",
+       "name": {
+        "en": "Physics of the magnetosphere",
+        "zh": "磁层物理"
+       },
+       "source": {
+        "PACS": "94.30.-d",
+        "GB": [
+         "170.2530"
+        ]
+       }
+      },
+      {
+       "id": "94.80",
+       "name": {
+        "en": "Instrumentation for space plasma physics, ionosphere, and magnetosphere",
+        "zh": "空间等离子体物理、电离层与磁层的仪器"
+       },
+       "source": {
+        "PACS": "94.80.+g",
+        "GB": [
+         "170.2540"
+        ]
+       }
+      },
+      {
+       "id": "94.90",
+       "name": {
+        "en": "Other topics in space plasma physics, physics of the ionosphere and magnetosphere (restricted to new topics in section 94)",
+        "zh": "空间等离子体物理、电离层与磁层物理的其他课题（仅限第 94 节新课题）"
+       },
+       "source": {
+        "PACS": "94.90.+m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "95",
+     "name": {
+      "en": "Fundamental astronomy and astrophysics; instrumentation, techniques, and astronomical observations",
+      "zh": "基础天文学与天体物理；仪器、技术与天文观测"
+     },
+     "source": {
+      "PACS": "95."
+     },
+     "children": [
+      {
+       "id": "95.10",
+       "name": {
+        "en": "Fundamental astronomy",
+        "zh": "基础天文学"
+       },
+       "source": {
+        "PACS": "95.10.-a",
+        "GB": [
+         "160.15",
+         "160.30"
+        ]
+       }
+      },
+      {
+       "id": "95.30",
+       "name": {
+        "en": "Fundamental aspects of astrophysics",
+        "zh": "天体物理的基础问题"
+       },
+       "source": {
+        "PACS": "95.30.-k",
+        "GB": [
+         "160.20"
+        ]
+       }
+      },
+      {
+       "id": "95.35",
+       "name": {
+        "en": "Dark matter (stellar, interstellar, galactic, and cosmological)",
+        "zh": "暗物质（恒星、星际、星系与宇宙学尺度）"
+       },
+       "source": {
+        "PACS": "95.35.+d"
+       }
+      },
+      {
+       "id": "95.36",
+       "name": {
+        "en": "Dark energy",
+        "zh": "暗能量"
+       },
+       "source": {
+        "PACS": "95.36.+x"
+       }
+      },
+      {
+       "id": "95.40",
+       "name": {
+        "en": "Artificial Earth satellites",
+        "zh": "人造地球卫星"
+       },
+       "source": {
+        "PACS": "95.40.+s"
+       }
+      },
+      {
+       "id": "95.45",
+       "name": {
+        "en": "Observatories and site testing",
+        "zh": "天文台与台址测试"
+       },
+       "source": {
+        "PACS": "95.45.+i"
+       }
+      },
+      {
+       "id": "95.55",
+       "name": {
+        "en": "Astronomical and space-research instrumentation",
+        "zh": "天文与空间研究仪器"
+       },
+       "source": {
+        "PACS": "95.55.-n",
+        "GB": [
+         "160.40"
+        ]
+       }
+      },
+      {
+       "id": "95.75",
+       "name": {
+        "en": "Observation and data reduction techniques; computer modeling and simulation",
+        "zh": "观测与数据处理技术；计算机建模与模拟"
+       },
+       "source": {
+        "PACS": "95.75.-z"
+       }
+      },
+      {
+       "id": "95.80",
+       "name": {
+        "en": "Astronomical catalogs, atlases, sky surveys, databases, retrieval systems, archives, etc.",
+        "zh": "天文星表、星图、巡天、数据库、检索系统与档案等"
+       },
+       "source": {
+        "PACS": "95.80.+p"
+       }
+      },
+      {
+       "id": "95.85",
+       "name": {
+        "en": "Astronomical observations (additional primary heading(s) must be chosen with these entries to represent the astronomical objects and/or properties studied)",
+        "zh": "天文观测（须另选主分类以表示所研究的天体或性质）"
+       },
+       "source": {
+        "PACS": "95.85.-e",
+        "GB": [
+         "160.35"
+        ]
+       }
+      },
+      {
+       "id": "95.90",
+       "name": {
+        "en": "Historical astronomy and archaeoastronomy; and other topics in fundamental astronomy and astrophysics; instrumentation, techniques, and astronomical observations",
+        "zh": "历史天文学与考古天文学；基础天文学与天体物理、仪器、技术及天文观测的其他课题"
+       },
+       "source": {
+        "PACS": "95.90.+v",
+        "GB": [
+         "160.10"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "96",
+     "name": {
+      "en": "Solar system; planetology",
+      "zh": "太阳系；行星科学"
+     },
+     "source": {
+      "PACS": "96.",
+      "GB": [
+       "160.60"
+      ]
+     },
+     "children": [
+      {
+       "id": "96.10",
+       "name": {
+        "en": "General; solar nebula; cosmogony",
+        "zh": "一般问题；太阳星云；天体演化学"
+       },
+       "source": {
+        "PACS": "96.10.+i",
+        "GB": [
+         "160.45"
+        ]
+       }
+      },
+      {
+       "id": "96.12",
+       "name": {
+        "en": "Planetology of solid surface planets",
+        "zh": "固体表面行星的行星学"
+       },
+       "source": {
+        "PACS": "96.12.-a"
+       }
+      },
+      {
+       "id": "96.15",
+       "name": {
+        "en": "Planetology of fluid planets",
+        "zh": "流体行星的行星学"
+       },
+       "source": {
+        "PACS": "96.15.-g"
+       }
+      },
+      {
+       "id": "96.20",
+       "name": {
+        "en": "Moon",
+        "zh": "月球"
+       },
+       "source": {
+        "PACS": "96.20.-n"
+       }
+      },
+      {
+       "id": "96.25",
+       "name": {
+        "en": "Planetology of comets and small bodies",
+        "zh": "彗星与小天体的行星学"
+       },
+       "source": {
+        "PACS": "96.25.-f"
+       }
+      },
+      {
+       "id": "96.30",
+       "name": {
+        "en": "Solar system objects",
+        "zh": "太阳系天体"
+       },
+       "source": {
+        "PACS": "96.30.-t"
+       }
+      },
+      {
+       "id": "96.50",
+       "name": {
+        "en": "Interplanetary physics",
+        "zh": "行星际物理"
+       },
+       "source": {
+        "PACS": "96.50.-e",
+        "GB": [
+         "140.7020"
+        ]
+       }
+      },
+      {
+       "id": "96.55",
+       "name": {
+        "en": "Astrobiology and astrochemistry of the Solar system and interplanetary space",
+        "zh": "太阳系与行星际空间的天体生物学与天体化学"
+       },
+       "source": {
+        "PACS": "96.55.+z",
+        "GB": [
+         "160.25",
+         "160.65"
+        ]
+       }
+      },
+      {
+       "id": "96.60",
+       "name": {
+        "en": "Solar physics",
+        "zh": "太阳物理"
+       },
+       "source": {
+        "PACS": "96.60.-j"
+       }
+      },
+      {
+       "id": "96.90",
+       "name": {
+        "en": "Other topics on the Solar system and planetology (restricted to new topics in section 96)",
+        "zh": "太阳系与行星科学的其他课题（仅限第 96 节新课题）"
+       },
+       "source": {
+        "PACS": "96.90.+c"
+       }
+      }
+     ]
+    },
+    {
+     "id": "97",
+     "name": {
+      "en": "Stars",
+      "zh": "恒星"
+     },
+     "source": {
+      "PACS": "97.",
+      "GB": [
+       "160.55"
+      ]
+     },
+     "children": [
+      {
+       "id": "97.10",
+       "name": {
+        "en": "Stellar characteristics and properties",
+        "zh": "恒星的特征与性质"
+       },
+       "source": {
+        "PACS": "97.10.-q"
+       }
+      },
+      {
+       "id": "97.20",
+       "name": {
+        "en": "Normal stars (by class): general or individual",
+        "zh": "正常恒星（按光谱型）：总体或个体"
+       },
+       "source": {
+        "PACS": "97.20.-w"
+       }
+      },
+      {
+       "id": "97.21",
+       "name": {
+        "en": "Pre-main sequence objects, young stellar objects (YSO's) and protostars (T Tauri stars, Orion population, Herbig-Haro objects, Bok globules, bipolar outflows, cometary nebulae, etc.)",
+        "zh": "主序前天体、年轻星体与原恒星（金牛 T 型星、猎户族、赫比格-阿罗天体、博克球状体、双极外流、彗状星云等）"
+       },
+       "source": {
+        "PACS": "97.21.+a"
+       }
+      },
+      {
+       "id": "97.30",
+       "name": {
+        "en": "Variable and peculiar stars (including novae)",
+        "zh": "变星与特殊恒星（含新星）"
+       },
+       "source": {
+        "PACS": "97.30.-b"
+       }
+      },
+      {
+       "id": "97.60",
+       "name": {
+        "en": "Late stages of stellar evolution (including black holes)",
+        "zh": "恒星演化晚期（含黑洞）"
+       },
+       "source": {
+        "PACS": "97.60.-s"
+       }
+      },
+      {
+       "id": "97.80",
+       "name": {
+        "en": "Binary and multiple stars",
+        "zh": "双星与聚星"
+       },
+       "source": {
+        "PACS": "97.80.-d"
+       }
+      },
+      {
+       "id": "97.82",
+       "name": {
+        "en": "Extrasolar planetary systems",
+        "zh": "太阳系外行星系统"
+       },
+       "source": {
+        "PACS": "97.82.-j"
+       }
+      },
+      {
+       "id": "97.90",
+       "name": {
+        "en": "Other topics on stars (restricted to new topics in section 97)",
+        "zh": "恒星的其他课题（仅限第 97 节新课题）"
+       },
+       "source": {
+        "PACS": "97.90.+j"
+       }
+      }
+     ]
+    },
+    {
+     "id": "98",
+     "name": {
+      "en": "Stellar systems; interstellar medium; galactic and extragalactic objects and systems; the Universe",
+      "zh": "恒星系统；星际介质；星系与河外天体和系统；宇宙"
+     },
+     "source": {
+      "PACS": "98.",
+      "GB": [
+       "160.50"
+      ]
+     },
+     "children": [
+      {
+       "id": "98.10",
+       "name": {
+        "en": "Stellar dynamics and kinematics",
+        "zh": "恒星动力学与运动学"
+       },
+       "source": {
+        "PACS": "98.10.+z"
+       }
+      },
+      {
+       "id": "98.20",
+       "name": {
+        "en": "Stellar clusters and associations",
+        "zh": "星团与星协"
+       },
+       "source": {
+        "PACS": "98.20.-d"
+       }
+      },
+      {
+       "id": "98.35",
+       "name": {
+        "en": "Characteristics and properties of the Milky Way galaxy",
+        "zh": "银河系的特征与性质"
+       },
+       "source": {
+        "PACS": "98.35.-a",
+        "GB": [
+         "160.55"
+        ]
+       }
+      },
+      {
+       "id": "98.38",
+       "name": {
+        "en": "Interstellar medium (ISM) and nebulae in Milky Way",
+        "zh": "银河系中的星际介质与星云"
+       },
+       "source": {
+        "PACS": "98.38.-j",
+        "GB": [
+         "160.25"
+        ]
+       }
+      },
+      {
+       "id": "98.52",
+       "name": {
+        "en": "Normal galaxies; extragalactic objects and systems (by type)",
+        "zh": "正常星系；河外天体与系统（按类型）"
+       },
+       "source": {
+        "PACS": "98.52.-b"
+       }
+      },
+      {
+       "id": "98.54",
+       "name": {
+        "en": "Quasars; active or peculiar galaxies, objects, and systems",
+        "zh": "类星体；活动星系或特殊星系、天体与系统"
+       },
+       "source": {
+        "PACS": "98.54.-h"
+       }
+      },
+      {
+       "id": "98.56",
+       "name": {
+        "en": "Local group; Magellanic Clouds",
+        "zh": "本星系群；麦哲伦云"
+       },
+       "source": {
+        "PACS": "98.56.-p"
+       }
+      },
+      {
+       "id": "98.58",
+       "name": {
+        "en": "Interstellar medium (ISM) and nebulae in external galaxies",
+        "zh": "河外星系中的星际介质与星云"
+       },
+       "source": {
+        "PACS": "98.58.-w"
+       }
+      },
+      {
+       "id": "98.62",
+       "name": {
+        "en": "Characteristics and properties of external galaxies and extragalactic objects",
+        "zh": "河外星系与河外天体的特征和性质"
+       },
+       "source": {
+        "PACS": "98.62.-g"
+       }
+      },
+      {
+       "id": "98.65",
+       "name": {
+        "en": "Galaxy groups, clusters, and superclusters; large scale structure of the Universe",
+        "zh": "星系群、星系团与超星系团；宇宙大尺度结构"
+       },
+       "source": {
+        "PACS": "98.65.-r"
+       }
+      },
+      {
+       "id": "98.70",
+       "name": {
+        "en": "Unidentified sources of radiation outside the Solar System",
+        "zh": "太阳系外未证认辐射源"
+       },
+       "source": {
+        "PACS": "98.70.-f",
+        "GB": [
+         "140.7020"
+        ]
+       }
+      },
+      {
+       "id": "98.80",
+       "name": {
+        "en": "Cosmology",
+        "zh": "宇宙学"
+       },
+       "source": {
+        "PACS": "98.80.-k"
+       }
+      },
+      {
+       "id": "98.90",
+       "name": {
+        "en": "Other topics on stellar systems; interstellar medium; galactic and extragalactic objects and systems; the Universe (restricted to new topics in section 98)",
+        "zh": "恒星系统、星际介质、星系与河外天体和系统及宇宙的其他课题（仅限第 98 节新课题）"
+       },
+       "source": {
+        "PACS": "98.90.+s"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

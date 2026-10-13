@@ -3,7 +3,7 @@ name: Deploy homepage
 on:
   push:
     branches: [main]
-    paths: ['homepage/**', 'scripts/verify_i18n.py', '.github/workflows/pages.yml']
+    paths: ['homepage/**', 'references/taxonomy/**', 'scripts/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 
 permissions:
@@ -24,6 +24,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/verify_i18n.py
+      - name: taxonomy.json matches its source tables
+        run: python3 scripts/build_taxonomy.py && git diff --exit-code homepage/data/taxonomy.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
