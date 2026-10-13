@@ -4,6 +4,13 @@ const LEVELS = ['domain', 'subfield', 'branch', 'researchPath', 'technicalPath']
 const LINKS = ['github', 'huggingface', 'containers'];
 const REVIEWER_TITLES = ['graduate', 'phd', 'professor'];
 
+// Which list each catalog page shows, and the columns after name and category.
+const CATALOGS = {
+  skills: { items: (site) => site.skills, columns: ['bench', 'external'], emptyKey: 'skills.empty' },
+  tools: { items: (site) => site.tools, columns: ['delivery', 'bench', 'external'], emptyKey: 'tools.empty' },
+  benchmark: { items: (site) => site.samples, columns: [], emptyKey: 'benchmark.empty' },
+};
+
 const loadJson = async (path) => {
   try {
     const response = await fetch(path);
@@ -35,6 +42,28 @@ const initialLang = () => {
   return navigator.language?.toLowerCase().startsWith('zh') ? 'zh' : 'en';
 };
 
+// Taxonomy: nodes carry bilingual names and the codes of the standards they come from.
+const indexTaxonomy = (nodes = []) => {
+  const byId = new Map();
+  const walk = (list, parent, depth) => list.forEach((node) => {
+    byId.set(node.id, { node, parent, depth });
+    walk(node.children ?? [], node, depth + 1);
+  });
+  walk(nodes, null, 0);
+  return byId;
+};
+
+const ancestry = (index, id) => {
+  const chain = [];
+  for (let entry = index.get(id); entry; entry = entry.parent && index.get(entry.parent.id)) chain.unshift(entry.node);
+  return chain;
+};
+
+const codeLabels = (source = {}) =>
+  Object.entries(source).map(([standard, code]) => `${standard === 'GB' ? 'GB/T' : standard} ${code}`);
+
+const sourceCodes = (source) => codeLabels(source).map((label) => h('span', { class: 'code' }, label));
+
 const renderLinks = (t, links) =>
   LINKS.map((name) =>
     links?.[name]
@@ -43,41 +72,50 @@ const renderLinks = (t, links) =>
 
 const renderLevels = (t) => LEVELS.map((level) => h('li', {}, t(`taxonomy.levels.${level}`)));
 
-const sourceCodes = (source = {}) =>
-  Object.entries(source).map(([standard, code]) => h('span', { class: 'code' }, `${standard} ${code}`));
-
-const renderTaxonomyNode = (t, node, depth = 0) => {
+const renderTaxonomyNode = (ctx, node, depth = 0) => {
   const label = h('span', { class: 'node-label' },
-    h('span', { class: 'level' }, t(`taxonomy.levels.${LEVELS[depth]}`)),
-    h('span', {}, node.name),
+    h('span', { class: 'level' }, ctx.t(`taxonomy.levels.${LEVELS[depth]}`)),
+    h('span', {}, ctx.name(node)),
     sourceCodes(node.source));
   const children = node.children ?? [];
   if (!children.length) return h('div', { class: 'node leaf' }, label);
   return h('details', { class: 'node' }, h('summary', {}, label),
-    children.map((child) => renderTaxonomyNode(t, child, depth + 1)));
+    children.map((child) => renderTaxonomyNode(ctx, child, depth + 1)));
 };
 
-const renderTaxonomy = (t, taxonomy) =>
-  taxonomy?.length ? taxonomy.map((node) => renderTaxonomyNode(t, node)) : [empty(t('taxonomy.empty'))];
+const renderTaxonomy = (ctx) => {
+  const nodes = ctx.taxonomy.nodes ?? [];
+  if (!nodes.length) return [empty(ctx.t('taxonomy.empty'))];
+  return [
+    ...(ctx.taxonomy.status === 'draft' ? [h('p', { class: 'notice' }, ctx.t('taxonomy.draft'))] : []),
+    ...nodes.map((node) => renderTaxonomyNode(ctx, node)),
+  ];
+};
 
 const formatScore = (score) => (typeof score === 'number' ? score.toFixed(3) : '—');
 
 const formatExternal = (external = []) =>
   external.length ? external.map(({ bench, score }) => `${bench}: ${formatScore(score)}`).join(' · ') : '—';
 
-const renderExtensionTable = (t, items, withDelivery, emptyKey) => {
-  if (!items?.length) return [empty(t(emptyKey))];
-  const columns = ['name', 'category', ...(withDelivery ? ['delivery'] : []), 'bench', 'external'];
-  const cells = (item) => [
-    item.name,
-    (item.primary ?? []).join(' › '),
-    ...(withDelivery ? [(item.delivery ?? []).map((d) => t(`delivery.${d}`)).join(' + ')] : []),
-    formatScore(item.bench),
-    formatExternal(item.external),
-  ];
-  return [h('div', { class: 'table-wrap' }, h('table', {},
-    h('thead', {}, h('tr', {}, columns.map((c) => h('th', {}, t(`columns.${c}`))))),
-    h('tbody', {}, items.map((item) => h('tr', {}, cells(item).map((value) => h('td', {}, value)))))))];
+const categoryText = (ctx, ids = []) => {
+  const last = ids[ids.length - 1];
+  return last && ctx.index.has(last) ? ancestry(ctx.index, last).map(ctx.name).join(' › ') : '—';
+};
+
+const renderTable = (ctx, items, extraColumns) => {
+  const columns = ['name', 'category', 'researchPath', 'technicalPath', ...extraColumns];
+  const value = (item, column) => ({
+    name: item.name,
+    category: categoryText(ctx, item.category),
+    researchPath: item.researchPath ?? '—',
+    technicalPath: item.technicalPath ?? '—',
+    delivery: (item.delivery ?? []).map((d) => ctx.t(`delivery.${d}`)).join(' + ') || '—',
+    bench: formatScore(item.bench),
+    external: formatExternal(item.external),
+  })[column];
+  return h('div', { class: 'table-wrap' }, h('table', {},
+    h('thead', {}, h('tr', {}, columns.map((c) => h('th', {}, ctx.t(`columns.${c}`))))),
+    h('tbody', {}, items.map((item) => h('tr', {}, columns.map((c) => h('td', {}, value(item, c))))))));
 };
 
 const stat = (value, label) => h('div', { class: 'stat' }, h('strong', {}, String(value ?? 0)), h('span', {}, label));
@@ -92,37 +130,137 @@ const renderCitation = (t, citation) => (citation ? [h('pre', {}, citation)] : [
 
 const fill = (id, nodes) => document.getElementById(id)?.replaceChildren(...nodes);
 
+// Catalog pages: sidebar tree of categories, list filtered by the selected one.
+const selectedCategory = () => new URLSearchParams(location.hash.slice(1)).get('c');
+const categoryHref = (id) => (id ? `#c=${encodeURIComponent(id)}` : '#');
+
+const inCategory = (item, id) =>
+  [item.category, ...(item.related ?? [])].some((path) => Array.isArray(path) && path.includes(id));
+
+const matchesFilter = (ctx, node, query) =>
+  !query || `${ctx.name(node)} ${Object.values(node.source ?? {}).join(' ')}`.toLowerCase().includes(query);
+
+const visibleIds = (ctx, query) => {
+  if (!query) return null;
+  const keep = new Set();
+  ctx.index.forEach(({ node }, id) => {
+    if (matchesFilter(ctx, node, query)) ancestry(ctx.index, id).forEach((a) => keep.add(a.id));
+  });
+  return keep;
+};
+
+const renderTree = (ctx, items, query) => {
+  const selected = selectedCategory();
+  const open = new Set(selected ? ancestry(ctx.index, selected).map((n) => n.id) : []);
+  const keep = visibleIds(ctx, query);
+  const count = (id) => items.filter((item) => inCategory(item, id)).length;
+
+  const branch = (nodes, depth) => h('ul', { class: `tree-level depth-${depth}` }, nodes
+    .filter((node) => !keep || keep.has(node.id))
+    .map((node) => {
+      const children = node.children ?? [];
+      const expanded = Boolean(keep) || open.has(node.id) || ctx.expanded.has(node.id);
+      const toggle = children.length
+        ? h('button', { class: 'tree-toggle', type: 'button', 'aria-expanded': String(expanded), 'aria-label': ctx.name(node) })
+        : h('span', { class: 'tree-toggle placeholder' });
+      toggle.onclick = () => {
+        if (ctx.expanded.has(node.id)) ctx.expanded.delete(node.id); else ctx.expanded.add(node.id);
+        ctx.renderTree();
+      };
+      const codes = codeLabels(node.source).join(' · ');
+      const link = h('a', {
+        class: 'tree-link', href: categoryHref(node.id), title: codes,
+        ...(node.id === selected ? { 'aria-current': 'true' } : {}),
+      }, h('span', { class: 'tree-name' }, ctx.name(node)), h('span', { class: 'tree-count' }, String(count(node.id))));
+      return h('li', {}, h('div', { class: 'tree-row' }, toggle, link),
+        children.length && expanded ? branch(children, depth + 1) : null);
+    }));
+
+  const all = h('a', { class: 'tree-link tree-all', href: categoryHref(null), ...(selected ? {} : { 'aria-current': 'true' }) },
+    h('span', { class: 'tree-name' }, ctx.t('catalog.all')), h('span', { class: 'tree-count' }, String(items.length)));
+  const tree = branch(ctx.taxonomy.nodes ?? [], 0);
+  return [all, tree.children.length ? tree : empty(ctx.t('catalog.noMatch'))];
+};
+
+const renderCatalog = (ctx, config) => {
+  const items = config.items(ctx.site) ?? [];
+  const selected = selectedCategory();
+  const chain = selected && ctx.index.has(selected) ? ancestry(ctx.index, selected) : [];
+  const filter = document.getElementById('tree-filter');
+
+  ctx.renderTree = () => fill('tree', renderTree(ctx, items, filter.value.trim().toLowerCase()));
+  filter.oninput = ctx.renderTree;
+  ctx.renderTree();
+
+  fill('crumbs', [
+    h('a', { href: categoryHref(null) }, ctx.t('catalog.all')),
+    ...chain.map((node) => [h('span', { class: 'sep' }, '›'), h('a', { href: categoryHref(node.id) }, ctx.name(node))]),
+  ].flat());
+
+  const current = chain[chain.length - 1];
+  fill('category-card', current ? [h('div', { class: 'category-card' },
+    h('span', { class: 'level' }, ctx.t(`taxonomy.levels.${LEVELS[chain.length - 1]}`)),
+    h('h2', {}, ctx.name(current)),
+    h('div', { class: 'codes' }, sourceCodes(current.source)))] : []);
+
+  const shown = current ? items.filter((item) => inCategory(item, current.id)) : items;
+  fill('catalog', shown.length
+    ? [renderTable(ctx, shown, config.columns)]
+    : [empty(ctx.t(items.length ? 'catalog.emptyCategory' : config.emptyKey))]);
+};
+
+const setupDrawer = () => {
+  const toggle = document.getElementById('sidebar-toggle');
+  if (!toggle) return;
+  const close = () => document.body.classList.remove('nav-open');
+  toggle.onclick = () => document.body.classList.toggle('nav-open');
+  document.getElementById('backdrop').onclick = close;
+  document.getElementById('sidebar').addEventListener('click', (event) => {
+    if (event.target.closest('.tree-link')) close();
+  });
+};
+
 const page = document.body.dataset.page;
 
-const render = (t, site) => {
+const render = (ctx) => {
+  const { t, site } = ctx;
   document.querySelectorAll('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => { el.placeholder = t(el.dataset.i18nPlaceholder); });
   document.title = page === 'home' ? t('meta.title') : `${t(`nav.${page}`)} · HP4PS`;
   fill('links', renderLinks(t, site.links));
   fill('taxonomy-levels', renderLevels(t));
-  fill('taxonomy-tree', renderTaxonomy(t, site.taxonomy));
-  fill('tools-table', renderExtensionTable(t, site.tools, true, 'tools.empty'));
-  fill('skills-table', renderExtensionTable(t, site.skills, false, 'skills.empty'));
+  fill('taxonomy-tree', renderTaxonomy(ctx));
   fill('benchmark-stats', renderBenchmark(t, site.benchmark));
   fill('harness-base', [site.harness?.basedOn ? `${t('harness.basedOn')} ${site.harness.basedOn}` : t('harness.pending')]);
   fill('cite-body', renderCitation(t, site.citation));
+  if (CATALOGS[page]) renderCatalog(ctx, CATALOGS[page]);
 };
 
 document.querySelectorAll(`.topbar [data-page="${page}"]`).forEach((link) => link.setAttribute('aria-current', 'page'));
 
 const main = async () => {
-  const [site, fallback] = await Promise.all([loadJson('data/site.json'), loadJson(`locales/${LOCALES.en}.json`)]);
+  const [site, taxonomy, fallback] = await Promise.all([
+    loadJson('data/site.json'), loadJson('data/taxonomy.json'), loadJson(`locales/${LOCALES.en}.json`),
+  ]);
   const toggle = document.getElementById('lang-toggle');
+  const index = indexTaxonomy(taxonomy?.nodes);
+  const expanded = new Set();
+  let current = null;
 
   const apply = async (requested) => {
     const dict = requested === 'en' ? fallback : await loadJson(`locales/${LOCALES[requested]}.json`);
     const lang = dict ? requested : 'en';
     const t = (key) => lookup(dict, key) ?? lookup(fallback, key) ?? key;
+    const name = (node) => node.name?.[lang] ?? node.name?.en ?? node.id;
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
     toggle.textContent = lang === 'zh' ? 'EN' : '中文';
     toggle.onclick = () => { storage.set(LANG_KEY, lang === 'zh' ? 'en' : 'zh'); apply(lang === 'zh' ? 'en' : 'zh'); };
-    render(t, site ?? {});
+    current = { t, name, site: site ?? {}, taxonomy: taxonomy ?? {}, index, expanded };
+    render(current);
   };
 
+  setupDrawer();
+  window.addEventListener('hashchange', () => current && render(current));
   apply(initialLang());
 };
 

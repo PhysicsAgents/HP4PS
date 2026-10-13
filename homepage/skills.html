@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="app.js"></script>
 </head>
-<body data-page="skills">
+<body data-page="skills" class="catalog-page">
   <header class="topbar">
     <a class="brand" href="./" data-page="home">HP4PS</a>
     <nav class="nav">
@@ -18,13 +18,25 @@
     <button class="lang" id="lang-toggle" type="button">中文</button>
   </header>
 
-  <main>
-    <section class="page">
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <p class="sidebar-title" data-i18n="catalog.categories"></p>
+        <input class="tree-filter" id="tree-filter" type="search" data-i18n-placeholder="catalog.filter">
+        <nav class="tree" id="tree"></nav>
+      </div>
+    </aside>
+    <div class="backdrop" id="backdrop"></div>
+
+    <main class="content">
+      <button class="sidebar-toggle" id="sidebar-toggle" type="button" data-i18n="catalog.categories"></button>
+      <nav class="crumbs" id="crumbs"></nav>
       <h1 data-i18n="skills.title"></h1>
       <p class="lead" data-i18n="skills.body"></p>
-      <div id="skills-table"></div>
-    </section>
-  </main>
+      <div id="category-card"></div>
+      <div id="catalog"></div>
+    </main>
+  </div>
 
   <footer class="footer"><p data-i18n="footer.text"></p></footer>
 </body>

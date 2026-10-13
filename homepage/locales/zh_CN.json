@@ -45,7 +45,8 @@
       "researchPath": "研究路径",
       "technicalPath": "技术路径"
     },
-    "empty": "分类数据尚未发布。"
+    "empty": "分类数据尚未发布。",
+    "draft": "待审草稿。第一、二级按 PACS 2010 划分，并标注对应的 GB/T 13745-2009 代码（140 物理学；物理学下没有对应学科时，用 130 力学、160 天文学、170 地球科学）。第三级尚待补充。"
   },
   "tools": {
     "title": "工具",
@@ -62,7 +63,9 @@
     "category": "主类别",
     "delivery": "交付方式",
     "bench": "领域子集",
-    "external": "外部基准"
+    "external": "外部基准",
+    "researchPath": "研究路径",
+    "technicalPath": "技术路径"
   },
   "delivery": {
     "code": "代码",
@@ -77,7 +80,8 @@
       "graduate": "研究生审核人",
       "phd": "博士审核人",
       "professor": "教授审核人"
-    }
+    },
+    "empty": "尚未发布任何样本。"
   },
   "harness": {
     "title": "官方 Harness",
@@ -91,5 +95,12 @@
   },
   "footer": {
     "text": "代码、文档和数据都维护在 GitHub 仓库中。"
+  },
+  "catalog": {
+    "categories": "分类",
+    "filter": "筛选分类",
+    "all": "全部分类",
+    "noMatch": "没有匹配的分类。",
+    "emptyCategory": "这个分类下暂时没有内容。"
   }
 }

@@ -148,3 +148,139 @@ pre {
   .page { padding-top: 36px; }
   section { padding: 36px 0; }
 }
+
+/* Catalog pages: category sidebar + filtered list */
+.catalog-page { --topbar: 57px; --sidebar: 300px; }
+.catalog-page .topbar { min-height: var(--topbar); padding-inline: max(16px, calc((100% - 1320px) / 2 + 16px)); }
+
+.layout {
+  display: grid;
+  grid-template-columns: var(--sidebar) minmax(0, 1fr);
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  position: sticky;
+  top: var(--topbar);
+  height: calc(100vh - var(--topbar));
+  overflow-y: auto;
+  border-right: 1px solid var(--border);
+  scrollbar-width: thin;
+}
+.sidebar-inner { padding: 24px 12px 32px 16px; }
+.sidebar-title { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px 8px; }
+
+.tree-filter {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+}
+.tree-filter:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+.tree ul { list-style: none; margin: 0; padding: 0; }
+.tree .depth-1 { margin-left: 14px; padding-left: 6px; border-left: 1px solid var(--border); }
+.tree-row { display: flex; align-items: flex-start; }
+
+.tree-toggle {
+  flex: 0 0 22px;
+  height: 30px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0;
+}
+.tree-toggle::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.15s;
+}
+.tree-toggle[aria-expanded="true"]::before { transform: rotate(45deg); }
+.tree-toggle.placeholder::before { display: none; }
+
+.tree-link {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  color: var(--text);
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+.tree-link:hover { background: var(--accent-soft); text-decoration: none; }
+.tree-link[aria-current] { border-left-color: var(--accent); background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.tree-all { margin: 0 0 6px 22px; }
+.tree-count { flex: none; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.content { padding: 32px 32px 64px; min-width: 0; max-width: none; margin: 0; }
+.content h1 { margin-top: 8px; }
+
+.crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
+.crumbs a { color: var(--muted); }
+.crumbs a:last-child { color: var(--text); }
+.crumbs .sep { color: var(--border); }
+
+.category-card {
+  margin: 24px 0 8px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.category-card h2 { font-size: 20px; margin: 2px 0 6px; }
+.category-card .codes { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.notice { font-size: 13px; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); padding: 8px 12px; }
+
+.sidebar-toggle, .backdrop { display: none; }
+
+@media (max-width: 900px) {
+  .layout { display: block; }
+  .sidebar {
+    position: fixed;
+    z-index: 3;
+    top: var(--topbar);
+    left: 0;
+    width: min(320px, 86vw);
+    height: calc(100vh - var(--topbar));
+    background: var(--bg);
+    transform: translateX(-100%);
+    transition: transform 0.2s;
+  }
+  .nav-open .sidebar { transform: none; box-shadow: 0 8px 32px rgb(0 0 0 / 0.18); }
+  .nav-open .backdrop { display: block; position: fixed; inset: var(--topbar) 0 0 0; z-index: 2; background: rgb(0 0 0 / 0.3); }
+  .sidebar-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .sidebar-toggle::before { content: "☰"; }
+  .content { padding: 20px 16px 48px; }
+}

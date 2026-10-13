@@ -45,7 +45,8 @@
       "researchPath": "Research path",
       "technicalPath": "Technical path"
     },
-    "empty": "Taxonomy data is not published yet."
+    "empty": "Taxonomy data is not published yet.",
+    "draft": "Draft for review. Levels 1 and 2 follow PACS 2010 and carry the matching GB/T 13745-2009 codes (140 Physics; 130 Mechanics, 160 Astronomy and 170 Earth science where physics has none). Level 3 is still to be filled."
   },
   "tools": {
     "title": "Tools",
@@ -62,7 +63,9 @@
     "category": "Primary category",
     "delivery": "Delivery",
     "bench": "Field subset",
-    "external": "External benchmarks"
+    "external": "External benchmarks",
+    "researchPath": "Research path",
+    "technicalPath": "Technical path"
   },
   "delivery": {
     "code": "Code",
@@ -77,7 +80,8 @@
       "graduate": "Graduate student reviewers",
       "phd": "PhD reviewers",
       "professor": "Professor reviewers"
-    }
+    },
+    "empty": "No samples published yet."
   },
   "harness": {
     "title": "Official harness",
@@ -91,5 +95,12 @@
   },
   "footer": {
     "text": "Code, documentation and data are maintained in the GitHub repository."
+  },
+  "catalog": {
+    "categories": "Categories",
+    "filter": "Filter categories",
+    "all": "All categories",
+    "noMatch": "No matching category.",
+    "emptyCategory": "Nothing in this category yet."
   }
 }
