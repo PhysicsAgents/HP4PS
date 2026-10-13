@@ -7,16 +7,13 @@
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="app.js"></script>
 </head>
-<body>
+<body data-page="home">
   <header class="topbar">
-    <a class="brand" href="#">HP4PS</a>
+    <a class="brand" href="./" data-page="home">HP4PS</a>
     <nav class="nav">
-      <a href="#taxonomy" data-i18n="nav.taxonomy"></a>
-      <a href="#tools" data-i18n="nav.tools"></a>
-      <a href="#skills" data-i18n="nav.skills"></a>
-      <a href="#benchmark" data-i18n="nav.benchmark"></a>
-      <a href="#harness" data-i18n="nav.harness"></a>
-      <a href="#cite" data-i18n="nav.cite"></a>
+      <a href="skills.html" data-page="skills" data-i18n="nav.skills"></a>
+      <a href="tools.html" data-page="tools" data-i18n="nav.tools"></a>
+      <a href="benchmark.html" data-page="benchmark" data-i18n="nav.benchmark"></a>
     </nav>
     <button class="lang" id="lang-toggle" type="button">中文</button>
   </header>
@@ -29,9 +26,9 @@
     </section>
 
     <section class="overview">
-      <article class="card"><h3 data-i18n="overview.tools.title"></h3><p data-i18n="overview.tools.body"></p></article>
-      <article class="card"><h3 data-i18n="overview.skills.title"></h3><p data-i18n="overview.skills.body"></p></article>
-      <article class="card"><h3 data-i18n="overview.benchmark.title"></h3><p data-i18n="overview.benchmark.body"></p></article>
+      <a class="card" href="skills.html"><h3 data-i18n="overview.skills.title"></h3><p data-i18n="overview.skills.body"></p></a>
+      <a class="card" href="tools.html"><h3 data-i18n="overview.tools.title"></h3><p data-i18n="overview.tools.body"></p></a>
+      <a class="card" href="benchmark.html"><h3 data-i18n="overview.benchmark.title"></h3><p data-i18n="overview.benchmark.body"></p></a>
       <article class="card"><h3 data-i18n="overview.harness.title"></h3><p data-i18n="overview.harness.body"></p></article>
     </section>
 
@@ -40,24 +37,6 @@
       <p data-i18n="taxonomy.body"></p>
       <ol class="levels" id="taxonomy-levels"></ol>
       <div id="taxonomy-tree"></div>
-    </section>
-
-    <section id="tools">
-      <h2 data-i18n="tools.title"></h2>
-      <p data-i18n="tools.body"></p>
-      <div id="tools-table"></div>
-    </section>
-
-    <section id="skills">
-      <h2 data-i18n="skills.title"></h2>
-      <p data-i18n="skills.body"></p>
-      <div id="skills-table"></div>
-    </section>
-
-    <section id="benchmark">
-      <h2 data-i18n="benchmark.title"></h2>
-      <p data-i18n="benchmark.body"></p>
-      <div class="stats" id="benchmark-stats"></div>
     </section>
 
     <section id="harness">

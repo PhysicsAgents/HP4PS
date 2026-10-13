@@ -3,12 +3,9 @@
     "title": "HP4PS — 物理智能体扩展"
   },
   "nav": {
-    "taxonomy": "分类体系",
-    "tools": "工具",
-    "skills": "技能",
-    "benchmark": "基准测试",
-    "harness": "Harness",
-    "cite": "引用"
+    "skills": "Skill",
+    "tools": "Tool",
+    "benchmark": "Benchmark"
   },
   "hero": {
     "title": "物理智能体的扩展",

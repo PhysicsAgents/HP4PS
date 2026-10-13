@@ -90,11 +90,13 @@ const renderBenchmark = (t, benchmark = {}) => [
 
 const renderCitation = (t, citation) => (citation ? [h('pre', {}, citation)] : [empty(t('cite.empty'))]);
 
-const fill = (id, nodes) => document.getElementById(id).replaceChildren(...nodes);
+const fill = (id, nodes) => document.getElementById(id)?.replaceChildren(...nodes);
+
+const page = document.body.dataset.page;
 
 const render = (t, site) => {
   document.querySelectorAll('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
-  document.title = t('meta.title');
+  document.title = page === 'home' ? t('meta.title') : `${t(`nav.${page}`)} · HP4PS`;
   fill('links', renderLinks(t, site.links));
   fill('taxonomy-levels', renderLevels(t));
   fill('taxonomy-tree', renderTaxonomy(t, site.taxonomy));
@@ -104,6 +106,8 @@ const render = (t, site) => {
   fill('harness-base', [site.harness?.basedOn ? `${t('harness.basedOn')} ${site.harness.basedOn}` : t('harness.pending')]);
   fill('cite-body', renderCitation(t, site.citation));
 };
+
+document.querySelectorAll(`.topbar [data-page="${page}"]`).forEach((link) => link.setAttribute('aria-current', 'page'));
 
 const main = async () => {
   const [site, fallback] = await Promise.all([loadJson('data/site.json'), loadJson(`locales/${LOCALES.en}.json`)]);

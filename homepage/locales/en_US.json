@@ -3,12 +3,9 @@
     "title": "HP4PS — Extensions for Physics Agents"
   },
   "nav": {
-    "taxonomy": "Taxonomy",
-    "tools": "Tools",
-    "skills": "Skills",
-    "benchmark": "Benchmark",
-    "harness": "Harness",
-    "cite": "Cite"
+    "skills": "Skill",
+    "tools": "Tool",
+    "benchmark": "Benchmark"
   },
   "hero": {
     "title": "Extensions for physics agents",
