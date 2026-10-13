@@ -1,0 +1,23 @@
+{
+  "links": {
+    "github": "https://github.com/PhysicsAgents/HP4PS",
+    "huggingface": null,
+    "dockerhub": null
+  },
+  "harness": {
+    "basedOn": null
+  },
+  "taxonomy": [],
+  "tools": [],
+  "skills": [],
+  "benchmark": {
+    "samples": 0,
+    "categories": 0,
+    "reviewers": {
+      "graduate": 0,
+      "phd": 0,
+      "professor": 0
+    }
+  },
+  "citation": null
+}

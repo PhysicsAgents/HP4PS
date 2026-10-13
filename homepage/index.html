@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP4PS</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">HP4PS</a>
+    <nav class="nav">
+      <a href="#taxonomy" data-i18n="nav.taxonomy"></a>
+      <a href="#tools" data-i18n="nav.tools"></a>
+      <a href="#skills" data-i18n="nav.skills"></a>
+      <a href="#benchmark" data-i18n="nav.benchmark"></a>
+      <a href="#harness" data-i18n="nav.harness"></a>
+      <a href="#cite" data-i18n="nav.cite"></a>
+    </nav>
+    <button class="lang" id="lang-toggle" type="button">中文</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 data-i18n="hero.title"></h1>
+      <p class="lead" data-i18n="hero.subtitle"></p>
+      <div class="links" id="links"></div>
+    </section>
+
+    <section class="overview">
+      <article class="card"><h3 data-i18n="overview.tools.title"></h3><p data-i18n="overview.tools.body"></p></article>
+      <article class="card"><h3 data-i18n="overview.skills.title"></h3><p data-i18n="overview.skills.body"></p></article>
+      <article class="card"><h3 data-i18n="overview.benchmark.title"></h3><p data-i18n="overview.benchmark.body"></p></article>
+      <article class="card"><h3 data-i18n="overview.harness.title"></h3><p data-i18n="overview.harness.body"></p></article>
+    </section>
+
+    <section id="taxonomy">
+      <h2 data-i18n="taxonomy.title"></h2>
+      <p data-i18n="taxonomy.body"></p>
+      <ol class="levels" id="taxonomy-levels"></ol>
+      <div id="taxonomy-tree"></div>
+    </section>
+
+    <section id="tools">
+      <h2 data-i18n="tools.title"></h2>
+      <p data-i18n="tools.body"></p>
+      <div id="tools-table"></div>
+    </section>
+
+    <section id="skills">
+      <h2 data-i18n="skills.title"></h2>
+      <p data-i18n="skills.body"></p>
+      <div id="skills-table"></div>
+    </section>
+
+    <section id="benchmark">
+      <h2 data-i18n="benchmark.title"></h2>
+      <p data-i18n="benchmark.body"></p>
+      <div class="stats" id="benchmark-stats"></div>
+    </section>
+
+    <section id="harness">
+      <h2 data-i18n="harness.title"></h2>
+      <p data-i18n="harness.body"></p>
+      <p class="muted" id="harness-base"></p>
+    </section>
+
+    <section id="cite">
+      <h2 data-i18n="cite.title"></h2>
+      <div id="cite-body"></div>
+    </section>
+  </main>
+
+  <footer class="footer"><p data-i18n="footer.text"></p></footer>
+</body>
+</html>

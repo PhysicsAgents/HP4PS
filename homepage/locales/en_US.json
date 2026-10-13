@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "HP4PS — Extensions for Physics Agents"
+  },
+  "nav": {
+    "taxonomy": "Taxonomy",
+    "tools": "Tools",
+    "skills": "Skills",
+    "benchmark": "Benchmark",
+    "harness": "Harness",
+    "cite": "Cite"
+  },
+  "hero": {
+    "title": "Extensions for physics agents",
+    "subtitle": "Packaged physics tools, agent skills, and a research-level physics benchmark. Every extension reports its performance on the benchmark subset of its own field."
+  },
+  "links": {
+    "github": "GitHub",
+    "huggingface": "Hugging Face",
+    "dockerhub": "Docker Hub",
+    "pending": "Not published yet"
+  },
+  "overview": {
+    "tools": {
+      "title": "Tools",
+      "body": "Physics toolkits exposed as MCP servers, shipped either as code with a deployment program or as a prebuilt container."
+    },
+    "skills": {
+      "title": "Skills",
+      "body": "Agent skills kept in this repository, each labeled with its field and measured on that field's benchmark subset."
+    },
+    "benchmark": {
+      "title": "Benchmark",
+      "body": "Research-level physics tasks, each packaged as a container and reviewed by a physicist. One runner drives every sample by id and parameters."
+    },
+    "harness": {
+      "title": "Official harness",
+      "body": "An evaluation harness built on the current DeepSeek harness release. Optional — any harness can run the benchmark."
+    }
+  },
+  "taxonomy": {
+    "title": "Taxonomy",
+    "body": "Each tool, skill and sample carries one primary category — a five-level chain — and a list of related categories. The first three levels merge PACS 2010 with the Chinese discipline classification of physics and keep the source code of each entry.",
+    "levels": {
+      "domain": "Domain",
+      "subfield": "Subfield",
+      "branch": "Branch",
+      "researchPath": "Research path",
+      "technicalPath": "Technical path"
+    },
+    "empty": "Taxonomy data is not published yet."
+  },
+  "tools": {
+    "title": "Tools",
+    "body": "Primary category, delivery form and measured performance of every tool.",
+    "empty": "No tools published yet."
+  },
+  "skills": {
+    "title": "Skills",
+    "body": "Primary category and measured performance of every skill.",
+    "empty": "No skills published yet."
+  },
+  "columns": {
+    "name": "Name",
+    "category": "Primary category",
+    "delivery": "Delivery",
+    "bench": "Field subset",
+    "external": "External benchmarks"
+  },
+  "delivery": {
+    "code": "Code",
+    "container": "Container"
+  },
+  "benchmark": {
+    "title": "Benchmark",
+    "body": "Sample list, reviewer titles and evaluation results are hosted on Hugging Face as CSV; sample containers are hosted on Docker Hub.",
+    "samples": "Samples",
+    "categories": "Categories covered",
+    "reviewers": {
+      "graduate": "Graduate student reviewers",
+      "phd": "PhD reviewers",
+      "professor": "Professor reviewers"
+    }
+  },
+  "harness": {
+    "title": "Official harness",
+    "body": "All reported performance numbers are measured with the official harness. Using it is optional when evaluating your own agent.",
+    "basedOn": "Based on DeepSeek harness",
+    "pending": "Harness version not published yet."
+  },
+  "cite": {
+    "title": "Cite",
+    "empty": "Citation not published yet."
+  },
+  "footer": {
+    "text": "Code, documentation and data are maintained in the GitHub repository."
+  }
+}
