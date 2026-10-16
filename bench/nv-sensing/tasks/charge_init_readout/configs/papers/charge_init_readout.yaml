@@ -1,0 +1,34 @@
+env:
+  system:
+    impl: nv_charge
+    C_minus_Hz_per_uW: 895.0
+    C_0_Hz_per_uW: 16.3
+    D_Hz: 39.0
+    C_ion_Hz_per_uW2: 5.36
+    C_rec_Hz_per_uW2: 0.082
+    P_max_uW: 200.0
+  init:
+    select_by: init
+    options:
+      rti:
+        impl: charge_rti
+        P_minus: 0.75
+        tau_delay_s: 5.5e-07
+        tau_pump_s: 5.0e-07
+        tau_overhead_s: 1.5e-06
+      ssi:
+        impl: charge_ssi
+        F: 0.753
+        tau_s: 2.0e-06
+  decoherence:
+    impl: exp_T2
+    T2_s: 0.0008
+  readout:
+    impl: scc_charge
+    beta0: 0.1581
+    beta1: 0.4778
+    beta_eps: 0.053
+  timing:
+    impl: init_operation_readout
+  statistics:
+    impl: charge_spin

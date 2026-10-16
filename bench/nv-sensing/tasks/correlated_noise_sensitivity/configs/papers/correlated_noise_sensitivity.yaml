@@ -1,0 +1,40 @@
+env:
+  signal:
+    impl: gaussian_noise
+    gamma_e: 28000000000.0
+    sigma_B_T: 0.0
+  accumulation:
+    impl: correlated_moment
+  decoherence:
+    impl: exp_T2
+    T2_s: 0.0001
+    te_s: 2.0e-06
+    gate_protocols:
+    - entangled
+  readout:
+    select_by: readout
+    options:
+      conventional:
+        impl: sigma_R
+        sigma_R: 35.0
+        t_R_s: 3.0e-07
+      scc:
+        impl: sigma_R
+        sigma_R: 4.0
+        t_R_s: 0.001
+  timing:
+    impl: sense_gates_readout
+  limits:
+    impl: ranges
+    allowed:
+      protocol:
+      - entangled
+      - non-interacting
+    ranges:
+      t_s:
+      - 0.0
+      - 1.0
+    lo_open:
+    - t_s
+  statistics:
+    impl: gaussian

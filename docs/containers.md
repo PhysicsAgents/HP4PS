@@ -26,4 +26,15 @@ Benchmark samples and container-delivered tools are published to the GitHub Cont
 
 3. A new package starts private. Make it public once under the package's *Package settings → Change visibility*.
 
+## Building from source
+
+Instead of pulling an image, the same image can be built locally from the sources in this repository. `bench/<set>/` is the build context of a set of samples, and `tasks/<sample-id>/` in it is the task repository handed to the agent. For example, the NV sensing samples:
+
+```bash
+cd bench/nv-sensing
+scripts/build_images.sh . 1.0.0
+```
+
+The script builds the dependency image first, then `ghcr.io/physicsagents/hp4ps/<sample-id>:1.0.0` for every sample, with the task repository at `/work`. Without `--push` it only builds locally. Scoring needs the hidden samples and tests and is not part of this repository.
+
 All published images: [https://github.com/orgs/PhysicsAgents/packages?repo_name=HP4PS](https://github.com/orgs/PhysicsAgents/packages?repo_name=HP4PS)

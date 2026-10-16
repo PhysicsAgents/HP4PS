@@ -1,0 +1,97 @@
+env:
+  signal:
+    impl: deer_shift
+    delta_tp_s: 0.0
+  accumulation:
+    select_by:
+    - sensor
+    - target
+    options:
+      NV1-DS1:
+        impl: deer_slope
+        A_eff_Hz: 1194000.0
+      psi2-DS1:
+        impl: deer_slope
+        A_eff_Hz: 854000.0
+      NV1-DS2+:
+        impl: deer_slope
+        A_eff_Hz: 198000.0
+      psi2-DS2+:
+        impl: deer_slope
+        A_eff_Hz: 789000.0
+  decoherence:
+    select_by:
+    - sensor
+    - target
+    options:
+      NV1-DS1:
+        impl: stretched_exp
+        T2_s: 9.0e-06
+        p: 1.59
+      psi2-DS1:
+        impl: stretched_exp
+        T2_s: 1.59e-05
+        p: 1.78
+      NV1-DS2+:
+        impl: stretched_exp
+        T2_s: 1.45e-05
+        p: 2.0
+      psi2-DS2+:
+        impl: stretched_exp
+        T2_s: 2.19e-05
+        p: 1.26
+  readout:
+    select_by:
+    - sensor
+    - target
+    options:
+      NV1-DS1:
+        impl: photons_C_n
+        C: 0.29
+        n_avg: 0.06
+      psi2-DS1:
+        impl: photons_C_n
+        C: 0.16
+        n_avg: 0.12
+      NV1-DS2+:
+        impl: photons_C_n
+        C: 0.114
+        n_avg: 0.06
+      psi2-DS2+:
+        impl: photons_C_n
+        C: 0.0656
+        n_avg: 0.12
+  timing:
+    select_by:
+    - sensor
+    - target
+    options:
+      NV1-DS1:
+        impl: sense_plus_overhead
+        t_ext_s: 3.0e-06
+      psi2-DS1:
+        impl: sense_plus_overhead
+        t_ext_s: 4.6e-06
+      NV1-DS2+:
+        impl: sense_plus_overhead
+        t_ext_s: 3.0e-06
+      psi2-DS2+:
+        impl: sense_plus_overhead
+        t_ext_s: 4.6e-06
+  limits:
+    impl: ranges
+    allowed:
+      sensor:
+      - NV1
+      - psi2
+      target:
+      - DS1
+      - DS2+
+    ranges:
+      t_s:
+      - 0.0
+      - 2.0e-05
+    lo_open:
+    - t_s
+  statistics:
+    impl: gaussian

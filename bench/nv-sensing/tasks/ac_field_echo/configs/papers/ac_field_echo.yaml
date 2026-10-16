@@ -1,0 +1,36 @@
+env:
+  signal:
+    impl: ac_tone
+    nu_Hz: 3200.0
+    B_AC_T: 0.0
+  accumulation:
+    impl: echo_phase
+    g: 2.0
+    nu_range_Hz:
+    - 1000.0
+    - 10000.0
+  init:
+    impl: protocol_phase
+  decoherence:
+    impl: echo_13c_envelope
+    T2_s: 0.000676
+    a_Hz: 626.0
+    b_Hz: 478.0
+  readout:
+    impl: contrast_C
+    a0: 0.03
+    a1: 0.018
+  timing:
+    impl: period
+    tau_p_s: 1.0e-06
+    tau_r_s: 3.0e-06
+  limits:
+    impl: ranges
+    ranges:
+      tau_s:
+      - 0.0
+      - 0.001
+    lo_open:
+    - tau_s
+  statistics:
+    impl: gaussian

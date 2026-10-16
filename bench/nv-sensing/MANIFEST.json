@@ -1,0 +1,282 @@
+{
+  "nuclear_entangled_phase": {
+    "title": {
+      "en": "Measuring a phase with two nuclear spins",
+      "zh": "用两个核自旋测相位"
+    },
+    "solution_package": "solutions/nuclear_entangled_phase",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/nuclear_entangled_phase.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/nuclear_entangled_phase/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  },
+  "two_nv_correlation": {
+    "title": {
+      "en": "Shot-by-shot correlation of two NVs",
+      "zh": "两颗 NV 的逐发关联"
+    },
+    "solution_package": "solutions/two_nv_correlation",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/two_nv_correlation.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/two_nv_correlation/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  },
+  "correlated_noise_sensitivity": {
+    "title": {
+      "en": "Detecting spatially correlated magnetic noise",
+      "zh": "探测空间关联的磁噪声"
+    },
+    "solution_package": "solutions/correlated_noise_sensitivity",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/correlated_noise_sensitivity.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/correlated_noise_sensitivity/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  },
+  "dark_spin_detection": {
+    "title": {
+      "en": "Detecting a single dark spin",
+      "zh": "探测单个暗自旋"
+    },
+    "solution_package": "solutions/dark_spin_detection",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/dark_spin_detection.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/dark_spin_detection/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  },
+  "ac_field_echo": {
+    "title": {
+      "en": "Measuring an AC magnetic field with a single NV",
+      "zh": "用单个 NV 测交流磁场"
+    },
+    "solution_package": "solutions/ac_field_echo",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/ac_field_echo.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/ac_field_echo/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  },
+  "lockin_readout_gain": {
+    "title": {
+      "en": "Readout gain in continuous-sampling measurement",
+      "zh": "连续采样测量中的读出增益"
+    },
+    "solution_package": "solutions/lockin_readout_gain",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/lockin_readout_gain.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/lockin_readout_gain/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  },
+  "charge_init_readout": {
+    "title": {
+      "en": "Charge initialization and spin readout",
+      "zh": "电荷初始化与自旋读出"
+    },
+    "solution_package": "solutions/charge_init_readout",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/charge_init_readout.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/charge_init_readout/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  },
+  "field_tracking": {
+    "title": {
+      "en": "Tracking a time-varying magnetic field",
+      "zh": "跟踪随时间变化的磁场"
+    },
+    "solution_package": "solutions/field_tracking",
+    "files": [
+      ".gitignore",
+      "README.md",
+      "README.zh.md",
+      "configs/papers/field_tracking.yaml",
+      "nvlab/__init__.py",
+      "nvlab/config.py",
+      "nvlab/env/__init__.py",
+      "nvlab/env/core.py",
+      "nvlab/env/slots/__init__.py",
+      "nvlab/env/slots/accumulation.py",
+      "nvlab/env/slots/analytic.py",
+      "nvlab/env/slots/decoherence.py",
+      "nvlab/env/slots/init.py",
+      "nvlab/env/slots/limits.py",
+      "nvlab/env/slots/readout.py",
+      "nvlab/env/slots/signal.py",
+      "nvlab/env/slots/statistics.py",
+      "nvlab/env/slots/system.py",
+      "nvlab/env/slots/timing.py",
+      "requirements.txt",
+      "solutions/__init__.py",
+      "solutions/field_tracking/__init__.py"
+    ],
+    "standard_solution": {
+      "paper_test": "pass",
+      "hidden_test": "pass"
+    }
+  }
+}

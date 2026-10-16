@@ -1,0 +1,25 @@
+env:
+  signal:
+    impl: tracking_tone
+    w0_range:
+    - 0.3
+    - 0.8
+    phase_random: true
+    w_amp: 0.02
+    nu: 0.001
+  accumulation:
+    impl: ramsey
+  init:
+    impl: phases
+    theta_pi:
+    - 1.0
+  readout:
+    impl: binary_channel
+    fids:
+    - 1
+    - 1
+    p1_given1: 1.0
+    p1_given0: 0.0
+  statistics:
+    impl: epoch
+    max_epochs: 2000

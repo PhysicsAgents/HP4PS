@@ -1,0 +1,53 @@
+env:
+  signal:
+    impl: random_phase_ac
+    f0_Hz: 2000000.0
+    fwhm_Hz: 150000.0
+    f_range_Hz:
+    - 0.0
+    - 4000000.0
+    a_per_s: 500000.0
+  accumulation:
+    impl: filter_function
+    n_pulses: 32
+  init:
+    select_by: init
+    options:
+      parallel:
+        impl: phases
+        theta_pi:
+        - 0.5
+        - 0.5
+      antiparallel:
+        impl: phases
+        theta_pi:
+        - 0.5
+        - -0.5
+  decoherence:
+    impl: constant
+    factors:
+    - 0.94
+    - 0.71
+  readout:
+    impl: poisson_sigma_R
+    nv:
+    - sigma_R: 4.8656
+      mean_count: 0.86
+    - sigma_R: 4.7169
+      mean_count: 0.785
+  limits:
+    impl: ranges
+    defaults:
+      n_pulses: 32
+      t_ion_s: 2.0e-07
+    allowed:
+      n_pulses:
+      - 32
+      t_ion_s:
+      - 2.0e-07
+    ranges:
+      tau_s:
+      - 2.0e-07
+      - 3.0e-07
+  statistics:
+    impl: per_shot

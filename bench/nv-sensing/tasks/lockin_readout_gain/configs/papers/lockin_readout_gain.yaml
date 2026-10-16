@@ -1,0 +1,30 @@
+env:
+  signal:
+    impl: lockin_tone
+    N: 385263
+    phi_max: 0.2
+    f_signal_Hz: 1200000.0
+    t_s_bin_s: 0.00131524
+  accumulation:
+    impl: lockin
+  init:
+    impl: phases
+    theta_pi:
+    - -0.5
+  decoherence:
+    impl: memory_depolarization
+    Gamma: 0.00014
+  readout:
+    impl: poisson_gain
+    eps: 0.35
+    c_per_readout: 0.105
+  limits:
+    impl: ranges
+    integers:
+    - n
+    ranges:
+      n:
+      - 1
+      - 2000
+  statistics:
+    impl: per_shot

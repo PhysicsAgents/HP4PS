@@ -8,15 +8,193 @@
   "tools": [],
   "skills": [],
   "benchmark": {
-    "samples": 0,
-    "categories": 0,
+    "samples": 8,
+    "categories": 1,
     "reviewers": {
       "graduate": 0,
       "phd": 0,
       "professor": 0
     }
   },
-  "samples": [],
+  "samples": [
+    {
+      "name": "nuclear_entangled_phase",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ],
+        [
+          "00",
+          "03",
+          "03.67"
+        ],
+        [
+          "70",
+          "76",
+          "76.60"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Measuring a phase with two nuclear spins",
+      "container": "ghcr.io/physicsagents/hp4ps/nuclear_entangled_phase:1.0.0",
+      "source": "bench/nv-sensing/tasks/nuclear_entangled_phase"
+    },
+    {
+      "name": "two_nv_correlation",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Shot-by-shot correlation of two NVs",
+      "container": "ghcr.io/physicsagents/hp4ps/two_nv_correlation:1.0.0",
+      "source": "bench/nv-sensing/tasks/two_nv_correlation"
+    },
+    {
+      "name": "correlated_noise_sensitivity",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ],
+        [
+          "00",
+          "03",
+          "03.67"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Detecting spatially correlated magnetic noise",
+      "container": "ghcr.io/physicsagents/hp4ps/correlated_noise_sensitivity:1.0.0",
+      "source": "bench/nv-sensing/tasks/correlated_noise_sensitivity"
+    },
+    {
+      "name": "dark_spin_detection",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ],
+        [
+          "00",
+          "03",
+          "03.67"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Detecting a single dark spin",
+      "container": "ghcr.io/physicsagents/hp4ps/dark_spin_detection:1.0.0",
+      "source": "bench/nv-sensing/tasks/dark_spin_detection"
+    },
+    {
+      "name": "ac_field_echo",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Measuring an AC magnetic field with a single NV",
+      "container": "ghcr.io/physicsagents/hp4ps/ac_field_echo:1.0.0",
+      "source": "bench/nv-sensing/tasks/ac_field_echo"
+    },
+    {
+      "name": "lockin_readout_gain",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ],
+        [
+          "70",
+          "76",
+          "76.60"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Readout gain in continuous-sampling measurement",
+      "container": "ghcr.io/physicsagents/hp4ps/lockin_readout_gain:1.0.0",
+      "source": "bench/nv-sensing/tasks/lockin_readout_gain"
+    },
+    {
+      "name": "charge_init_readout",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Charge initialization and spin readout",
+      "container": "ghcr.io/physicsagents/hp4ps/charge_init_readout:1.0.0",
+      "source": "bench/nv-sensing/tasks/charge_init_readout"
+    },
+    {
+      "name": "field_tracking",
+      "category": [
+        "70",
+        "76",
+        "76.30"
+      ],
+      "related": [
+        [
+          "00",
+          "06",
+          "06.20"
+        ]
+      ],
+      "researchPath": "NV-center quantum sensing",
+      "technicalPath": "Tracking a time-varying magnetic field",
+      "container": "ghcr.io/physicsagents/hp4ps/field_tracking:1.0.0",
+      "source": "bench/nv-sensing/tasks/field_tracking"
+    }
+  ],
   "results": [],
   "partners": []
 }
